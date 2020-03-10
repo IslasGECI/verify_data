@@ -1,0 +1,35 @@
+[
+    {
+        "docker_parent_image": "islasgeci/base:89e5",
+        "name": "",
+        "description": "",
+        "report": "",
+        "results": [
+        ],
+        "scripts": [
+        ],
+        "data": [
+            {
+                "source": "tabular_data_packages",
+                "version": "8bda8be5b0caa88f0dc01093c2b07f7a007e2101",
+                "path": "morfometria_gatos_erradicacion_isla_guadalupe",
+                "type": "datapackage",
+                "filename": "morfometria_gatos_erradicacion_isla_guadalupe.csv"
+            },
+            {
+                "source": "tabular_data_packages",
+                "version": "c3e004faa5b46a49ddf302a7032caf178e86a9b7",
+                "path": "posicion_trampas_gatos_isla_guadalupe",
+                "type": "datapackage",
+                "filename": "posicion_trampas_gatos_isla_guadalupe.csv"
+            }
+        ],
+        "requirements": []
+    }
+]
+
+
+
+
+
+
