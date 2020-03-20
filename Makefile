@@ -1,3 +1,4 @@
+.PHONY: datos
 # I. Definición del _phony_ *all* que enlista todos los objetivos principales
 # ===========================================================================
 all:
@@ -31,4 +32,5 @@ $(csvPosicionTrampas):
 
 # V. Reglas del resto de los phonies
 # ===========================================================================
+datos: $(csvMorfometriaGatos) $(csvPosicionTrampas)
 # Elimina los residuos de LaTeX
