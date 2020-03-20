@@ -4,14 +4,30 @@
 
 # Librarias necesarias
 library(tidyverse)
+library(optparse)
 
-fechaA <- c("31-01-85", "12-12-84", "10-12-85")
-fechaB <- c("31-01-85", "08-07-59", "09-10-80")
-posicion <- c("defensa", "contencion", "medio_centro")
-titulo <- c("fisico", "metematico", "oceanologo")
+# Sección de la CLI
+listaOpciones = list(
+    make_option(
+        c("-f", "--data_1"),
+        default=NULL,
+        help="nombre del primer archivo de entrada",
+        metavar="character",
+        type="character"
+    ),
+    make_option(
+        c("-s", "--data_2"),
+        default=NULL,
+        help="nombre del segundo archivo de entrada",
+        metavar="character",
+        type="character"
+    )
+);
+opt_parser <- OptionParser(option_list = listaOpciones);
+opciones <- parse_args(opt_parser);
 
-df_A <- tibble("Fecha" = fechaA, "Posicion" = posicion)
-df_B <- tibble("Fecha" = fechaB, "Posicion" = titulo)
+data_1 <- read_csv(opciones$data_1)
+data_2 <- read_csv(opciones$data_2)
 
-diferencias <- anti_join(df_B, df_A, by = c("Fecha"))
+diferencias <- anti_join(data_1, data_2, by = c("Fecha", "ID_de_trampa"))
 write.table(diferencias, stdout(), sep=",", row.names = FALSE)
