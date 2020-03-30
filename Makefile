@@ -15,6 +15,12 @@ csvMorfometriaGatos = \
 csvPosicionTrampas = \
 	data/raw/posicion_trampas_gatos_isla_guadalupe.csv
 
+csvCleanedPositionTraps = \
+	reports/tables/cleaned_position_traps.csv
+
+csvCleanedMorphometryCats = \
+	reports/tables/cleaned_morphometry_cats.csv
+
 # III. Reglas para construir los objetivos principales
 # ===========================================================================
 # Objetivo para generar el README.pdf
@@ -30,7 +36,13 @@ $(csvPosicionTrampas):
 	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
 	descarga_datos $(@F) $(@D)
 
+$(csvCleanedMorphometryCats):
+
+$(csvCleanedPositionTraps):
+
 # V. Reglas del resto de los phonies
 # ===========================================================================
+clean: $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
+
 datos: $(csvMorfometriaGatos) $(csvPosicionTrampas)
 # Elimina los residuos de LaTeX
