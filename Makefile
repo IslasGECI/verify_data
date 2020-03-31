@@ -47,10 +47,19 @@ $(csvMorfometriaGatosISO8601): $(csvMorfometriaGatos)
 	cambia_formato_fecha $< > $@
 
 $(csvCleanedMorphometryCats):
-	src/clean_morphometry.R 
+	src/clean_morphometry.R \
+		--data=archivo_entrada \
+		--out=archivo_salida
 
 $(csvCleanedPositionTraps):
-	src/get_captures.R
+	src/get_captures.R \
+		--data=archivo_entrada \
+		--out=archivo_salida
+
+$(algunaVariable): $(algunosIngredientes)
+	src/show_diff_morphometry_position.R \
+		--data_1=losptimeros_datos \
+		--data_2=lossegundos_datos
 
 # V. Reglas del resto de los phonies
 # ===========================================================================
