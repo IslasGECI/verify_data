@@ -11,16 +11,16 @@
         "data": [
             {
                 "source": "tabular_data_packages",
-                "version": "8bda8be5b0caa88f0dc01093c2b07f7a007e2101",
+                "version": "0d96c5cbc41a0ca0bbe1039370330efb70a0c2c9",
                 "path": "morfometria_gatos_erradicacion_isla_guadalupe",
-                "type": "datapackage",
+                "type": "csv",
                 "filename": "morfometria_gatos_erradicacion_isla_guadalupe.csv"
             },
             {
                 "source": "tabular_data_packages",
-                "version": "c3e004faa5b46a49ddf302a7032caf178e86a9b7",
+                "version": "6b638e91ae956d0e129dac7fd1b8faf07bc0fb39",
                 "path": "posicion_trampas_gatos_isla_guadalupe",
-                "type": "datapackage",
+                "type": "csv",
                 "filename": "posicion_trampas_gatos_isla_guadalupe.csv"
             }
         ],
