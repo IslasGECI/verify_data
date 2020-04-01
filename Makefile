@@ -27,6 +27,9 @@ csvCleanedPositionTraps = \
 csvCleanedMorphometryCats = \
 	reports/tables/cleaned_morphometry_cats.csv
 
+csvMissingPosition = \
+	reports/tables/missing_captures_in_position.csv
+
 # III. Reglas para construir los objetivos principales
 # ===========================================================================
 # Objetivo para generar el README.pdf
@@ -46,24 +49,30 @@ $(csvMorfometriaGatosISO8601): $(csvMorfometriaGatos)
 	$(checkDirectories)
 	cambia_formato_fecha $< > $@
 
-$(csvCleanedMorphometryCats):
+$(csvCleanedMorphometryCats): $(csvMorfometriaGatosISO8601) src/clean_morphometry.R
+	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
 	src/clean_morphometry.R \
-		--data=archivo_entrada \
-		--out=archivo_salida
+		--data=$< \
+		--out=$@
 
-$(csvCleanedPositionTraps):
+$(csvCleanedPositionTraps): $(csvPosicionTrampas) src/get_captures.R
 	src/get_captures.R \
-		--data=archivo_entrada \
-		--out=archivo_salida
+		--data=$< \
+		--out=$@
 
-$(algunaVariable): $(algunosIngredientes)
+$(csvMissingPosition): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps) src/show_diff_morphometry_position.R
 	src/show_diff_morphometry_position.R \
-		--data_1=losptimeros_datos \
-		--data_2=lossegundos_datos
+		--data_1=reports/tables/cleaned_morphometry_cats.csv \
+		--data_2=reports/tables/cleaned_position_traps.csv \
+		>$@
 
 # V. Reglas del resto de los phonies
 # ===========================================================================
-clean: $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
+clean:
+	rm --recursive --force data
+	rm --recursive --force reports/tables
+
+cleaned_data: $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 
 datos: $(csvMorfometriaGatos) $(csvPosicionTrampas) $(csvMorfometriaGatosISO8601)
 # Elimina los residuos de LaTeX
