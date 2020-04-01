@@ -21,11 +21,14 @@ csvPosicionTrampas = \
 csvMorfometriaGatosISO8601 = \
 	data/raw/morfometria_gatos_erradicacion_isla_guadalupe_ISO8601.csv
 
-csvCleanedPositionTraps = \
-	reports/tables/cleaned_position_traps.csv
-
 csvCleanedMorphometryCats = \
 	reports/tables/cleaned_morphometry_cats.csv
+
+csvAddPositionTrapsAndTraps = \
+	reports/tables/position_traps_with_morphometry_traps.csv
+
+csvCleanedPositionTraps = \
+	reports/tables/cleaned_position_traps.csv
 
 csvMissingPosition = \
 	reports/tables/missing_captures_in_position.csv
@@ -55,7 +58,13 @@ $(csvCleanedMorphometryCats): $(csvMorfometriaGatosISO8601) src/clean_morphometr
 		--data=$< \
 		--out=$@
 
-$(csvCleanedPositionTraps): $(csvPosicionTrampas) src/get_captures.R
+$(csvAddPositionTrapsAndTraps): $(csvPosicionTrampas) $(csvCleanedMorphometryCats) src/add_captures_from_morphometry.R
+	src/add_captures_from_morphometry.R \
+		--data_1=data/raw/posicion_trampas_gatos_isla_guadalupe.csv \
+		--data_2=reports/tables/cleaned_morphometry_cats.csv \
+		>$@
+
+$(csvCleanedPositionTraps): $(csvAddPositionTrapsAndTraps) src/get_captures.R
 	src/get_captures.R \
 		--data=$< \
 		--out=$@
