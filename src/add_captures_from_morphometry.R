@@ -30,5 +30,7 @@ position_file    <- opciones$data_1
 morphometry_file <- opciones$data_2
 morfometria <- read_csv(morphometry_file)
 posicion    <- read_csv(position_file)
-posicion_new <- full_join(posicion, morfometria, by = c("Fecha", "ID_de_trampa")) %>% select(1:7) %>% replace(is.na(.), 'X')
+posicion_new <- full_join(posicion, morfometria, by = c("Fecha", "ID_de_trampa")) %>% select(1:7) 
+is_na <- is.na(posicion_new$Estado_trampa)
+posicion_new[is_na,]$Estado_trampa <- "X"
 write.table(posicion_new, stdout(), sep=",", row.names = FALSE)
