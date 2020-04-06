@@ -10,6 +10,6 @@ csvsql --snifflimit 0 --no-inference --blanks --query \
 "SELECT *
 FROM ${first_table}
 WHERE (ID_de_trampa,Fecha) IN (
-      SELECT ID_de_trampa, Fecha
-      FROM ${second_table})
+  SELECT ID_de_trampa, Fecha
+  FROM ${second_table})
 " ${first_file} ${second_file}

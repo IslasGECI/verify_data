@@ -30,8 +30,8 @@ csvCleanedMorphometryCats = \
 csvMissingPosition = \
 	reports/tables/missing_captures_in_position.csv
 
-csvAddedToPosition = \
-	reports/tables/added_captures_in_position.csv
+csvMissingMorfometry = \
+	reports/tables/missing_captures_in_morfometry.csv
 
 # III. Reglas para construir los objetivos principales
 # ===========================================================================
@@ -69,7 +69,7 @@ $(csvMissingPosition): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps) s
 		--data_2=reports/tables/cleaned_position_traps.csv \
 		>$@
 
-$(csvAddedToPosition): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps) src/show_diff_morphometry_position.R
+$(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps) src/show_diff_morphometry_position.R
 	src/show_diff_morphometry_position.R \
 		--data_1=reports/tables/cleaned_position_traps.csv \
 		--data_2=reports/tables/cleaned_morphometry_cats.csv \
@@ -85,5 +85,5 @@ cleaned_data: $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 
 datos: $(csvMorfometriaGatos) $(csvPosicionTrampas) $(csvMorfometriaGatosISO8601)
 
-errores: $(csvMissingPosition) $(csvAddedToPosition)
+errores: $(csvMissingPosition) $(csvMissingMorfometry)
 # Elimina los residuos de LaTeX
