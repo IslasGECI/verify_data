@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#
+#Función para contar capturas en posicion_trampas
+first_file=${1}
+first_table=$(basename "${first_file}" .csv)
+csvsql --snifflimit 0 --no-inference --blanks --query \
+"SELECT COUNT(*)
+FROM ${first_table}
+WHERE Estado_trampa = 'X'
+" ${first_file}

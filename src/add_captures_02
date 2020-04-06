@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#
+#Función que agrega capturas que están en tabla de morfometria gatos pero el ID_trampa
+#y la fecha no se encuentran en posicion de trampas
+#./agrega_capturas missing_captures_in_position.csv posicion_trampas_gatos_isla_guadalupe.csv
+first_file=${1}
+second_file=${2}
+first_table=$(basename "${first_file}" .csv)
+second_table=$(basename "${second_file}" .csv)
+csvsql --snifflimit 0 --no-inference --blanks --query " \
+SELECT ID_de_trampa,
+  Coordenada_Este,
+  Coordenada_Norte,
+  '11R' AS Zona_utm,
+  Responsable_de_captura as Responsable,
+  'X' AS Estado_trampa,
+  Fecha
+FROM ${first_table}
+UNION
+SELECT *
+FROM ${second_table}
+" ${first_file} ${second_file} > posicion_trampas_gatos_isla_guadalupe_csd.csv

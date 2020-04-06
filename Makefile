@@ -84,4 +84,6 @@ clean:
 cleaned_data: $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 
 datos: $(csvMorfometriaGatos) $(csvPosicionTrampas) $(csvMorfometriaGatosISO8601)
+
+errores: $(csvMissingPosition) $(csvAddedToPosition)
 # Elimina los residuos de LaTeX
