@@ -1,10 +1,16 @@
 #!/usr/bin/env bash
 #
-#Función para contar capturas en posicion_trampas
+#Función para contar capturas en posicion_trampas por zona
 first_file=${1}
 first_table=$(basename "${first_file}" .csv)
 csvsql --snifflimit 0 --no-inference --blanks --query \
-"SELECT COUNT(*)
+"SELECT
+  CASE 
+    WHEN ID_de_trampa = 'NA' THEN 'NA'
+    ELSE SUBSTR(ID_de_trampa,4,2)
+  END Zona,
+  COUNT(*) AS Capturas_totales
 FROM ${first_table}
 WHERE Estado_trampa = 'X'
+GROUP BY Zona
 " ${first_file}
