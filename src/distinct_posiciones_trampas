@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#
+#Función que detecta ID duplicados de la tabla de posicion_trampas que envían los especialistas de campo.
+#El archivo de entrada es .xlsx y se obtiene un .csv con los ID duplicados
+data_file=${1}
+table_name=$(basename "${data_file}" .xlsx)
+in2csv --no-header-row --blanks ${data_file} | tail -n +2 > ${table_name}.csv
+csvsql --snifflimit 0 --no-inference --blanks --query \
+"SELECT *
+FROM ${table_name}
+WHERE ID IN (
+  SELECT ID
+  FROM ${table_name}
+  GROUP BY ID
+  HAVING COUNT(*) > 1)
+ORDER BY ID" \
+${table_name}.csv 
+rm ${data_file}
