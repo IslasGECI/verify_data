@@ -4,7 +4,7 @@
 #El archivo de entrada es .xlsx y se obtiene un .csv con los ID duplicados
 data_file=${1}
 table_name=$(basename "${data_file}" .xlsx)
-in2csv --no-header-row --blanks ${data_file} | tail -n +2 > ${table_name}.csv
+in2csv --no-header-row --blanks ${data_file} | tail --lines=+2 > ${table_name}.csv
 csvsql --snifflimit 0 --no-inference --blanks --query \
 "SELECT *
 FROM ${table_name}
