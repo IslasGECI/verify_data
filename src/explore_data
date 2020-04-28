@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#
+#Función que identifica cuales son los datos de morfometría que existen en posicion de trampas
+#Los que existan podrán ser modificados con la función add_captures
+first_file=${1}
+second_file=${2}
+first_table=$(basename "${first_file}" .csv)
+second_table=$(basename "${second_file}" .csv)
+csvsql --snifflimit 0 --no-inference --blanks --query "
+SELECT *
+FROM ${first_table}
+WHERE (ID_de_trampa,Fecha) IN (
+  SELECT ID_de_trampa, Fecha
+  FROM ${second_table})
+" ${first_file} ${second_file}

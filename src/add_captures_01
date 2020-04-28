@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#
+#Función que agrega capturas que están en tabla de morfometria gatos pero el 
+#estado de la trampa en posicion de trampas es diferente de 'X'
+#./agrega_capturas posicion_trampas_gatos_isla_guadalupe.csv missing_captures_in_position.csv
+first_file=${1}
+second_file=${2}
+first_table=$(basename "${first_file}" .csv)
+second_table=$(basename "${second_file}" .csv)
+csvsql --snifflimit 0 --no-inference --blanks --query "
+SELECT ID_de_trampa,
+  Coordenada_Este,
+  Coordenada_Norte,
+  Zona_utm,Responsable,
+  CASE
+    WHEN (ID_de_trampa,Fecha) IN (
+      SELECT ID_de_trampa, Fecha
+      FROM ${second_table})
+    THEN 'X'
+    ELSE Estado_trampa
+  END Estado_trampa,
+  Fecha
+FROM ${first_table}
+" ${first_file} ${second_file} > posicion_trampas_gatos_isla_guadalupe_se.csv
