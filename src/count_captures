@@ -3,8 +3,8 @@
 #Función para contar capturas en posicion_trampas por zona
 first_file=${1}
 first_table=$(basename "${first_file}" .csv)
-csvsql --snifflimit 0 --no-inference --blanks --query \
-"SELECT
+csvsql --snifflimit 0 --no-inference --blanks --query "
+SELECT
   CASE WHEN ID_de_trampa = 'NA' THEN 'NA'
     ELSE SUBSTR(ID_de_trampa,1,2)
   END Tipo_de_trampa,

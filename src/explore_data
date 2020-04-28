@@ -6,8 +6,8 @@ first_file=${1}
 second_file=${2}
 first_table=$(basename "${first_file}" .csv)
 second_table=$(basename "${second_file}" .csv)
-csvsql --snifflimit 0 --no-inference --blanks --query \
-"SELECT *
+csvsql --snifflimit 0 --no-inference --blanks --query "
+SELECT *
 FROM ${first_table}
 WHERE (ID_de_trampa,Fecha) IN (
   SELECT ID_de_trampa, Fecha

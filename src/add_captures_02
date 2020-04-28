@@ -7,7 +7,7 @@ first_file=${1}
 second_file=${2}
 first_table=$(basename "${first_file}" .csv)
 second_table=$(basename "${second_file}" .csv)
-csvsql --snifflimit 0 --no-inference --blanks --query " \
+csvsql --snifflimit 0 --no-inference --blanks --query "
 SELECT ID_de_trampa,
   Coordenada_Este,
   Coordenada_Norte,

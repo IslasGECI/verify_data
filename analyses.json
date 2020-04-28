@@ -11,12 +11,12 @@
             "src/add_captures_02",
             "src/add_captures_from_morphometry.R",
             "src/clean_morphometry.R",
-            "src/cuenta_capturas",
+            "src/count_captures",
             "src/distinct_posiciones_trampas",
             "src/explore_data",
             "src/get_captures.R",
-            "src/quita_NA",
-            "src/quita_registros",
+            "src/remove_NA",
+            "src/remove_record",
             "src/show_diff_morphometry_position.R"
         ],
         "data": [
