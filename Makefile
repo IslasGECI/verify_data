@@ -21,6 +21,9 @@ csvPosicionTrampas = \
 csvMorfometriaGatosISO8601 = \
 	data/raw/morfometria_gatos_erradicacion_isla_guadalupe_ISO8601.csv
 
+csvIgPosicionTrampas10May2020 = \
+	tests/data/IG_POSICION_TRAMPAS_10MAY2020.xlsx
+
 csvCleanedPositionTraps = \
 	reports/tables/cleaned_position_traps.csv
 
@@ -32,6 +35,12 @@ csvMissingPosition = \
 
 csvMissingMorfometry = \
 	reports/tables/missing_captures_in_morfometry.csv
+
+csvRepeatedDataTest = \
+	tests/data/repeated_data_test.csv
+
+csvSalidaMockTest = \
+	tests/data/salida_mock_test.csv
 
 # III. Reglas para construir los objetivos principales
 # ===========================================================================
@@ -45,6 +54,10 @@ $(csvMorfometriaGatos):
 	descarga_datos $(@F) $(@D)
 
 $(csvPosicionTrampas):
+	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
+	descarga_datos $(@F) $(@D)
+
+$(csvIgPosicionTrampas10May2020):
 	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
 	descarga_datos $(@F) $(@D)
 
@@ -75,6 +88,14 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 		--data_2=reports/tables/cleaned_morphometry_cats.csv \
 		>$@
 
+$(csvRepeatedDataTest): $(csvIgPosicionTrampas10May2020) src/distinct_position_traps
+	mkdir --parents $(@D)
+	src/distinct_position_traps $< > $@
+
+$(csvSalidaMockTest): $(csvRepeatedDataTest)
+	mkdir --parents $(@D)
+	wc -l $< > $@
+
 # V. Reglas del resto de los phonies
 # ===========================================================================
 clean:
@@ -84,6 +105,8 @@ clean:
 cleaned_data: $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 
 datos: $(csvMorfometriaGatos) $(csvPosicionTrampas) $(csvMorfometriaGatosISO8601)
+
+tests_data: $(csvIG_posicion_trampas_10May2020) $(csvRepeatedDataTest)
 
 errores: $(csvMissingPosition) $(csvMissingMorfometry)
 # Elimina los residuos de LaTeX

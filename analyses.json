@@ -22,17 +22,24 @@
         "data": [
             {
                 "source": "tabular_data_packages",
-                "version": "087b83f8a23f18067055168166127f136eb843a2",
+                "version": "251d210a2180f17e577c30e2bdf5849462d74e3f",
                 "path": "morfometria_gatos_erradicacion_isla_guadalupe",
                 "type": "csv",
                 "filename": "morfometria_gatos_erradicacion_isla_guadalupe.csv"
             },
             {
                 "source": "tabular_data_packages",
-                "version": "611f4eba7d2786a977c524386a0f100d501ae998",
+                "version": "38805def1186e3e628290bdb1b81f0bfb4ac145f",
                 "path": "posicion_trampas_gatos_isla_guadalupe",
                 "type": "csv",
                 "filename": "posicion_trampas_gatos_isla_guadalupe.csv"
+            },
+            {
+                "source": "archivos_binarios",
+                "version": "fb643a66f8960d38348e0be7d5c2709006fd4f98",
+                "path": "excel",
+                "type": "xlsx",
+                "filename": "IG_POSICION_TRAMPAS_10MAY2020.xlsx"
             }
         ],
         "requirements": []
