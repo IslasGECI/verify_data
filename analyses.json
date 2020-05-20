@@ -36,8 +36,8 @@
             },
             {
                 "source": "archivos_binarios",
-                "version": "fb643a66f8960d38348e0be7d5c2709006fd4f98",
-                "path": "excel",
+                "version": "fcd826beacc390b9bd628fecdb2656c6102b65b0",
+                "path": "excel/gatos_ig_data_test",
                 "type": "xlsx",
                 "filename": "IG_POSICION_TRAMPAS_10MAY2020.xlsx"
             }
