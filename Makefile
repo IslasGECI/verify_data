@@ -1,7 +1,7 @@
-.PHONY: datos
+.PHONY: datos tests tests_data
 # I. Definición del _phony_ *all* que enlista todos los objetivos principales
 # ===========================================================================
-all:
+all: tests
 
 define checkDirectories
 if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
@@ -101,6 +101,9 @@ $(csvSalidaMockTest): $(csvRepeatedDataTest)
 clean:
 	rm --recursive --force data
 	rm --recursive --force reports/tables
+	rm --recursive --force tests/data
+	rm --recursive --force tests/__pycache__
+	rm --recursive --force *.tmp
 
 cleaned_data: $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 
@@ -109,4 +112,7 @@ datos: $(csvMorfometriaGatos) $(csvPosicionTrampas) $(csvMorfometriaGatosISO8601
 tests_data: $(csvIG_posicion_trampas_10May2020) $(csvRepeatedDataTest)
 
 errores: $(csvMissingPosition) $(csvMissingMorfometry)
+
+tests: tests_data
+	pytest --verbose
 # Elimina los residuos de LaTeX
