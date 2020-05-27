@@ -3,9 +3,9 @@ def test_add():
     assert_distinct_position_traps("./tests/data/IG_POSICION_TRAMPAS_10MAY2020.xlsx")
 
 def assert_distinct_position_traps(file_input):
-    bash_command = f"./src/distinct_position_traps {file_input} > salida.tmp"
+    bash_command = f"./src/distinct_position_traps {file_input} > tests/data/salida.tmp"
     subprocess.getoutput(bash_command)
-    output = have_same_content("./salida.tmp")
+    output = have_same_content("./tests/data/salida.tmp")
     assert output == 0
 
 def have_same_content(file_new):
