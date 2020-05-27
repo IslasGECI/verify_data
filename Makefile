@@ -18,9 +18,6 @@ csvIgPosicionTrampas10May2020 = \
 csvRepeatedDataTest = \
 	tests/data/repeated_data_test.csv
 
-csvSalidaMockTest = \
-	tests/data/salida_mock_test.csv
-
 # III. Reglas para construir los objetivos principales
 # ===========================================================================
 # Objetivo para generar el README.pdf
@@ -36,10 +33,6 @@ $(csvRepeatedDataTest): $(csvIgPosicionTrampas10May2020) src/distinct_position_t
 	mkdir --parents $(@D)
 	src/distinct_position_traps $< > $@
 
-$(csvSalidaMockTest): $(csvRepeatedDataTest)
-	mkdir --parents $(@D)
-	wc -l $< > $@
-
 # V. Reglas del resto de los phonies
 # ===========================================================================
 clean:
@@ -54,4 +47,3 @@ tests_data: $(csvIG_posicion_trampas_10May2020) $(csvRepeatedDataTest)
 
 tests: tests_data
 	pytest --verbose
-# Elimina los residuos de LaTeX
