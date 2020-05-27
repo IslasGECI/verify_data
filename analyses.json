@@ -1,0 +1,23 @@
+[
+    {
+        "docker_parent_image": "islasgeci/base:89e5",
+        "name": "",
+        "description": "",
+        "report": "",
+        "results": [
+        ],
+        "scripts": [
+            "src/distinct_posiciones_trampas"
+        ],
+        "data": [
+            {
+                "source": "archivos_binarios",
+                "version": "fcd826beacc390b9bd628fecdb2656c6102b65b0",
+                "path": "excel/gatos_ig_data_test",
+                "type": "xlsx",
+                "filename": "IG_POSICION_TRAMPAS_10MAY2020.xlsx"
+            }
+        ],
+        "requirements": []
+    }
+]
