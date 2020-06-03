@@ -9,7 +9,7 @@ def assert_distinct_position_traps(file_input):
     assert output == 0
 
 def have_same_content(file_new):
-    bash_command = f"diff {file_new} ./tests/data/repeated_data_test.csv | wc --lines"
+    bash_command = f"diff {file_new} ./tests/data_tests/repeated_data_test.csv | wc --lines"
     subprocess.getoutput(bash_command)
     return int(subprocess.getoutput(bash_command))
 
