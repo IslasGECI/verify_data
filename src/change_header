@@ -3,7 +3,6 @@
 # Función que cambia el encabezado del archivo de posición trampa para poder
 # correr geci-validate
 position_traps_data_file=${1}
-position_trap_table=$(basename "${position_traps_data_file}" .csv)
 sed \
 '1s/.*/ID,Coor-X,Coor-Y,Nombre del responsable,Fecha_1,Fecha_2,Fecha_3,Fecha_4,Fecha_5,Fecha_6,Fecha_7/' \
-${position_traps_data_file} > ig_posicion_trampas_gatos.csv
+${position_traps_data_file}
