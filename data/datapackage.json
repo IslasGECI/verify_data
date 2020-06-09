@@ -1,20 +1,20 @@
 {
-    "profile": "tabular-data-package", 
-    "name": "IG_POSICION_TRAMPAS", 
+    "profile": "tabular-data-package",
+    "name": "posicion_trampas_gatos_ig",
     "schema": "tabular-data-package",
     "resources": [
         {
-            "profile": "tabular-data-resource", 
-            "name": "IG_POSICION_TRAMPAS_10MAY2020", 
-            "format": "csv", 
-            "encoding": "utf-8", 
-            "mediatype": "text/csv", 
-            "path": "IG_POSICION_TRAMPAS_10MAY2020.csv", 
+            "profile": "tabular-data-resource",
+            "name": "posicion_trampas_gatos_ig",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "posicion_trampas_gatos_ig.csv",
             "schema": {
                 "fields": [
                     {
-                        "type": "string", 
-                        "name": "ID", 
+                        "type": "string",
+                        "name": "ID",
                         "format": "default",
                         "constraints":{
                             "pattern": "(TC|TL|TT)-0[1-8]-([0-9]{3})-[A-Z]{2}"
