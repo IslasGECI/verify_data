@@ -15,8 +15,14 @@ endef
 xlsxIgPosicionTrampas10May2020 = \
 	tests/data/IG_POSICION_TRAMPAS_10MAY2020.xlsx
 
+csvIgPosicionTrampas10May2020 = \
+	tests/data/IG_POSICION_TRAMPAS_10MAY2020.csv
+
 csvRepeatedDataTest = \
 	tests/data/repeated_data_test.csv
+
+csv_PosicionTrampasGatosDatapackage = \
+	data/posicion_trampas_gatos_ig.csv
 
 # III. Reglas para construir los objetivos principales
 # ===========================================================================
@@ -28,6 +34,10 @@ csvRepeatedDataTest = \
 $(xlsxIgPosicionTrampas10May2020):
 	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
 	descarga_datos $(@F) $(@D)
+
+$(csv_PosicionTrampasGatosDatapackage): $(csvIgPosicionTrampas10May2020) src/change_header
+	mkdir --parents $(@D)
+	src/change_header $< > $@
 
 #$(csvRepeatedDataTest): $(xlsxIgPosicionTrampas10May2020) src/distinct_position_traps
 #	mkdir --parents $(@D)
@@ -43,6 +53,7 @@ clean:
 	rm --recursive --force *.tmp
 
 
+datapackage_data: $(csv_PosicionTrampasGatosDatapackage)
 tests_data: $(xlsxIgPosicionTrampas10May2020)
 
 tests: tests_data
