@@ -1,5 +1,5 @@
 import subprocess
-def test_add():
+def test_distinct_position_traps():
     assert_distinct_position_traps("./tests/data/IG_POSICION_TRAMPAS_10MAY2020.xlsx")
 
 def assert_distinct_position_traps(file_input):
