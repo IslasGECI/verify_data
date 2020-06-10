@@ -9,7 +9,7 @@
             "format": "csv",
             "encoding": "utf-8",
             "mediatype": "text/csv",
-            "path": "posicion_trampas_gatos_ig.csv",
+            "path": "processed/posicion_trampas_gatos_ig.csv",
             "schema": {
                 "fields": [
                     {

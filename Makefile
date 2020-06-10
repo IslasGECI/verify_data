@@ -22,7 +22,7 @@ csvRepeatedDataTest = \
 	tests/data/repeated_data_test.csv
 
 csv_PosicionTrampasGatosDatapackage = \
-	data/posicion_trampas_gatos_ig.csv
+	data/validacion_datapackage/processed/posicion_trampas_gatos_ig.csv
 
 # III. Reglas para construir los objetivos principales
 # ===========================================================================
@@ -46,7 +46,7 @@ $(csv_PosicionTrampasGatosDatapackage): $(csvIgPosicionTrampas10May2020) src/cha
 # V. Reglas del resto de los phonies
 # ===========================================================================
 clean:
-	rm --recursive --force data
+	rm --recursive --force data/validacion_datapackage/processed
 	rm --recursive --force reports/tables
 	rm --recursive --force tests/data
 	rm --recursive --force tests/__pycache__
