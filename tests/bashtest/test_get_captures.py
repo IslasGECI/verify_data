@@ -1,4 +1,5 @@
 import subprocess
+from bashtest import *
 def test_get_captures():
     set_get_captures()
     file_new = "./reports/tables/cleaned_position_traps.csv"
@@ -8,9 +9,3 @@ def test_get_captures():
 def set_get_captures():
     bash_command = f"make reports/tables/cleaned_position_traps.csv"
     subprocess.getoutput(bash_command)
-
-def assert_equal_file(file_new, file_test):
-    bash_command = f"diff {file_new} {file_test} | wc --lines"
-    output = int(subprocess.getoutput(bash_command))
-    assert output == 0
-
