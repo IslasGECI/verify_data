@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
-#Función que detecta ID duplicados de la tabla de posicion_trampas que envían los especialistas de campo.
-#El archivo de entrada es .xlsx y se obtiene un .csv con los ID duplicados
+# Detecta ID duplicados de la tabla de posicion_trampas
+# El archivo de entrada es .xlsx y se obtiene un .csv con los ID duplicados
 data_file=${1}
 src_path=$(dirname "${data_file}")
 table_name=$(basename "${data_file}" .xlsx)
@@ -16,4 +16,3 @@ csvsql --snifflimit 0 --no-inference --blanks --query "
     HAVING COUNT(*) > 1)
   ORDER BY ID
 " ${src_path}/${table_name}.csv 
-#rm ${data_file}
