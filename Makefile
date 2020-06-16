@@ -47,3 +47,4 @@ tests_data: $(xlsxIgPosicionTrampas10May2020) #$(csvRepeatedDataTest)
 
 tests: tests_data
 	pytest --verbose
+	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
