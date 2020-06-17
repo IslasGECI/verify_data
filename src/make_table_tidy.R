@@ -1,0 +1,35 @@
+#!/usr/bin/env Rscript
+#
+# Convierte datos a tabla tidy 
+
+source("src/effort_2_tidy.R")
+
+# Librarias necesarias
+
+library(tidyverse)
+library(optparse)
+
+# Sección de la CLI
+listaOpciones = list(
+    make_option(
+        c("-d", "--data"),
+        default=NULL,
+        help="nombre del primer archivo de entrada",
+        metavar="character",
+        type="character"
+    ),
+    make_option(
+        c("-s", "--salida"),
+        default=NULL,
+        help="nombre del archivo de salida",
+        metavar="character",
+        type="character"
+    )
+);
+opt_parser <- OptionParser(option_list = listaOpciones);
+opciones <- parse_args(opt_parser);
+
+data <- read_csv(opciones$data)
+diferencias <- effort_2_tidy(data)
+salida <- opciones$salida
+write.table(diferencias, salida)
