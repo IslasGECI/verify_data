@@ -4,7 +4,7 @@
 library(tidyverse)
 
 effort_2_tidy <- function(datos_prueba){
-filter_table <- datos_prueba %>% select(c(2, 6:12))
+filter_table <- datos_prueba %>% select(c("ID", (length(datos_prueba)-6):length(datos_prueba)))
 result <- data.frame()
 ncolumns <- length(filter_table)
 for (i in ncolumns:2){
@@ -23,9 +23,13 @@ for (i in ncolumns:2){
     }
   }
 }
+if (length(result)!= 0){
 names(result) <- c("ID", "estado", "fecha")
 for (i in 1:3){
 result[i] <- as.factor(result[, i])
 }
 return(result)
+}else{
+  return("no hay capturas")
+}
 }
