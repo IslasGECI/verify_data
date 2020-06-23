@@ -30,6 +30,10 @@ opciones <- parse_args(opt_parser)
 input_file <- opciones$data
 data <- readr::read_csv(input_file)
 table <- check_columns_name(data)
-print(table)
+if (all(table$es_correcto)){
+	print("Todo esta correcto")
+}else{
+	print(table)
+}
 output_file <- opciones$salida
 write_csv(table, output_file)
