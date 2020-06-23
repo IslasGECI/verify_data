@@ -24,11 +24,11 @@ listaOpciones = list(
         type="character"
     )
 )
-opt_parser <- OptionParser(option_list = listaOpciones);
-opciones <- parse_args(opt_parser);
+opt_parser <- OptionParser(option_list = listaOpciones)
+opciones <- parse_args(opt_parser)
 
-input_file <- read_csv(opciones$data)
+input_file <- opciones$data
 data <- readr::read_csv(input_file)
 table <- check_columns_name(data)
 output_file <- opciones$salida
-write.table(table, output_file)
+write_csv(table, output_file)
