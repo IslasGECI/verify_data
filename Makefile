@@ -33,9 +33,6 @@ csvPosicionTrampas = \
 csvMorfometriaGatosISO8601 = \
 	data/raw/morfometria_gatos_erradicacion_isla_guadalupe_ISO8601.csv
 
-csvIgPosicionTrampas10May2020 = \
-	tests/data/IG_POSICION_TRAMPAS_10MAY2020.xlsx
-
 csvCleanedPositionTraps = \
 	reports/tables/cleaned_position_traps.csv
 
@@ -59,10 +56,6 @@ $(csvMorfometriaGatos):
 	descarga_datos $(@F) $(@D)
 
 $(csvPosicionTrampas):
-	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
-	descarga_datos $(@F) $(@D)
-
-$(csvIgPosicionTrampas10May2020):
 	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
 	descarga_datos $(@F) $(@D)
 
