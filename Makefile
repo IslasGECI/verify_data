@@ -110,6 +110,7 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 # ===========================================================================
 clean:
 	rm --recursive --force data/validacion_datapackage/processed
+	rm --recursive --force data/raw/
 	rm --recursive --force reports/tables
 	rm --recursive --force tests/data
 	rm --recursive --force tests/bashtest/__pycache__
@@ -120,5 +121,5 @@ datapackage_data: $(csv_PosicionTrampasGatosDatapackage)
 tests_data: $(xlsxIgPosicionTrampas10May2020)
 
 tests: tests_data
-	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
 	pytest --verbose tests/bashtest/
+	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
