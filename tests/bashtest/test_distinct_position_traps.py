@@ -12,4 +12,4 @@ def have_same_content(file_new):
     bash_command = f"diff {file_new} ./tests/data_tests/repeated_data_test.csv | wc --lines"
     subprocess.getoutput(bash_command)
     return int(subprocess.getoutput(bash_command))
-
+    
