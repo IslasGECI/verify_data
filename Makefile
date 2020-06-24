@@ -105,7 +105,7 @@ clean:
 	rm --recursive --force data/validacion_datapackage/processed
 	rm --recursive --force data/raw/
 	rm --recursive --force reports/tables
-	rm --recursive --force tests/data
+	rm --force tests/data/*.*
 	rm --recursive --force tests/bashtest/__pycache__
 	rm --recursive --force *.tmp
 
