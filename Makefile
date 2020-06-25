@@ -113,6 +113,6 @@ clean:
 datapackage_data: $(csv_PosicionTrampasGatosDatapackage)
 tests_data: $(xlsxIgPosicionTrampas10May2020)
 
-tests: tests_data
+tests: tests_data $(csvCleanedPositionTraps)
 	pytest --verbose tests/bashtest/
 	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
