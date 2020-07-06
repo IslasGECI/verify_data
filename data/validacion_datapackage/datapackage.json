@@ -1,0 +1,138 @@
+{
+    "profile": "tabular-data-package",
+    "name": "posicion_trampas_gatos_ig",
+    "schema": "tabular-data-package",
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "posicion_trampas_gatos_ig",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "processed/posicion_trampas_gatos_ig.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "string",
+                        "name": "ID",
+                        "format": "default",
+                        "constraints":{
+                            "pattern": "(TC|TL|TT)-0[1-8]-([0-9]{3})-[A-Z]{2}"
+                        },
+                        "description": "Código identificador de la cámara",
+                        "long_name": "ID camera",
+                        "nombre_largo": "ID camara"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "Coor-X", 
+                        "format": "default",
+                        "constraints": {"minimum": 370000,"maximum": 381000},
+                        "description": "Coordenada UTM Este de la posición de la camara trampa",
+                        "long_name": "Easting",
+                        "nombre_largo": "Coordenada Este",
+                        "standard_name": "projection_x_coordinate",
+                        "units": "mE",
+                        "axis": "X"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "Coor-Y", 
+                        "format": "default",
+                        "constraints": {"minimum": 3100000,"maximum": 3300000},
+                        "description": "Coordenada UTM Norte de la posición de la camara trampa",
+                        "long_name": "Northing",
+                        "nombre_largo": "Coordenada Norte",
+                        "standard_name": "projection_y_coordinate",
+                        "units": "mN",
+                        "axis": "Y"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Nombre del responsable", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(\\S.+\\S)"
+                        },
+                        "description": "Nombre del responsable del monitoreo",
+                        "long_name": "Responsible",
+                        "nombre_largo": "Responsable"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_1", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "",
+                        "long_name": ""
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_2", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "",
+                        "long_name": ""
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_3", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "",
+                        "long_name": ""
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_4", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "",
+                        "long_name": ""
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_5", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "",
+                        "long_name": ""
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_6", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "",
+                        "long_name": ""
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_7", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "",
+                        "long_name": ""
+                    }
+                ], 
+                "missingValues": [
+                    "NA"
+                ]
+            }
+        }
+    ] 
+}

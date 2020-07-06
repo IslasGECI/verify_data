@@ -15,8 +15,14 @@ endef
 xlsxIgPosicionTrampas10May2020 = \
 	tests/data/IG_POSICION_TRAMPAS_10MAY2020.xlsx
 
+csvIgPosicionTrampas10May2020 = \
+	tests/data/IG_POSICION_TRAMPAS_10MAY2020.csv
+
 csvRepeatedDataTest = \
 	tests/data/repeated_data_test.csv
+
+csv_PosicionTrampasGatosDatapackage = \
+	data/validacion_datapackage/processed/posicion_trampas_gatos_ig.csv
 
 csvMorfometriaGatos = \
 	data/raw/morfometria_gatos_erradicacion_isla_guadalupe.csv
@@ -26,9 +32,6 @@ csvPosicionTrampas = \
 
 csvMorfometriaGatosISO8601 = \
 	data/raw/morfometria_gatos_erradicacion_isla_guadalupe_ISO8601.csv
-
-csvIgPosicionTrampas10May2020 = \
-	tests/data/IG_POSICION_TRAMPAS_10MAY2020.xlsx
 
 csvCleanedPositionTraps = \
 	reports/tables/cleaned_position_traps.csv
@@ -53,10 +56,6 @@ $(csvMorfometriaGatos):
 	descarga_datos $(@F) $(@D)
 
 $(csvPosicionTrampas):
-	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
-	descarga_datos $(@F) $(@D)
-
-$(csvIgPosicionTrampas10May2020):
 	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
 	descarga_datos $(@F) $(@D)
 
@@ -85,6 +84,13 @@ $(csvMissingPosition): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps) s
 		--data_1=reports/tables/cleaned_morphometry_cats.csv \
 		--data_2=reports/tables/cleaned_position_traps.csv \
 		>$@
+$(csv_PosicionTrampasGatosDatapackage): $(csvIgPosicionTrampas10May2020) src/change_header
+	mkdir --parents $(@D)
+	src/change_header $< > $@
+
+$(csvRepeatedDataTest): $(xlsxIgPosicionTrampas10May2020) src/distinct_position_traps
+	mkdir --parents $(@D)
+	src/distinct_position_traps $< > $@
 
 $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps) src/show_diff_morphometry_position.R
 	src/show_diff_morphometry_position.R \
@@ -96,15 +102,17 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 # V. Reglas del resto de los phonies
 # ===========================================================================
 clean:
-	rm --recursive --force data
+	rm --recursive --force data/validacion_datapackage/processed
+	rm --recursive --force data/raw/
 	rm --recursive --force reports/tables
-	rm --recursive --force tests/data
+	rm --force tests/data/*.*
 	rm --recursive --force tests/bashtest/__pycache__
 	rm --recursive --force *.tmp
 
 
+datapackage_data: $(csv_PosicionTrampasGatosDatapackage)
 tests_data: $(xlsxIgPosicionTrampas10May2020)
 
-tests: tests_data
-	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
+tests: tests_data $(csvRepeatedDataTest)
 	pytest --verbose tests/bashtest/
+	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
