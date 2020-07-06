@@ -1,8 +1,8 @@
 image: islasgeci/diferencias_morfometria_posicion_trampas:latest
 
 pipelines:
-  pull-requests:
-    '**':
+  custom:
+    manual:
       - step:
           script:
             - make
