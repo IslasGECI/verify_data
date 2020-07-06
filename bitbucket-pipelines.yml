@@ -1,0 +1,8 @@
+image: islasgeci/base:89e5
+
+pipelines:
+  custom:
+    manual:
+      - step:
+          script:
+            - make
