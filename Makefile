@@ -88,9 +88,9 @@ $(csv_PosicionTrampasGatosDatapackage): $(csvIgPosicionTrampas10May2020) src/cha
 	mkdir --parents $(@D)
 	src/change_header $< > $@
 
-#$(csvRepeatedDataTest): $(xlsxIgPosicionTrampas10May2020) src/distinct_position_traps
-#	mkdir --parents $(@D)
-#	src/distinct_position_traps $< > $@
+$(csvRepeatedDataTest): $(xlsxIgPosicionTrampas10May2020) src/distinct_position_traps
+	mkdir --parents $(@D)
+	src/distinct_position_traps $< > $@
 
 $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps) src/show_diff_morphometry_position.R
 	src/show_diff_morphometry_position.R \
@@ -113,6 +113,6 @@ clean:
 datapackage_data: $(csv_PosicionTrampasGatosDatapackage)
 tests_data: $(xlsxIgPosicionTrampas10May2020)
 
-tests: tests_data $(csvCleanedPositionTraps)
+tests: tests_data $(csvRepeatedDataTest)
 	pytest --verbose tests/bashtest/
 	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
