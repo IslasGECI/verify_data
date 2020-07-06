@@ -1,4 +1,4 @@
-image: islasgeci/base:89e5
+image: islasgeci/diferencias_morfometria_posicion_trampas:latest
 
 pipelines:
   pull-requests:
