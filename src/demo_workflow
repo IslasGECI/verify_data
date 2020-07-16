@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 #
+file_name_xlsx=${1}
+data_path=$(direname ${file_name_xlsx})
+data_file=${data_path}/$(basename ${file_name_xlsx} .xlsx)
+src_path="src"
 # 1. Recibimos los datos
 # 2. Encontrar duplicados
-   ./src/distinct_position_traps tests/data/IG_POSICION_TRAMPAS_10MAY2020.xlsx
+   ${src_path}/distinct_position_traps ${data_file}.xlsx
 # 3. Revisar nombres de las columnas
-   src/make_check_header.R --data tests/data/IG_POSICION_TRAMPAS_10MAY2020.csv
+   ${src_path}/make_check_header.R --data ${data_file}.csv
 # 4. Validacion con datapackage
   #Cambiamos el encabezado y movemos el archivo a la carpeta que contiene el datapackage.json para
   #correr ahí el goodtables
