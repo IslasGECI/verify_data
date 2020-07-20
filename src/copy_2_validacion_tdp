@@ -2,7 +2,7 @@
 #
 # correr goodtables datapackage.json
 position_traps_data_file=${1}
-file_name=$(basename "${position_tramps_data_file}")
+file_name=$(basename "${position_traps_data_file}")
 src_path=$(dirname "${position_traps_data_file}")
 dest_path=data/validacion_datapackage
 cp ${position_traps_data_file} ${src_path} ${dest_path}
