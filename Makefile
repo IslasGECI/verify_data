@@ -1,4 +1,4 @@
-.PHONY: tests tests_data
+.PHONY: install tests tests_data 
 # I. Definición del _phony_ *all* que enlista todos los objetivos principales
 # ===========================================================================
 all: tests
@@ -113,6 +113,10 @@ clean:
 datapackage_data: $(csv_PosicionTrampasGatosDatapackage)
 tests_data: $(xlsxIgPosicionTrampas10May2020)
 
-tests: tests_data $(csvRepeatedDataTest)
+tests: install tests_data $(csvRepeatedDataTest)
 	pytest --verbose tests/bashtest/
 	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
+
+install:
+	R CMD build diferenciasMorfometriaPosicionTrampas
+	R CMD INSTALL diferenciasMorfometriaPosicionTrampas_1.0.tar.gz

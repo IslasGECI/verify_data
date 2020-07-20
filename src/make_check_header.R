@@ -2,10 +2,9 @@
 #
 #
 
-source("src/check_columns_name.R")
-
 library(tidyverse)
 library(optparse)
+library(diferenciasMorfometriaPosicionTrampas)
 
 # Sección de la CLI
 listaOpciones = list(
@@ -22,7 +21,7 @@ opciones <- parse_args(opt_parser)
 
 input_file <- opciones$data
 data <- readr::read_csv(input_file)
-table <- check_columns_name(data)
+table <- diferenciasMorfometriaPosicionTrampas::check_columns_name(data)
 if (all(table$es_correcto)){
     output_file <- "Cabecera_correcta.txt"
     write("La cabecera es correcta", output_file)
