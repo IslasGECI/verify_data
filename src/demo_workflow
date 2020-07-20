@@ -1,29 +1,35 @@
 #!/usr/bin/env bash
 #
-file_name_xlsx=${1}
-data_path=$(direname ${file_name_xlsx})
-data_file=${data_path}/$(basename ${file_name_xlsx} .xlsx)
+position_trap_file_name_xlsx=${1}
+position_trap_data_path=$(direname ${file_name_xlsx})
+position_trap_data_file=${data_path}/$(basename ${file_name_xlsx} .xlsx)
 src_path="src"
+# Revisión estructural de la tabla posición trampa
 # 1. Recibimos los datos
 # 2. Encontrar duplicados
-   ${src_path}/distinct_position_traps ${data_file}.xlsx
+	${src_path}/distinct_position_traps ${position_trap_file_name_xlsx}
 # 3. Revisar nombres de las columnas
-   ${src_path}/make_check_header.R --data ${data_file}.csv
+	${src_path}/make_check_header.R --data ${position_trap_data_file}.csv
 # 4. Validacion con datapackage
   #Cambiamos el encabezado y movemos el archivo a la carpeta que contiene el datapackage.json para
   #correr ahí el goodtables
-./src/change_header tests/data/IG_POSICION_TRAMPAS_10MAY2020.csv
+	${src_path}/change_header ${position_trap_data_file}.csv
+exit
+# 5. Cambia archivo 'posición trampas' a la carpeta 'validación datapackage'
 
 
+
+# Revisa y compara las capturas de los archivos posición trampas y morfometría gatos
 # 5. Hacerlos tidy (feature/agrega_script_con_cli)
-src/make_table_tidy.R --data tests/data/IG_POSICION_TRAMPAS_10MAY2020.csv \
-    --salida IG_POSICION_TRAMPAS_10MAY2020_tidy.csv
+	src/make_table_tidy.R \
+	--data ${position_trap_data_file}.csv \
+	--salida ${position_trap_data_file}_tidy.csv
 # 6. Limpiar archivos
 # 6.1 Morfometría
 # Tiene que ser la salida de la funcion cambia formato_fecha (ISO8601)
 	src/clean_morphometry.R \
-    --data=data/raw/morfometria_gatos_erradicacion_isla_guadalupe_ISO8601.csv \
-    --out=reports/tables/cleaned_morphometry_cats.csv
+    	--data=data/raw/morfometria_gatos_erradicacion_isla_guadalupe_ISO8601.csv \
+    	--out=reports/tables/cleaned_morphometry_cats.csv
 # 6.2 Posición trampa
 	src/get_captures.R \
 		--data=IG_POSICION_TRAMPAS_10MAY2020_tidy.csv \
