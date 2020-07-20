@@ -1,7 +1,3 @@
-#!/usr/bin/env Rscript
-#
-# Funcion que detecta que encabezados estan mal escritos 
-
 library(tidyverse)
 library(reshape2)
 
