@@ -112,6 +112,7 @@ clean:
 
 datapackage_data: $(csv_PosicionTrampasGatosDatapackage)
 tests_data: $(xlsxIgPosicionTrampas10May2020)
+	./src/distinct_position_traps $<
 
 tests: tests_data $(csvRepeatedDataTest)
 	pytest --verbose tests/bashtest/
