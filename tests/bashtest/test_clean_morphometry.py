@@ -1,5 +1,7 @@
 import subprocess
 from bashtest import *
+
+
 def test_clean_morphometry():
     set_tests_from_make("reports/tables/cleaned_morphometry_cats.csv")
     file_new = "./reports/tables/cleaned_morphometry_cats.csv"
