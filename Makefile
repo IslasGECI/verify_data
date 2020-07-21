@@ -104,6 +104,7 @@ clean:
 
 
 tests_data: $(xlsxIgPosicionTrampas10May2020)
+	./src/distinct_position_traps $<
 
 tests: tests_data
 	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
