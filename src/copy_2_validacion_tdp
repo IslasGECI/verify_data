@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #
-# correr goodtables datapackage.json
+# Función que copia el archivo de posición trampas a la carpeta validación_datapackage para que sea
+# validado
 dest_path=data/validacion_datapackage
 mkdir ${dest_path} --parents
 position_traps_data_file=${1}
