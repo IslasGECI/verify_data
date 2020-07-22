@@ -1,18 +1,19 @@
 #!/usr/bin/env bash
 #
 position_trap_file_name_xlsx=${1}
-position_trap_data_path=$(direname ${file_name_xlsx})
-position_trap_data_file=${data_path}/$(basename ${file_name_xlsx} .xlsx)
+position_trap_data_path=$(dirname ${position_trap_file_name_xlsx})
+position_trap_data_file=${position_trap_data_path}/$(basename ${position_trap_file_name_xlsx} .xlsx)
 src_path="src"
 # Revisión estructural de la tabla posición trampa
 # 1. Recibimos los datos
 # 2. Encontrar duplicados
-	${src_path}/distinct_position_traps ${position_trap_file_name_xlsx}
+	${src_path}/distinct_position_traps ${position_trap_file_name_xlsx} && echo "listo" || exit 1
 # 3. Revisar nombres de las columnas
-	${src_path}/make_check_header.R --data ${position_trap_data_file}.csv
+	${src_path}/make_check_header.R --data ${position_trap_data_file}.csv && echo "listo" || exit 1
 # 4. Validacion con datapackage
   #Cambiamos el encabezado y movemos el archivo a la carpeta que contiene el datapackage.json para
   #correr ahí el goodtables
+	${src_path}/copy_2_validacion_tdp ${position_trap_data_file} && echo "listo" || exit 1
 	${src_path}/change_header ${position_trap_data_file}.csv
 exit
 # 5. Cambia archivo 'posición trampas' a la carpeta 'validación datapackage'
