@@ -1,13 +1,11 @@
 #!/usr/bin/env Rscript
 #
 # Convierte datos a tabla tidy 
-
-source("src/effort_2_tidy.R")
-
 # Librarias necesarias
 
 library(tidyverse)
 library(optparse)
+library(diferenciasMorfometriaPosicionTrampas)
 
 # Sección de la CLI
 listaOpciones = list(
@@ -30,6 +28,6 @@ opt_parser <- OptionParser(option_list = listaOpciones);
 opciones <- parse_args(opt_parser);
 
 data <- read_csv(opciones$data)
-diferencias <- effort_2_tidy(data)
+diferencias <- diferenciasMorfometriaPosicionTrampas::effort_2_tidy(data)
 salida <- opciones$salida
 write.table(diferencias, salida)

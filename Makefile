@@ -1,7 +1,7 @@
-.PHONY: tests tests_data
+.PHONY: tests tests_data install
 # I. Definición del _phony_ *all* que enlista todos los objetivos principales
 # ===========================================================================
-all: tests
+all: install tests 
 
 define checkDirectories
 if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
@@ -45,6 +45,10 @@ clean:
 
 tests_data: $(xlsxIgPosicionTrampas10May2020) #$(csvRepeatedDataTest)
 
-tests: tests_data
+tests: install tests_data
 	pytest --verbose
 	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
+
+install:
+	R CMD build diferenciasMorfometriaPosicionTrampas
+	R CMD INSTALL diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
