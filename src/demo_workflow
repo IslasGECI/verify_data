@@ -4,8 +4,10 @@ position_trap_file_name_xlsx=${1}
 position_trap_data_path=$(dirname ${position_trap_file_name_xlsx})
 position_trap_file_name=$(basename ${position_trap_file_name_xlsx} .xlsx)
 position_trap_data_file=${position_trap_data_path}/${position_trap_file_name}
+datapackage_validation_file="posicion_trampas_gatos_ig"
 dtp_src="data/validacion_datapackage"
 src_path="src"
+mkdir ${dest_path} --parents
 # Revisión estructural de la tabla posición trampa
 # 1. Recibimos los datos
 # 2. Encontrar duplicados
@@ -14,9 +16,11 @@ src_path="src"
 	${src_path}/make_check_header.R --data ${position_trap_data_file}.csv && echo "listo" || exit 1
 # 4. Validacion con datapackage
   # Cambia archivo 'posición trampas' a la carpeta 'validacion_datapackage'
-	${src_path}/copy_2_validacion_tdp ${position_trap_data_file}.csv
   #Cambiamos el encabezado del archivo CSV para correr en la carpeta 'validacion_datapackage' el goodtables
-	${src_path}/change_header ${dta_src}/${position_trap_file_name}.csv && echo "listo" || exit 1
+	${src_path}/change_header ${position_trap_data_file}.csv \
+		> ${dtp_src}/${datapackage_validation_file}.csv \
+		&& echo "listo" || exit 1
+#	${src_path}/copy_2_validacion_tdp
 
 
 
