@@ -15,12 +15,13 @@ mkdir ${dest_path} --parents
 # 3. Revisar nombres de las columnas
 	${src_path}/make_check_header.R --data ${position_trap_data_file}.csv && echo "listo" || exit 1
 # 4. Validacion con datapackage
-  # Cambia archivo 'posición trampas' a la carpeta 'validacion_datapackage'
-  #Cambiamos el encabezado del archivo CSV para correr en la carpeta 'validacion_datapackage' el goodtables
+    #Cambiamos el encabezado del archivo CSV para correr en la carpeta 'validacion_datapackage' el goodtables
 	${src_path}/change_header ${position_trap_data_file}.csv \
 		> ${dtp_src}/${datapackage_validation_file}.csv \
 		&& echo "listo" || exit 1
-#	${src_path}/copy_2_validacion_tdp
+	# Corre goodtables en la carpeta 'validacion_datapackage'
+	goodtables ${dtp_src}/datapackage.json
+	
 
 
 
