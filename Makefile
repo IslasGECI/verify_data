@@ -1,7 +1,7 @@
-.PHONY: install tests tests_data 
+.PHONY: tests tests_data install
 # I. Definición del _phony_ *all* que enlista todos los objetivos principales
 # ===========================================================================
-all: tests
+all: install tests 
 
 define checkDirectories
 if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi

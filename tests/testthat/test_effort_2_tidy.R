@@ -1,4 +1,6 @@
-source("../../src/effort_2_tidy.R")
+library(diferenciasMorfometriaPosicionTrampas)
+library(tidyverse)
+
 salida_test <- data.frame(
     ID = rep(c('TC-20-1084', 'TC-10-0980-MV'),each = 7),
     estado = c('A', 'A', 'X', 'A', 'A', 'A', 'A', 'X', 'A', 'A', 'A', 'A', 'D', 'D'), 
@@ -7,5 +9,5 @@ salida_test <- data.frame(
 archivo_prueba <- '../data_tests/esfuerzo_data_tests.csv'
 datos_prueba <- readr::read_csv(archivo_prueba)
 test_that("Cambia las palabras a otras cambiando el número de sus letras", {
-    expect_equal(effort_2_tidy(datos_prueba), salida_test)
+    expect_equal(diferenciasMorfometriaPosicionTrampas::effort_2_tidy(datos_prueba), salida_test)
 })
