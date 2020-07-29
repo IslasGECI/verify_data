@@ -24,7 +24,7 @@ for (i in ncolumns:2){
   }
 }
 if (length(result)!= 0){
-names(result) <- c("ID", "estado", "fecha")
+names(result) <- c("ID", "Estado_trampa", "Fecha")
 for (i in 1:3){
 result[i] <- as.factor(result[, i])
 }
