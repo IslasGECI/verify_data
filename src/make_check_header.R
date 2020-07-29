@@ -24,8 +24,7 @@ input_file <- opciones$data
 data <- readr::read_csv(input_file)
 table <- diferenciasMorfometriaPosicionTrampas::check_columns_name(data)
 if (all(table$es_correcto)){
-    output_file <- "Cabecera_correcta.txt"
-    write("La cabecera es correcta", output_file)
+    print("La cabecera es correcta")
 }else{
 	print(table)
 }
