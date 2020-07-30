@@ -21,4 +21,4 @@ opciones <- parse_args(opt_parser);
 
 data <- read_csv(opciones$data)
 diferencias <- diferenciasMorfometriaPosicionTrampas::effort_2_tidy(data)
-print(diferencias)
+cat(format_csv(diferencias))
