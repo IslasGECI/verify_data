@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 #
 position_trap_file_name_xlsx=${1}
-cat_morphometry_file_name_xlsx=${2}
 position_trap_data_path=$(dirname ${position_trap_file_name_xlsx})
 position_trap_file_name=$(basename ${position_trap_file_name_xlsx} .xlsx)
 position_trap_data_file=${position_trap_data_path}/${position_trap_file_name}
+cat_morphometry_file_name_xlsx=${2}
+cat_morphometry_data_path=$(dirname ${cat_morphometry_file_name_xlsx})
+cat_morphometry_file_name=$(basename ${cat_morphometry_file_name_xlsx} .xlsx)
+cat_morphometry_data_file=${cat_morphometry_data_path}/${cat_morphometry_file_name}
 datapackage_validation_file="posicion_trampas_gatos_ig"
 dtp_src="data/validacion_datapackage"
 src_path="src"
@@ -27,7 +30,8 @@ mkdir ${dest_path} --parents
 	# Corre goodtables en la carpeta 'validacion_datapackage'
 	echo "VERIFICACIÓN ESTRUCTURAL"
 	goodtables ${dtp_src}/datapackage.json \
-	&& echo "La estructura del archivo es correcta" || { echo "La estructura del archivo es incorrecta"; exit 1; }
+	&& echo "La estructura del archivo es correcta" \
+		|| { echo "La estructura del archivo es incorrecta"; exit 1; }
 
 
 # Revisa y compara las capturas de los archivos posición trampas y morfometría gatos
@@ -36,11 +40,15 @@ mkdir ${dest_path} --parents
 		--data ${position_trap_data_file}.csv \
 		--salida ${position_trap_data_file}_tidy.csv \
 	&& cambia_formato_fecha ${position_trap_data_file}_tidy.csv > ${position_trap_data_file}.csv \
-	&& echo "La formateada del archivo es correcta" || { echo "El formato del archivo no se realizó correctamente"; exit 1; }
+	&& echo "La formateada del archivo es correcta" \
+		|| { echo "El formato del archivo no se realizó correctamente"; exit 1; }
 # 6. Limpiar archivos
 # 6.1 Morfometría
 # Convierte archivo de morfometría_gatos de xslx a csv
-	./src/xlsx_2_csv ${cat_morphometry_file_name_xlsx}
+	./src/xlsx_2_csv ${cat_morphometry_file_name_xlsx} \
+	&& cambia_formato_fecha ${cat_morphometry_file_name}.csv > basurita.csv
+	&& echo "El archivo de datos de morfometría se convirió a CSV" \
+	|| { echo "El archivo de datos de morfometría NO se convirió a CSV"; exit 1; }
 
 # Tiene que ser la salida de la funcion cambia formato_fecha (ISO8601)
 	src/clean_morphometry.R \
