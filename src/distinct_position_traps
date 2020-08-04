@@ -5,7 +5,7 @@
 data_file=${1}
 src_path=$(dirname "${data_file}")
 table_name=$(basename "${data_file}" .xlsx)
-in2csv --no-header-row --blanks ${data_file} | tail --lines=+2 > ${src_path}/${table_name}.csv
+./src/xlsx_2_csv ${data_file}
 csvsql --snifflimit 0 --no-inference --blanks --query "
   SELECT *
   FROM ${table_name}
@@ -15,4 +15,4 @@ csvsql --snifflimit 0 --no-inference --blanks --query "
     GROUP BY ID
     HAVING COUNT(*) > 1)
   ORDER BY ID
-" ${src_path}/${table_name}.csv 
+" ${src_path}/${table_name}.csv
