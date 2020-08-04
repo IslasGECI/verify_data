@@ -104,10 +104,12 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 clean:
 	rm --recursive --force data/validacion_datapackage/processed
 	rm --recursive --force data/raw/
+	rm --recursive --force data/validacion_datapackage/*.csv
 	rm --recursive --force reports/tables
 	rm --force tests/data/*.*
 	rm --recursive --force tests/bashtest/__pycache__
 	rm --recursive --force *.tmp
+	rm --recursive --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
 
 
 datapackage_data: $(csv_PosicionTrampasGatosDatapackage)
