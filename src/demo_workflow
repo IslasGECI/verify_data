@@ -16,47 +16,46 @@ mkdir ${dest_path} --parents
 # 1. Recibimos los datos
 # 2. Encontrar duplicados
 	echo "BUSCANDO DUPLICADOS"
-	${src_path}/distinct_position_traps ${position_trap_file_name_xlsx} \
-	&& echo "No se encontraron duplicados" || { echo "Se encontraron duplicados"; exit 1; }
+	${src_path}/distinct_position_traps ${position_trap_file_name_xlsx}
+
 
 # 3. Revisar nombres de las columnas
 	echo "REVISANDO EL ENCABEZADO"
-	${src_path}/make_check_header.R --data ${position_trap_data_file}.csv \
-	&& echo "El encabezado es correcto" || { echo "El encabezado es incorrecto"; exit 1; }
+	${src_path}/make_check_header.R --data ${position_trap_data_file}.csv
+
 # 4. Validacion con datapackage
     #Cambiamos el encabezado del archivo CSV para correr en la carpeta 'validacion_datapackage' el goodtables
 	${src_path}/change_header ${position_trap_data_file}.csv \
 		> ${dtp_src}/${datapackage_validation_file}.csv
 	# Corre goodtables en la carpeta 'validacion_datapackage'
 	echo "VERIFICACIÓN ESTRUCTURAL"
-	goodtables ${dtp_src}/datapackage.json \
-	&& echo "La estructura del archivo es correcta" \
-		|| { echo "La estructura del archivo es incorrecta"; exit 1; }
+	goodtables ${dtp_src}/datapackage.json
 
 
 # Revisa y compara las capturas de los archivos posición trampas y morfometría gatos
 # 5. Hacerlos tidy (feature/agrega_script_con_cli)
+	echo "CONVIERTE TABLA A FORMATO TIDY Y CAMBIA FORMATO DE FECHA"
 	src/make_table_tidy.R \
 		--data ${position_trap_data_file}.csv \
 		--salida ${position_trap_data_file}_tidy.csv \
-	&& cambia_formato_fecha ${position_trap_data_file}_tidy.csv > ${position_trap_data_file}.csv \
-	&& echo "La formateada del archivo es correcta" \
-		|| { echo "El formato del archivo no se realizó correctamente"; exit 1; }
+	&& cambia_formato_fecha ${position_trap_data_file}_tidy.csv \
+		> ${position_trap_data_file}.csv
+
 # 6. Limpiar archivos
 # 6.1 Morfometría
 # Convierte archivo de morfometría_gatos de xslx a csv
+	echo "CONVIERTE ARCHIVO DE MORFOMETRIA DE XLSX A CSV"
 	./src/xlsx_2_csv ${cat_morphometry_file_name_xlsx} \
-	&& cambia_formato_fecha ${cat_morphometry_file_name}.csv > basurita.csv
-	&& echo "El archivo de datos de morfometría se convirió a CSV" \
-	|| { echo "El archivo de datos de morfometría NO se convirió a CSV"; exit 1; }
+	&& cambia_formato_fecha ${cat_morphometry_data_file}.csv \
+		> ${cat_morphometry_data_file}_ISO8601.csv
 
 # Tiene que ser la salida de la funcion cambia formato_fecha (ISO8601)
 	src/clean_morphometry.R \
-    	--data=data/raw/morfometria_gatos_erradicacion_isla_guadalupe_ISO8601.csv \
+    	--data=${cat_morphometry_data_file}_ISO8601.csv \
     	--out=reports/tables/cleaned_morphometry_cats.csv
 # 6.2 Posición trampa
 	src/get_captures.R \
-		--data=IG_POSICION_TRAMPAS_10MAY2020_tidy.csv \
+		--data=${position_trap_data_file}.csv \
 		--out=reports/tables/cleaned_position_traps.csv
 # 7. Comparar morfometría con posicion (Capturas que no están en morfometría)
 # 	>$@ Salida estándar
