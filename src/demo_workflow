@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #
 position_trap_file_name_xlsx=${1}
-position_trap_data_path=$(dirname ${position_trap_file_name_xlsx})
+files_path=$(dirname ${position_trap_file_name_xlsx})
 position_trap_file_name=$(basename ${position_trap_file_name_xlsx} .xlsx)
-position_trap_data_file=${position_trap_data_path}/${position_trap_file_name}
+position_trap_data_file=${files_path}/${position_trap_file_name}
 cat_morphometry_file_name_xlsx=${2}
 cat_morphometry_data_path=$(dirname ${cat_morphometry_file_name_xlsx})
 cat_morphometry_file_name=$(basename ${cat_morphometry_file_name_xlsx} .xlsx)
@@ -52,21 +52,21 @@ mkdir ${dest_path} --parents
 # Tiene que ser la salida de la funcion cambia formato_fecha (ISO8601)
 	src/clean_morphometry.R \
     	--data=${cat_morphometry_data_file}_ISO8601.csv \
-    	--out=reports/tables/cleaned_morphometry_cats.csv
+    	--out=${files_path}/cleaned_morphometry_cats.csv
 # 6.2 Posición trampa
 	src/get_captures.R \
 		--data=${position_trap_data_file}.csv \
-		--out=reports/tables/cleaned_position_traps.csv
+		--out=${files_path}/cleaned_position_traps.csv
 # 7. Comparar morfometría con posicion (Capturas que no están en morfometría)
 # 	>$@ Salida estándar
     src/show_diff_morphometry_position.R \
-		--data_1=reports/tables/cleaned_position_traps.csv \
-		--data_2=reports/tables/cleaned_morphometry_cats.csv \
+		--data_1=${files_path}/cleaned_position_traps.csv \
+		--data_2=${files_path}/cleaned_morphometry_cats.csv \
 		> missing_captures_in_position.csv
 # 8. Comparar posicion con morfometría (Capturas que no están en posición)
     src/show_diff_morphometry_position.R \
-		--data_1=reports/tables/cleaned_morphometry_cats.csv \
-        --data_2=reports/tables/cleaned_position_traps.csv \
+		--data_1=${files_path}/cleaned_morphometry_cats.csv \
+        --data_2=${files_path}/cleaned_position_traps.csv \
 		> missing_captures_in_morfometry.csv
 # 9. Consignamos (pre-commit)
 	# El precommit verifica que los archivos missing_captures_in_position.csv y 
