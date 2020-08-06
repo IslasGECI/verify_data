@@ -11,7 +11,7 @@ effort_2_tidy <- function(datos_prueba) {
   ncolumns <- length(filter_table)
   for (i in 2:ncolumns) {
     cats <- which(filter_table[i, ] == "X")
-    if (length(cats) == 1) {
+    if (length(cats) > 0) {
       result <- rbind(result, melt(filter_table[i, ], "ID"))
     }
   }
