@@ -62,12 +62,12 @@ mkdir ${dest_path} --parents
     src/show_diff_morphometry_position.R \
 		--data_1=${files_path}/cleaned_position_traps.csv \
 		--data_2=${files_path}/cleaned_morphometry_cats.csv \
-		> missing_captures_in_position.csv
+		> ${files_path}/missing_captures_in_position.csv
 # 8. Comparar posicion con morfometría (Capturas que no están en posición)
     src/show_diff_morphometry_position.R \
 		--data_1=${files_path}/cleaned_morphometry_cats.csv \
         --data_2=${files_path}/cleaned_position_traps.csv \
-		> missing_captures_in_morfometry.csv
+		> ${files_path}/missing_captures_in_morfometry.csv
 # 9. Consignamos (pre-commit)
 	# El precommit verifica que los archivos missing_captures_in_position.csv y 
 	# missing_captures_in_morfometry estén vacios para poder consignar IG_POSICION_TRAMPAS_10MAY2020.csv
