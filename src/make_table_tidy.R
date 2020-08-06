@@ -6,6 +6,7 @@
 library(tidyverse)
 library(optparse)
 library(diferenciasMorfometriaPosicionTrampas)
+library(reshape2)
 
 # Sección de la CLI
 listaOpciones = list(
