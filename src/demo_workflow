@@ -39,7 +39,7 @@ mkdir ${dest_path} --parents
 		--data ${position_trap_data_file}.csv \
 		--salida ${position_trap_data_file}_tidy.csv \
 	&& cambia_formato_fecha ${position_trap_data_file}_tidy.csv \
-		> ${position_trap_data_file}.csv
+		> ${position_trap_data_file}_ISO8601.csv
 
 # 6. Limpiar archivos
 # 6.1 Morfometría
@@ -50,12 +50,14 @@ mkdir ${dest_path} --parents
 		> ${cat_morphometry_data_file}_ISO8601.csv
 
 # Tiene que ser la salida de la funcion cambia formato_fecha (ISO8601)
+	echo "SELECCIONA CAPTURAS DEL ARCHIVO MORFOMETRÍA GATOS"
 	src/clean_morphometry.R \
     	--data=${cat_morphometry_data_file}_ISO8601.csv \
     	--out=${files_path}/cleaned_morphometry_cats.csv
 # 6.2 Posición trampa
+	echo "SELECCIONA CAPTURAS DEL ARCHIVO POSICIÓN TRAMPAS"
 	src/get_captures.R \
-		--data=${position_trap_data_file}.csv \
+		--data=${position_trap_data_file}_ISO8601.csv \
 		--out=${files_path}/cleaned_position_traps.csv
 # 7. Comparar morfometría con posicion (Capturas que no están en morfometría)
 # 	>$@ Salida estándar
