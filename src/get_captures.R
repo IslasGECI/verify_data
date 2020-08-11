@@ -28,6 +28,5 @@ opt = parse_args(opt_parser);
 input_file <- opt$data
 posicion_trampas <- read_csv(input_file)
 capturas_posicion_trampa <- posicion_trampas %>% filter(Estado_trampa == "X")
-names(capturas_posicion_trampa) <- c("Fecha","ID_de_trampa","Estado_trampa")
 output_file <- opt$out
 write_csv(capturas_posicion_trampa, output_file)
