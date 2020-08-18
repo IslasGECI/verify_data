@@ -1,6 +1,3 @@
-#!/usr/bin/env Rscript
-#
-# 
 library(tidyverse)
 library(reshape2)
 
@@ -10,9 +7,9 @@ effort_2_tidy <- function(datos_prueba) {
   result <- data.frame()
   nrows <- nrow(filter_table)
   for (i in 1:nrows) {
-    cats <- which(filter_table[i, ] == "X")
+    cats <- which(filter_table[i,] == "X")
     if (length(cats) > 0) {
-      result <- rbind(result, melt(filter_table[i, ], "ID"))
+      result <- rbind(result, melt(filter_table[i,], "ID"))
     }
   }
   names(result) <- c("ID_de_trampa", "Fecha", "Estado_trampa")
@@ -23,4 +20,3 @@ effort_2_tidy <- function(datos_prueba) {
     return("no hay capturas")
   }
 }
-
