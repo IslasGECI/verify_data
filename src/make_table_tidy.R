@@ -28,8 +28,7 @@ option_list = list(
 opt_parser <- OptionParser(option_list = option_list)
 options <- parse_args(opt_parser)
 data <- read_csv(options$data)
-differences <-
-  diferenciasMorfometriaPosicionTrampas::effort_2_tidy(data)
+differences <- diferenciasMorfometriaPosicionTrampas::effort_2_tidy(data)
 output_file <- options$salida
 write_csv(differences, output_file)
 cat(format_csv(differences))

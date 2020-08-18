@@ -27,6 +27,5 @@ opt_parser <- OptionParser(option_list = option_list)
 options <- parse_args(opt_parser)
 data_1 <- read_csv(options$data_1)
 data_2 <- read_csv(options$data_2)
-differences <-
-  anti_join(data_1, data_2, by = c("Fecha", "ID_de_trampa"))
+differences <- anti_join(data_1, data_2, by = c("Fecha", "ID_de_trampa"))
 write.table(differences, stdout(), sep = ",", row.names = FALSE)
