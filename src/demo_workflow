@@ -13,7 +13,7 @@ dtp_src="data/validacion_datapackage"
 src_path="src"
 
 # Revisión estructural de la tabla posición trampa
-# 1. Recibimos los datos
+# 1. Convertir archivos XLSX a CSV
 # 2. Encontrar duplicados
 	echo "BUSCANDO DUPLICADOS"
 	${src_path}/distinct_position_traps ${position_trap_file_name_xlsx} > demo_workflow.log 2>&1
@@ -29,7 +29,7 @@ src_path="src"
 	${src_path}/make_check_header.R --data ${position_trap_data_file}.csv
 
 # 4. Validacion con datapackage
-    #Cambiamos el encabezado del archivo CSV para correr en la carpeta 'validacion_datapackage' el goodtables
+	#Cambiamos el encabezado del archivo CSV para correr en la carpeta 'validacion_datapackage' el goodtables
 	${src_path}/change_header ${position_trap_data_file}.csv \
 		> ${dtp_src}/${datapackage_validation_file}.csv
 	# Corre goodtables en la carpeta 'validacion_datapackage'
@@ -59,28 +59,24 @@ src_path="src"
 	src/clean_morphometry.R \
     	--data=${cat_morphometry_data_file}_ISO8601.csv \
     	--out=${files_path}/cleaned_morphometry_cats.csv
+
 # 6.2 Posición trampa
 	echo "SELECCIONA CAPTURAS DEL ARCHIVO POSICIÓN TRAMPAS"
 	src/get_captures.R \
 		--data=${position_trap_data_file}_ISO8601.csv \
 		--out=${files_path}/cleaned_position_traps.csv
+
 # 7. Comparar morfometría con posicion (Capturas que no están en morfometría)
 # 	>$@ Salida estándar
-    src/show_diff_morphometry_position.R \
+	echo "LAS CAPTURAS FALTANTES EN EL ARCHIVO DE MORFOMETRÍA ESTÁN EN EL ARCHIVO missing_captures_in_morphometry"
+	src/show_diff_morphometry_position.R \
 		--data_1=${files_path}/cleaned_position_traps.csv \
 		--data_2=${files_path}/cleaned_morphometry_cats.csv \
-		> ${files_path}/missing_captures_in_position.csv
+		> ${files_path}/missing_captures_in_morphometry.csv
+
 # 8. Comparar posicion con morfometría (Capturas que no están en posición)
-    src/show_diff_morphometry_position.R \
+	echo "LAS CAPTURAS FALTANTES EN EL ARCHIVO DE MORFOMETRÍA ESTÁN EN EL ARCHIVO missing_captures_in_morphometry"
+	src/show_diff_morphometry_position.R \
 		--data_1=${files_path}/cleaned_morphometry_cats.csv \
-        --data_2=${files_path}/cleaned_position_traps.csv \
-		> ${files_path}/missing_captures_in_morfometry.csv
-# 9. Consignamos (pre-commit)
-	# El precommit verifica que los archivos missing_captures_in_position.csv y 
-	# missing_captures_in_morfometry estén vacios para poder consignar IG_POSICION_TRAMPAS_10MAY2020.csv
-
-# 10. Query para separar por zonas
-
-# 11. Sacamos resumen
-
-# 12. Agregar resumen semanal a base de datos mayor
+		--data_2=${files_path}/cleaned_position_traps.csv \
+		> ${files_path}/missing_captures_in_position.csv
