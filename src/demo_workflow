@@ -16,14 +16,15 @@ src_path="src"
 # 1. Convertir archivos XLSX a CSV
 # 2. Encontrar duplicados
 	echo "BUSCANDO DUPLICADOS"
-	${src_path}/distinct_position_traps ${position_trap_file_name_xlsx} > demo_workflow.log 2>&1
-	n_lines=$(wc --lines demo_workflow.log | cut --fields=1 --delimiter=" ")
-	if [ ${n_lines} -gt 2 ]
-	then
-	  echo "Encontramos duplicados"
-	  exit 1
-	fi
-	exit 0
+	${src_path}/distinct_position_traps ${position_trap_file_name_xlsx} 
+	#> demo_workflow.log 2>&1
+	#n_lines=$(wc --lines demo_workflow.log | cut --fields=1 --delimiter=" ")
+	#if [ ${n_lines} -gt 2 ]
+	#then
+	#  echo "Encontramos duplicados"
+	#  exit 1
+	#fi
+	#exit 0
 # 3. Revisar nombres de las columnas
 	echo "REVISANDO EL ENCABEZADO"
 	${src_path}/make_check_header.R --data ${position_trap_data_file}.csv
