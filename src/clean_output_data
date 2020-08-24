@@ -4,3 +4,4 @@
 # 
 folder_path=${1}
 rm --recursive --force ${folder_path}/*.csv
+rm --recursive --force ${folder_path}/errores

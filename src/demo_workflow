@@ -40,7 +40,6 @@ errors_directory=${files_path}/errores
 	# Corre goodtables en la carpeta 'validacion_datapackage'
 	echo "VERIFICACIÓN ESTRUCTURAL"
 	goodtables ${dtp_src}/datapackage.json > ${errors_directory}/errores_estructurales.csv
-	exit 0
 
 # Revisa y compara las capturas de los archivos posición trampas y morfometría gatos
 # 5. Hacerlos tidy (feature/agrega_script_con_cli)
@@ -77,11 +76,11 @@ errors_directory=${files_path}/errores
 	src/show_diff_morphometry_position.R \
 		--data_1=${files_path}/cleaned_position_traps.csv \
 		--data_2=${files_path}/cleaned_morphometry_cats.csv \
-		> ${files_path}/missing_captures_in_morphometry.csv
+		> ${errors_directory}/missing_captures_in_morphometry.csv
 
 # 8. Comparar posicion con morfometría (Capturas que no están en posición)
 	echo "LAS CAPTURAS FALTANTES EN EL ARCHIVO DE MORFOMETRÍA ESTÁN EN EL ARCHIVO missing_captures_in_morphometry"
 	src/show_diff_morphometry_position.R \
 		--data_1=${files_path}/cleaned_morphometry_cats.csv \
 		--data_2=${files_path}/cleaned_position_traps.csv \
-		> ${files_path}/missing_captures_in_position.csv
+		> ${errors_directory}/missing_captures_in_position.csv
