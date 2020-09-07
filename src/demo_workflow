@@ -39,7 +39,7 @@ errors_directory=${files_path}/errores
 		> ${dtp_src}/${datapackage_validation_file}.csv
 	# Corre goodtables en la carpeta 'validacion_datapackage'
 	echo "VERIFICACIÓN ESTRUCTURAL"
-	goodtables ${dtp_src}/datapackage.json > ${errors_directory}/errores_estructurales.csv
+	goodtables ${dtp_src}/datapackage.json > ${errors_directory}/errores_estructurales_${position_trap_file_name}.txt
 
 # Revisa y compara las capturas de los archivos posición trampas y morfometría gatos
 # 5. Hacerlos tidy (feature/agrega_script_con_cli)
