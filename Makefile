@@ -104,19 +104,22 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 clean:
 	rm --recursive --force data/validacion_datapackage/processed
 	rm --recursive --force data/raw/
+	rm --recursive --force data/validacion_datapackage/*.csv
 	rm --recursive --force reports/tables
 	rm --force tests/data/*.*
 	rm --recursive --force tests/bashtest/__pycache__
 	rm --recursive --force *.tmp
+	rm --recursive --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
 
 
 datapackage_data: $(csv_PosicionTrampasGatosDatapackage)
 tests_data: $(xlsxIgPosicionTrampas10May2020)
 	./src/distinct_position_traps $<
 
-tests: install tests_data
-	pytest --verbose
+tests: install tests_data $(csvRepeatedDataTest)
+	pytest --verbose tests/bashtest/
 	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
+	pytest --verbose tests/pytest/
 
 install:
 	R CMD build diferenciasMorfometriaPosicionTrampas

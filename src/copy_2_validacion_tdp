@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-#
-# correr goodtables datapackage.json
-dest_path=data/validacion_datapackage
-mkdir ${dest_path} --parents
-position_traps_data_file=${1}
-file_name=$(basename "${position_traps_data_file}")
-src_path=$(dirname "${position_traps_data_file}")
-cp ${position_traps_data_file} ${src_path} ${dest_path}
