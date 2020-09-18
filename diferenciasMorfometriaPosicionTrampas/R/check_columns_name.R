@@ -12,7 +12,7 @@ check_columns_name <- function(data) {
   }
   table <- cbind(melt(names(data)), melt(table))
   names(table) <- c("columna", "es_correcto")
-  table <- as.tbl(table)
+  table <- tibble::as_tibble(table)
   table$columna <- as.character(table$columna)
   return(table)
 }
