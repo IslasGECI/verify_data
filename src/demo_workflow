@@ -34,7 +34,7 @@ errors_directory=${files_path}/errores
 	${src_path}/make_check_header.R --data ${position_trap_data_file}.csv
 
 # 3.1 Revisar intervalo de fechas
-	src/check_date_interval --input "${files_path}" --input "${position_trap_file_name}"
+	python -m src.check_date_interval --input "${files_path}" --input "${position_trap_file_name}"
 	exit 0
 
 # 4. Validacion con datapackage
