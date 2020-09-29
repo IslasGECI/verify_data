@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#
+# Corre 'demo_workflow' dentro de un contenedor tomando como argumento de entrada la fecha.
+date=${1}
+data_path="/workdir/data"
+position_traps_file="IG_POSICION_TRAMPAS_${date}.xlsx"
+morphometry_traps_file="IG_MORFOMETRIA_GATOS_${date}.xlsx"
+
+docker run --rm --volume ${PWD}:/workdir/data islasgeci/diferencias_morfometria_posicion_trampas bash -c "/workdir/src/demo_workflow ${data_path}/${position_traps_file} ${data_path}/${morphometry_traps_file}"
