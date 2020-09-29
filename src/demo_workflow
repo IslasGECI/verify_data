@@ -14,28 +14,18 @@ src_path="src"
 mkdir -p ${files_path}/errores
 errors_directory=${files_path}/errores
 
-
-
 # Revisión estructural de la tabla posición trampa
 # 1. Convertir archivos XLSX a CSV
 # 2. Encontrar duplicados
 	echo "BUSCANDO DUPLICADOS"
 	${src_path}/distinct_position_traps ${position_trap_file_name_xlsx} > ${errors_directory}/duplicados_${position_trap_file_name}.csv
-	#> demo_workflow.log 2>&1
-	#n_lines=$(wc --lines demo_workflow.log | cut --fields=1 --delimiter=" ")
-	#if [ ${n_lines} -gt 2 ]
-	#then
-	#  echo "Encontramos duplicados"
-	#  exit 1
-	#fi
-	#exit 0
+
 # 3. Revisar nombres de las columnas
 	echo "REVISANDO EL ENCABEZADO"
 	${src_path}/make_check_header.R --data ${position_trap_data_file}.csv
 
 # 3.1 Revisar intervalo de fechas
-	src/check_date_interval --input "${files_path}" --input "${position_trap_file_name}"
-	exit 0
+	python -m src.check_date_interval --input "${files_path}" --input "${position_trap_file_name}"
 
 # 4. Validacion con datapackage
 	#Cambiamos el encabezado del archivo CSV para correr en la carpeta 'validacion_datapackage' el goodtables
@@ -75,7 +65,6 @@ errors_directory=${files_path}/errores
 		--out=${files_path}/cleaned_position_traps.csv
 
 # 7. Comparar morfometría con posicion (Capturas que no están en morfometría)
-# 	>$@ Salida estándar
 	echo "LAS CAPTURAS FALTANTES EN EL ARCHIVO DE MORFOMETRÍA ESTÁN EN EL ARCHIVO missing_captures_in_morphometry"
 	src/show_diff_morphometry_position.R \
 		--data_1=${files_path}/cleaned_position_traps.csv \
