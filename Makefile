@@ -122,5 +122,4 @@ tests: install tests_data $(csvRepeatedDataTest)
 	pytest --verbose tests/pytest/
 
 install:
-	R CMD build diferenciasMorfometriaPosicionTrampas
-	R CMD INSTALL diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
+	# Este install sebe ser para correr 'checa_datos' localmente.
