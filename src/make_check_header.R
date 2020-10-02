@@ -8,7 +8,7 @@ library(diferenciasMorfometriaPosicionTrampas)
 library(reshape2)
 
 # Sección de la CLI
-option_list = list(
+option_list <- list(
   make_option(
     c("-d", "--data"),
     default = NULL,
@@ -24,6 +24,6 @@ data <- readr::read_csv(input_file)
 table <- diferenciasMorfometriaPosicionTrampas::check_columns_name(data)
 if (all(table$es_correcto)) {
   print("La cabecera es correcta")
-} else{
+} else {
   print(table)
 }

@@ -1,12 +1,12 @@
 #!/usr/bin/env Rscript
 #
-# Hace el análisis exploratorio de datos de roedores 
+# Hace el análisis exploratorio de datos de roedores
 
 # Librarias necesarias
 library(optparse)
 library(tidyverse)
 
-option_list = list(
+option_list <- list(
   make_option(
     c("-d", "--data"),
     type = "character",
@@ -22,8 +22,8 @@ option_list = list(
     metavar = "character"
   )
 )
-opt_parser = OptionParser(option_list = option_list)
-options = parse_args(opt_parser)
+opt_parser <- OptionParser(option_list = option_list)
+options <- parse_args(opt_parser)
 input_file <- options$data
 morphometry <- read_csv(input_file)
 clean_morphometry <- morphometry %>% filter(Fecha > as.Date("2018-04-23"))

@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 #
-# Convierte datos a tabla tidy 
+# Convierte datos a tabla tidy
 # Librarias necesarias
 
 library(tidyverse)
@@ -9,7 +9,7 @@ library(diferenciasMorfometriaPosicionTrampas)
 library(reshape2)
 
 # Sección de la CLI
-option_list = list(
+option_list <- list(
   make_option(
     c("-d", "--data"),
     default = NULL,
