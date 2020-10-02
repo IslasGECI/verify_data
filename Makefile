@@ -1,7 +1,8 @@
-.PHONY: tests tests_data install
+.PHONY: install format style tests tests_data
 # I. Definición del _phony_ *all* que enlista todos los objetivos principales
 # ===========================================================================
-all: install tests 
+all: install tests
+
 
 define checkDirectories
 if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
@@ -111,6 +112,33 @@ clean:
 	rm --recursive --force *.tmp
 	rm --recursive --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
 
+format:
+	black --check --line-length 100 \
+		date_interval_tools/date_interval_tools.py \
+		src/check_date_interval.py \
+		tests/bashtest/bashtest.py \
+		tests/bashtest/test_check_columns_names.py \
+		tests/bashtest/test_clean_morphometry.py \
+		tests/bashtest/test_distinct_position_traps.py \
+		tests/bashtest/test_get_captures.py \
+		tests/bashtest/test_show_diff_morphometry_position.py \
+		tests/pytest/test_date_ranges.py
+
+style:
+	R -e "library(styler)" \
+	  -e "style_dir('diferenciasMorfometriaPosicionTrampas')" \
+	  -e "style_dir('src')" \
+	  -e "style_dir('tests')"
+	black --line-length 100 \
+		date_interval_tools/date_interval_tools.py \
+		src/check_date_interval.py \
+		tests/bashtest/bashtest.py \
+		tests/bashtest/test_check_columns_names.py \
+		tests/bashtest/test_clean_morphometry.py \
+		tests/bashtest/test_distinct_position_traps.py \
+		tests/bashtest/test_get_captures.py \
+		tests/bashtest/test_show_diff_morphometry_position.py \
+		tests/pytest/test_date_ranges.py
 
 datapackage_data: $(csv_PosicionTrampasGatosDatapackage)
 tests_data: $(xlsxIgPosicionTrampas10May2020)
