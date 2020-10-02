@@ -126,9 +126,9 @@ format:
 
 style:
 	R -e "library(styler)" \
-	  -e "style_dir('diferenciasMorfometriaPosicionTrampas')" \
-	  -e "style_dir('src')" \
-	  -e "style_dir('tests')"
+	  -e "style_dir('diferenciasMorfometriaPosicionTrampas', indent_by = 4)" \
+	  -e "style_dir('src', indent_by = 4)" \
+	  -e "style_dir('tests', indent_by = 4)"
 	black --line-length 100 \
 		date_interval_tools/date_interval_tools.py \
 		src/check_date_interval.py \
