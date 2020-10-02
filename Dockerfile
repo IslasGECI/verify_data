@@ -1,6 +1,6 @@
 FROM islasgeci/base:13fe
 COPY . /workdir
-RUN R -e "install.packages(c('devtools','optparse','testthat'), repos = 'http://cran.rstudio.com')"
+RUN R -e "install.packages(c('devtools', 'optparse', 'styler', 'testthat'), repos = 'http://cran.rstudio.com')"
 RUN R -e "devtools::install_github('klutometis/roxygen', upgrade = FALSE)"
 RUN pip install \
     black \
