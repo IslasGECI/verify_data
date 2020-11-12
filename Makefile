@@ -148,6 +148,3 @@ tests: install tests_data $(csvRepeatedDataTest)
 	pytest --verbose tests/bashtest/
 	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
 	pytest --verbose tests/pytest/
-
-install:
-	# Este install sebe ser para correr 'checa_datos' localmente.
