@@ -1,13 +1,13 @@
 #!/usr/bin/env Rscript
 #
-# Hace el análisis exploratorio de datos de roedores 
+# Hace el análisis exploratorio de datos de roedores
 
 # Librarias necesarias
 library(tidyverse)
 library(optparse)
 
 # Sección de la CLI
-option_list = list(
+option_list <- list(
   make_option(
     c("-f", "--data_1"),
     default = NULL,
