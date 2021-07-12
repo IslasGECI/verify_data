@@ -13,8 +13,12 @@ def test_change_date_format():
     expected_EN_date = "31/Aug/2020"
     expected_GECI_date = "31/Ago/2020"
     date_from_filename = date_interval_tools.date_from_filename(name_file)
-    obtained_EN_date = date_interval_tools.change_date_format(date_from_filename, format="EN")
-    obtained_GECI_date = date_interval_tools.change_date_format(obtained_EN_date, format="GECI")
+    obtained_EN_date = date_interval_tools.change_date_format(
+        date_from_filename, format="EN"
+    )
+    obtained_GECI_date = date_interval_tools.change_date_format(
+        obtained_EN_date, format="GECI"
+    )
     np.testing.assert_array_equal(expected_EN_date, obtained_EN_date)
     np.testing.assert_array_equal(expected_GECI_date, obtained_GECI_date)
 
@@ -30,7 +34,9 @@ def test_expected_date_interval():
         "30/Aug/2020",
         "31/Aug/2020",
     ]
-    obtained_EN_date_interval = date_interval_tools.expected_date_interval(date_in_filename)
+    obtained_EN_date_interval = date_interval_tools.expected_date_interval(
+        date_in_filename
+    )
     np.testing.assert_array_equal(expected_EN_date_interval, obtained_EN_date_interval)
 
 
@@ -53,8 +59,12 @@ def test_change_date_array_format():
         "30/Aug/2020",
         "31/Aug/2020",
     ]
-    obtained_GECI_date_interval = date_interval_tools.change_date_array_format(EN_date_interval)
-    np.testing.assert_array_equal(obtained_GECI_date_interval, expected_GECI_date_interval)
+    obtained_GECI_date_interval = date_interval_tools.change_date_array_format(
+        EN_date_interval
+    )
+    np.testing.assert_array_equal(
+        obtained_GECI_date_interval, expected_GECI_date_interval
+    )
 
 
 def test_obtained_date_interval():
@@ -69,5 +79,7 @@ def test_obtained_date_interval():
         "09/May/2020",
         "10/May/2020",
     ]
-    obtained_date_interval = date_interval_tools.obtained_date_interval(file_path, filename)
+    obtained_date_interval = date_interval_tools.obtained_date_interval(
+        file_path, filename
+    )
     np.testing.assert_array_equal(obtained_date_interval, expected_date_interval)
