@@ -132,15 +132,13 @@ coverage: install
 	codecov --token=${codecov_token}
 
 format:
+	black --line-length 100 ${module}
+	black --line-length 100 src
+	black --line-length 100 tests
 	R -e "library(styler)" \
 	  -e "style_dir('diferenciasMorfometriaPosicionTrampas')" \
 	  -e "style_dir('src')" \
 	  -e "style_dir('tests')"
-	black --line-length 100 \
-		date_interval_tools \
-		src \
-		tests/bashtest \
-		tests/pytest
 
 install:
 	pip install .
