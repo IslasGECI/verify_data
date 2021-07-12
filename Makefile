@@ -140,7 +140,7 @@ clean:
 module = date_interval_tools
 codecov_token = 17875b5e-e175-46f0-b473-ba3fcfe79c6e
 
-coverage: install
+coverage: install tests_data $(csvRepeatedDataTest)
 	pytest --cov=${module} --cov-report=xml --verbose && \
 	codecov --token=${codecov_token}
 
@@ -163,7 +163,7 @@ linter:
 	$(call lint, src)
 	$(call lint, tests)
 
-mutants: install
+mutants: install tests_data $(csvRepeatedDataTest)
 	mutmut run --paths-to-mutate ${module}
 
 tests: install tests_data $(csvRepeatedDataTest)
