@@ -54,11 +54,11 @@ csvMissingMorfometry = \
 # ==========================================================================
 $(csvMorfometriaGatos):
 	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
-	descarga_datos $(@F) $(@D)
+	descarga_datos $(@F) $(@D) morfometria_gatos_erradicacion_isla_guadalupe
 
 $(csvPosicionTrampas):
 	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
-	descarga_datos $(@F) $(@D)
+	descarga_datos $(@F) $(@D) posicion_trampas_gatos_isla_guadalupe
 
 $(csvMorfometriaGatosISO8601): $(csvMorfometriaGatos)
 	$(checkDirectories)
@@ -78,7 +78,7 @@ $(csvCleanedPositionTraps): $(csvPosicionTrampas) src/get_captures.R
 
 $(xlsxIgPosicionTrampas10May2020):
 	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
-	descarga_datos $(@F) $(@D)
+	descarga_datos $(@F) $(@D) excel/gatos_ig_data_test
 
 $(csvMissingPosition): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps) src/show_diff_morphometry_position.R
 	src/show_diff_morphometry_position.R \
