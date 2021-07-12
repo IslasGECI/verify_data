@@ -109,6 +109,15 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 		tests \
 		tests_data
 
+define lint
+	pylint \
+        --disable=bad-continuation \
+        --disable=missing-class-docstring \
+        --disable=missing-function-docstring \
+        --disable=missing-module-docstring \
+        ${1}
+endef
+
 check:
 	black --check --line-length 100 ${module}
 	black --check --line-length 100 src
@@ -147,6 +156,11 @@ install:
 	pip install .
 	R CMD build diferenciasMorfometriaPosicionTrampas && \
 	R CMD INSTALL diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
+
+linter:
+	$(call lint, ${module})
+	$(call lint, src)
+	$(call lint, tests)
 
 mutants:
 	mutmut run --paths-to-mutate ${module}
