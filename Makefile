@@ -1,7 +1,4 @@
-.PHONY: install format style tests tests_data
-# I. Definición del _phony_ *all* que enlista todos los objetivos principales
-# ===========================================================================
-all: install tests
+all: tests
 
 
 define checkDirectories
@@ -54,11 +51,11 @@ csvMissingMorfometry = \
 # ==========================================================================
 $(csvMorfometriaGatos):
 	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
-	descarga_datos $(@F) $(@D)
+	descarga_datos $(@F) $(@D) morfometria_gatos_erradicacion_isla_guadalupe
 
 $(csvPosicionTrampas):
 	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
-	descarga_datos $(@F) $(@D)
+	descarga_datos $(@F) $(@D) posicion_trampas_gatos_isla_guadalupe
 
 $(csvMorfometriaGatosISO8601): $(csvMorfometriaGatos)
 	$(checkDirectories)
@@ -78,7 +75,7 @@ $(csvCleanedPositionTraps): $(csvPosicionTrampas) src/get_captures.R
 
 $(xlsxIgPosicionTrampas10May2020):
 	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
-	descarga_datos $(@F) $(@D)
+	descarga_datos $(@F) $(@D) excel/gatos_ig_data_test
 
 $(csvMissingPosition): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps) src/show_diff_morphometry_position.R
 	src/show_diff_morphometry_position.R \
@@ -102,49 +99,77 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 
 # V. Reglas del resto de los phonies
 # ===========================================================================
+.PHONY: \
+		check \
+		clean \
+		coverage \
+		format \
+		install \
+		linter \
+		mutants \
+		tests \
+		tests_data
+
+define lint
+	pylint \
+        --disable=bad-continuation \
+        --disable=missing-class-docstring \
+        --disable=missing-function-docstring \
+        --disable=missing-module-docstring \
+        ${1}
+endef
+
+check:
+	black --check --line-length 100 ${module}
+	black --check --line-length 100 src
+	black --check --line-length 100 tests
+	flake8 --max-line-length 100 ${module}
+	flake8 --max-line-length 100 src
+	flake8 --max-line-length 100 tests
+
 clean:
-	rm --recursive --force data/validacion_datapackage/processed
-	rm --recursive --force data/raw/
-	rm --recursive --force data/validacion_datapackage/*.csv
-	rm --recursive --force reports/tables
-	rm --force tests/data/*.*
-	rm --recursive --force tests/bashtest/__pycache__
-	rm --recursive --force *.tmp
-	rm --recursive --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
+	rm --force --recursive data/raw
+	rm --force --recursive data/validacion_datapackage/processed
+	rm --force --recursive reports/tables
+	rm --force --recursive tests/bashtest/__pycache__
+	rm --force --recursive tests/pytest/__pycache__
+	rm --force *.tmp
+	rm --force data/validacion_datapackage/*.csv
+	rm --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
+
+module = date_interval_tools
+codecov_token = 17875b5e-e175-46f0-b473-ba3fcfe79c6e
+
+coverage: install tests_data $(csvRepeatedDataTest)
+	pytest --cov=${module} --cov-report=xml --verbose && \
+	codecov --token=${codecov_token}
 
 format:
-	black --check --line-length 100 \
-		date_interval_tools/date_interval_tools.py \
-		src/check_date_interval.py \
-		tests/bashtest/bashtest.py \
-		tests/bashtest/test_check_columns_names.py \
-		tests/bashtest/test_clean_morphometry.py \
-		tests/bashtest/test_distinct_position_traps.py \
-		tests/bashtest/test_get_captures.py \
-		tests/bashtest/test_show_diff_morphometry_position.py \
-		tests/pytest/test_date_ranges.py
-
-style:
+	black --line-length 100 ${module}
+	black --line-length 100 src
+	black --line-length 100 tests
 	R -e "library(styler)" \
 	  -e "style_dir('diferenciasMorfometriaPosicionTrampas')" \
 	  -e "style_dir('src')" \
 	  -e "style_dir('tests')"
-	black --line-length 100 \
-		date_interval_tools/date_interval_tools.py \
-		src/check_date_interval.py \
-		tests/bashtest/bashtest.py \
-		tests/bashtest/test_check_columns_names.py \
-		tests/bashtest/test_clean_morphometry.py \
-		tests/bashtest/test_distinct_position_traps.py \
-		tests/bashtest/test_get_captures.py \
-		tests/bashtest/test_show_diff_morphometry_position.py \
-		tests/pytest/test_date_ranges.py
 
-datapackage_data: $(csv_PosicionTrampasGatosDatapackage)
-tests_data: $(xlsxIgPosicionTrampas10May2020)
-	./src/distinct_position_traps $<
+install:
+	pip install .
+	R CMD build diferenciasMorfometriaPosicionTrampas && \
+	R CMD INSTALL diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
+
+linter:
+	$(call lint, ${module})
+	$(call lint, src)
+	$(call lint, tests)
+
+mutants: install tests_data $(csvRepeatedDataTest)
+	mutmut run --paths-to-mutate ${module}
 
 tests: install tests_data $(csvRepeatedDataTest)
 	pytest --verbose tests/bashtest/
-	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
 	pytest --verbose tests/pytest/
+	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
+
+tests_data: $(xlsxIgPosicionTrampas10May2020)
+	./src/distinct_position_traps $<

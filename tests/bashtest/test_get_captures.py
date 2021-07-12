@@ -1,5 +1,5 @@
 import subprocess
-from bashtest import *
+from bashtest import assert_equal_file, set_tests_from_make
 
 
 def test_get_captures():
@@ -10,5 +10,5 @@ def test_get_captures():
 
 
 def set_get_captures():
-    bash_command = f"make reports/tables/cleaned_position_traps.csv"
+    bash_command = "make reports/tables/cleaned_position_traps.csv"
     subprocess.getoutput(bash_command)

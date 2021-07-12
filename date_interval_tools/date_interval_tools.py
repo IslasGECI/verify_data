@@ -53,7 +53,11 @@ def expected_date_interval(date_in_filename):
 def obtained_date_interval(file_path, filename):
     columnas = [4, 5, 6, 7, 8, 9, 10]
     return np.loadtxt(
-        file_path + "/" + filename + ".csv", usecols=columnas, delimiter=",", dtype=str, max_rows=1
+        file_path + "/" + filename + ".csv",
+        usecols=columnas,
+        delimiter=",",
+        dtype=str,
+        max_rows=1,
     )
 
 
