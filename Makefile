@@ -110,16 +110,9 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 		tests_data
 
 check:
-	black --check --line-length 100 \
-		date_interval_tools/date_interval_tools.py \
-		src/check_date_interval.py \
-		tests/bashtest/bashtest.py \
-		tests/bashtest/test_check_columns_names.py \
-		tests/bashtest/test_clean_morphometry.py \
-		tests/bashtest/test_distinct_position_traps.py \
-		tests/bashtest/test_get_captures.py \
-		tests/bashtest/test_show_diff_morphometry_position.py \
-		tests/pytest/test_date_ranges.py
+	black --check --line-length 100 ${module}
+	black --check --line-length 100 src
+	black --check --line-length 100 tests
 
 clean:
 	rm --force --recursive data/raw
