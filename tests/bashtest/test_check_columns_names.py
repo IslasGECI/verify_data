@@ -1,5 +1,5 @@
 import subprocess
-from bashtest import assert_equal_file, set_tests_from_make
+from bashtest import assert_equal_file
 
 
 def test_check_columns_name():

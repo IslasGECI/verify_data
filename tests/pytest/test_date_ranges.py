@@ -1,4 +1,5 @@
-from date_interval_tools import *
+import numpy as np
+from date_interval_tools import *  # noqa
 
 name_file = "IG_POSICION_TRAMPAS_31AGO2020.xlsx"
 
