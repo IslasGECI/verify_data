@@ -1,5 +1,5 @@
 import subprocess
-from bashtest import *
+from bashtest import assert_equal_file, set_tests_from_make
 
 
 def test_make_table_tidy():
