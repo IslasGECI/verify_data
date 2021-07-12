@@ -109,10 +109,22 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 		tests \
 		tests_data
 
+define lint
+	pylint \
+        --disable=bad-continuation \
+        --disable=missing-class-docstring \
+        --disable=missing-function-docstring \
+        --disable=missing-module-docstring \
+        ${1}
+endef
+
 check:
 	black --check --line-length 100 ${module}
 	black --check --line-length 100 src
 	black --check --line-length 100 tests
+	flake8 --max-line-length 100 ${module}
+	flake8 --max-line-length 100 src
+	flake8 --max-line-length 100 tests
 
 clean:
 	rm --force --recursive data/raw
@@ -120,8 +132,6 @@ clean:
 	rm --force --recursive reports/tables
 	rm --force --recursive tests/bashtest/__pycache__
 	rm --force --recursive tests/pytest/__pycache__
-	rm --force --recursive tests/__pycache__
-	rm --force --recursive date_interval_tools/__pycache__
 	rm --force *.tmp
 	rm --force data/validacion_datapackage/*.csv
 	rm --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
@@ -146,6 +156,11 @@ install:
 	pip install .
 	R CMD build diferenciasMorfometriaPosicionTrampas && \
 	R CMD INSTALL diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
+
+linter:
+	$(call lint, ${module})
+	$(call lint, src)
+	$(call lint, tests)
 
 mutants: install
 	mutmut run --paths-to-mutate ${module}
