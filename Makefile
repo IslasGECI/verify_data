@@ -151,6 +151,8 @@ format:
 
 install:
 	pip install .
+	R CMD build diferenciasMorfometriaPosicionTrampas && \
+	R CMD INSTALL diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
 
 mutants:
 	mutmut run --paths-to-mutate ${module}
