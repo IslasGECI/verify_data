@@ -11,4 +11,3 @@ RUN pip install \
     pylint \
     pytest \
     pytest-cov
-
