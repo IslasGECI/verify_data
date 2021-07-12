@@ -119,7 +119,7 @@ clean:
 	rm --force --recursive data/validacion_datapackage/processed
 	rm --force --recursive reports/tables
 	rm --force --recursive tests/bashtest/__pycache__
-	rm --force --recursive tests/data
+	rm --force --recursive tests/pytest/__pycache__
 	rm --force *.tmp
 	rm --force data/validacion_datapackage/*.csv
 	rm --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
