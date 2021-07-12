@@ -147,10 +147,10 @@ install:
 	R CMD build diferenciasMorfometriaPosicionTrampas && \
 	R CMD INSTALL diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
 
-mutants:
+mutants: install
 	mutmut run --paths-to-mutate ${module}
 
-tests: tests_data $(csvRepeatedDataTest)
+tests: install tests_data $(csvRepeatedDataTest)
 	pytest --verbose tests/bashtest/
 	pytest --verbose tests/pytest/
 	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
