@@ -1,7 +1,4 @@
-.PHONY: install format style tests tests_data
-# I. Definición del _phony_ *all* que enlista todos los objetivos principales
-# ===========================================================================
-all: install tests
+all: tests
 
 
 define checkDirectories
@@ -102,17 +99,17 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 
 # V. Reglas del resto de los phonies
 # ===========================================================================
-clean:
-	rm --recursive --force data/validacion_datapackage/processed
-	rm --recursive --force data/raw/
-	rm --recursive --force data/validacion_datapackage/*.csv
-	rm --recursive --force reports/tables
-	rm --force tests/data/*.*
-	rm --recursive --force tests/bashtest/__pycache__
-	rm --recursive --force *.tmp
-	rm --recursive --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
+.PHONY: \
+		check \
+		clean \
+		coverage \
+		format \
+		install \
+		mutants \
+		tests \
+		tests_data
 
-format:
+check:
 	black --check --line-length 100 \
 		date_interval_tools/date_interval_tools.py \
 		src/check_date_interval.py \
@@ -124,27 +121,44 @@ format:
 		tests/bashtest/test_show_diff_morphometry_position.py \
 		tests/pytest/test_date_ranges.py
 
-style:
+clean:
+	rm --recursive --force data/validacion_datapackage/processed
+	rm --recursive --force data/raw/
+	rm --recursive --force data/validacion_datapackage/*.csv
+	rm --recursive --force reports/tables
+	rm --force tests/data/*.*
+	rm --recursive --force tests/bashtest/__pycache__
+	rm --recursive --force *.tmp
+	rm --recursive --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
+
+module = date_interval_tools
+codecov_token = 17875b5e-e175-46f0-b473-ba3fcfe79c6e
+
+coverage: install
+	pytest --cov=${module} --cov-report=xml --verbose && \
+	codecov --token=${codecov_token}
+
+
+format:
 	R -e "library(styler)" \
 	  -e "style_dir('diferenciasMorfometriaPosicionTrampas')" \
 	  -e "style_dir('src')" \
 	  -e "style_dir('tests')"
 	black --line-length 100 \
-		date_interval_tools/date_interval_tools.py \
-		src/check_date_interval.py \
-		tests/bashtest/bashtest.py \
-		tests/bashtest/test_check_columns_names.py \
-		tests/bashtest/test_clean_morphometry.py \
-		tests/bashtest/test_distinct_position_traps.py \
-		tests/bashtest/test_get_captures.py \
-		tests/bashtest/test_show_diff_morphometry_position.py \
-		tests/pytest/test_date_ranges.py
+		date_interval_tools \
+		src \
+		tests/bashtest \
+		tests/pytest
 
-datapackage_data: $(csv_PosicionTrampasGatosDatapackage)
-tests_data: $(xlsxIgPosicionTrampas10May2020)
-	./src/distinct_position_traps $<
+install:
+	pip install .
 
-tests: install tests_data $(csvRepeatedDataTest)
+mutants: tests
+
+tests: tests_data $(csvRepeatedDataTest)
 	pytest --verbose tests/bashtest/
 	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
 	pytest --verbose tests/pytest/
+
+tests_data: $(xlsxIgPosicionTrampas10May2020)
+	./src/distinct_position_traps $<
