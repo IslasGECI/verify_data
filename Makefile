@@ -113,6 +113,9 @@ check:
 	black --check --line-length 100 ${module}
 	black --check --line-length 100 src
 	black --check --line-length 100 tests
+	flake8 --max-line-length 100 ${module}
+	flake8 --max-line-length 100 src
+	flake8 --max-line-length 100 tests
 
 clean:
 	rm --force --recursive data/raw
@@ -120,8 +123,6 @@ clean:
 	rm --force --recursive reports/tables
 	rm --force --recursive tests/bashtest/__pycache__
 	rm --force --recursive tests/pytest/__pycache__
-	rm --force --recursive tests/__pycache__
-	rm --force --recursive date_interval_tools/__pycache__
 	rm --force *.tmp
 	rm --force data/validacion_datapackage/*.csv
 	rm --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
