@@ -138,7 +138,6 @@ coverage: install
 	pytest --cov=${module} --cov-report=xml --verbose && \
 	codecov --token=${codecov_token}
 
-
 format:
 	R -e "library(styler)" \
 	  -e "style_dir('diferenciasMorfometriaPosicionTrampas')" \
