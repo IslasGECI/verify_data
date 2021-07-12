@@ -122,14 +122,14 @@ check:
 		tests/pytest/test_date_ranges.py
 
 clean:
-	rm --recursive --force data/validacion_datapackage/processed
-	rm --recursive --force data/raw/
-	rm --recursive --force data/validacion_datapackage/*.csv
-	rm --recursive --force reports/tables
-	rm --force tests/data/*.*
-	rm --recursive --force tests/bashtest/__pycache__
-	rm --recursive --force *.tmp
-	rm --recursive --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
+	rm --force --recursive data/raw
+	rm --force --recursive data/validacion_datapackage/processed
+	rm --force --recursive reports/tables
+	rm --force --recursive tests/bashtest/__pycache__
+	rm --force --recursive tests/data
+	rm --force *.tmp
+	rm --force data/validacion_datapackage/*.csv
+	rm --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
 
 module = date_interval_tools
 codecov_token = 17875b5e-e175-46f0-b473-ba3fcfe79c6e
