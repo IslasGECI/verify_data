@@ -4,4 +4,11 @@ RUN R -e "install.packages(c('devtools', 'optparse', 'reshape2', 'styler'), repo
 RUN R -e "devtools::install_github('klutometis/roxygen', upgrade = FALSE)"
 RUN pip install \
     black \
-    pytest
+    codecov \
+    flake8 \
+    mutmut \
+    mypy \
+    pylint \
+    pytest \
+    pytest-cov
+
