@@ -153,7 +153,8 @@ format:
 install:
 	pip install .
 
-mutants: tests
+mutants:
+	mutmut run --paths-to-mutate ${module}
 
 tests: tests_data $(csvRepeatedDataTest)
 	pytest --verbose tests/bashtest/
