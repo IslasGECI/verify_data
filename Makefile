@@ -150,8 +150,8 @@ mutants:
 
 tests: tests_data $(csvRepeatedDataTest)
 	pytest --verbose tests/bashtest/
-	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
 	pytest --verbose tests/pytest/
+	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
 
 tests_data: $(xlsxIgPosicionTrampas10May2020)
 	./src/distinct_position_traps $<
