@@ -105,6 +105,7 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 		coverage \
 		format \
 		install \
+		linter \
 		mutants \
 		tests \
 		tests_data
