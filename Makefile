@@ -117,8 +117,7 @@ check:
 
 clean:
 	rm --force --recursive data/raw/*ISO8601.csv
-	rm --force tests/data/*.csv
-	rm --force tests/data/*.tmp
+	rm --force tests/data/*.csv|*.tmp
 	rm --force --recursive data/validacion_datapackage/processed
 	rm --force --recursive reports/tables
 	rm --force --recursive tests/**/__pycache__
