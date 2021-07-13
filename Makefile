@@ -128,7 +128,7 @@ check:
 	flake8 --max-line-length 100 tests
 
 clean:
-	rm --force --recursive data/raw
+	rm --force --recursive data/raw/*ISO8601.csv
 	rm --force tests/data/*.*
 	rm --force --recursive data/validacion_datapackage/processed
 	rm --force --recursive reports/tables
