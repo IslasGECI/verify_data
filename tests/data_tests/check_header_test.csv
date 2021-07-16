@@ -1,0 +1,14 @@
+# A tibble: 11 x 2
+   columna                es_correcto
+   <chr>                  <lgl>      
+ 1 ID                     TRUE       
+ 2 Coor-A                 FALSE      
+ 3 Coor-Y                 TRUE       
+ 4 Nombre del responsable TRUE       
+ 5 04//May/2020           FALSE      
+ 6 05_May_2020            FALSE      
+ 7 6/May/2020             FALSE      
+ 8 07/May/2020            TRUE       
+ 9 08/May/2020            TRUE       
+10 09/May/2020            TRUE       
+11 10/May/2020            TRUE       

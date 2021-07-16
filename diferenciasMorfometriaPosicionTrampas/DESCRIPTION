@@ -1,0 +1,12 @@
+Package: diferenciasMorfometriaPosicionTrampas
+Type: Package
+Title: What the package does (short line)
+Version: 1.0
+Date: 2021-07-12
+Author: Ciencia de Datos • GECI
+Maintainer: Ciencia de Datos <ciencia.datos@islas.org.mx>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+RoxygenNote: 7.0.2.9000
+License: GPL-3
+Encoding: UTF-8

@@ -1,0 +1,138 @@
+{
+    "profile": "tabular-data-package",
+    "name": "posicion_trampas_gatos_ig",
+    "schema": "tabular-data-package",
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "posicion_trampas_gatos_ig",
+            "format": "csv",
+            "encoding": "utf-8",
+            "mediatype": "text/csv",
+            "path": "posicion_trampas_gatos_ig.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "string",
+                        "name": "ID",
+                        "format": "default",
+                        "constraints":{
+                            "pattern": "((TC|TL|TT)-0[1-8]-([0-9]{3}|PS[0-9]{1}|ALB[1-3]|MLP|CMN)-([A-Z]{2,3}|K9)|SM4-Melpo)"
+                        },
+                        "description": "Código identificador de la cámara",
+                        "long_name": "ID camera",
+                        "nombre_largo": "ID camara"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "Coor-X", 
+                        "format": "default",
+                        "constraints": {"minimum": 365000,"maximum": 383000},
+                        "description": "Coordenada UTM Este de la posición de la camara trampa",
+                        "long_name": "Easting",
+                        "nombre_largo": "Coordenada Este",
+                        "standard_name": "projection_x_coordinate",
+                        "units": "mE",
+                        "axis": "X"
+                    }, 
+                    {
+                        "type": "number", 
+                        "name": "Coor-Y", 
+                        "format": "default",
+                        "constraints": {"minimum": 3193000,"maximum": 3230000},
+                        "description": "Coordenada UTM Norte de la posición de la camara trampa",
+                        "long_name": "Northing",
+                        "nombre_largo": "Coordenada Norte",
+                        "standard_name": "projection_y_coordinate",
+                        "units": "mN",
+                        "axis": "Y"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Nombre del responsable", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(\\S.+\\S)"
+                        },
+                        "description": "Nombre del responsable del monitoreo",
+                        "long_name": "Responsible",
+                        "nombre_largo": "Responsable"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_1", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "Estado de la trampa (A - Activa, D - Desactiva, X - Captura)",
+                        "long_name": "Day_1"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_2", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "Estado de la trampa (A - Activa, D - Desactiva, X - Captura)",
+                        "long_name": "Day_2"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_3", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "Estado de la trampa (A - Activa, D - Desactiva, X - Captura)",
+                        "long_name": "Day_3"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_4", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "Estado de la trampa (A - Activa, D - Desactiva, X - Captura)",
+                        "long_name": "Day_4"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_5", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "Estado de la trampa (A - Activa, D - Desactiva, X - Captura)",
+                        "long_name": "Day_5"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_6", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "Estado de la trampa (A - Activa, D - Desactiva, X - Captura)",
+                        "long_name": "Day_6"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "Fecha_7", 
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "(A|D|X)"
+                        },
+                        "description": "Estado de la trampa (A - Activa, D - Desactiva, X - Captura)",
+                        "long_name": "Day_7"
+                    }
+                ], 
+                "missingValues": [
+                    "NA"
+                ]
+            }
+        }
+    ] 
+}

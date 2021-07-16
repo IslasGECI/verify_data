@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#
+# Función que elimina todos los CSV de salida del demo_workflow
+# 
+folder_path=${1}
+rm --recursive --force ${folder_path}/*.csv
+rm --recursive --force ${folder_path}/errores
