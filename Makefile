@@ -49,14 +49,6 @@ csvMissingMorfometry = \
 
 # IV. Reglas para construir las dependencias de los objetivos principales
 # ==========================================================================
-$(csvMorfometriaGatos):
-	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
-	descarga_datos $(@F) $(@D) morfometria_gatos_erradicacion_isla_guadalupe
-
-$(csvPosicionTrampas):
-	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
-	descarga_datos $(@F) $(@D) posicion_trampas_gatos_isla_guadalupe
-
 $(csvMorfometriaGatosISO8601): $(csvMorfometriaGatos)
 	$(checkDirectories)
 	cambia_formato_fecha $< > $@
@@ -72,10 +64,6 @@ $(csvCleanedPositionTraps): $(csvPosicionTrampas) src/get_captures.R
 	src/get_captures.R \
 		--data=$< \
 		--out=$@
-
-$(xlsxIgPosicionTrampas10May2020):
-	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
-	descarga_datos $(@F) $(@D) excel/gatos_ig_data_test
 
 $(csvMissingPosition): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps) src/show_diff_morphometry_position.R
 	src/show_diff_morphometry_position.R \
@@ -128,11 +116,13 @@ check:
 	flake8 --max-line-length 100 tests
 
 clean:
-	rm --force --recursive data/raw
+	rm --force --recursive data/raw/*ISO8601.csv
+	rm --force tests/data/*.csv
+	rm --force tests/data/*.tmp
 	rm --force --recursive data/validacion_datapackage/processed
 	rm --force --recursive reports/tables
-	rm --force --recursive tests/bashtest/__pycache__
-	rm --force --recursive tests/pytest/__pycache__
+	rm --force --recursive tests/**/__pycache__
+	rm --force --recursive **/__pycache__
 	rm --force *.tmp
 	rm --force data/validacion_datapackage/*.csv
 	rm --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
