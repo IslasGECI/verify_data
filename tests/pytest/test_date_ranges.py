@@ -12,15 +12,54 @@ def test_date_from_filename():
 
 def test_change_date_format():
 
-    months_sentence_en = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-    months_sentence_es = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic']
-    months_capital_es  = ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC']
+    months_sentence_en = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+    ]
+    months_sentence_es = [
+        "Ene",
+        "Feb",
+        "Mar",
+        "Abr",
+        "May",
+        "Jun",
+        "Jul",
+        "Ago",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dic",
+    ]
+    months_capital_es = [
+        "ENE",
+        "FEB",
+        "MAR",
+        "ABR",
+        "MAY",
+        "JUN",
+        "JUL",
+        "AGO",
+        "SEP",
+        "OCT",
+        "NOV",
+        "DIC",
+    ]
 
     for index in range(len(months_capital_es)):
         name_file = f"IG_POSICION_TRAMPAS_31{months_capital_es[index]}2020.xlsx"
         expected_EN_date2 = f"31/{months_sentence_en[index]}/2020"
         expected_GECI_date2 = f"31/{months_sentence_es[index]}/2020"
-  
+
         date_from_filename = date_interval_tools.date_from_filename(name_file)
         obtained_EN_date = date_interval_tools.change_date_format(date_from_filename, format="EN")
         obtained_GECI_date = date_interval_tools.change_date_format(obtained_EN_date, format="GECI")
