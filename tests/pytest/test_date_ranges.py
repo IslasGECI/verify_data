@@ -60,8 +60,8 @@ MONTHS_CAPITAL_ES = [
 
 
 param_change_date_format = [
-    (MONTHS_SENTENCE_EN[i], MONTHS_CAPITAL_ES[i], MONTHS_SENTENCE_ES[i])
-    for i in range(len(MONTHS_SENTENCE_EN))
+    (month, MONTHS_CAPITAL_ES[i], MONTHS_SENTENCE_ES[i])
+    for i, month in enumerate(MONTHS_SENTENCE_EN)
 ]
 
 
