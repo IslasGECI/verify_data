@@ -58,11 +58,9 @@ MONTHS_CAPITAL_ES = [
     "DIC",
 ]
 
+MONTHS = zip(MONTHS_SENTENCE_EN, MONTHS_CAPITAL_ES, MONTHS_SENTENCE_ES)
 
-param_change_date_format = [
-    (month, MONTHS_CAPITAL_ES[i], MONTHS_SENTENCE_ES[i])
-    for i, month in enumerate(MONTHS_SENTENCE_EN)
-]
+param_change_date_format = [month for month in MONTHS]
 
 
 @pytest.mark.parametrize(
