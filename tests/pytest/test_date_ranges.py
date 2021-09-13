@@ -1,5 +1,6 @@
 import numpy as np
 import date_interval_tools
+import pytest
 
 name_file = "IG_POSICION_TRAMPAS_31AGO2020.xlsx"
 
@@ -10,14 +11,71 @@ def test_date_from_filename():
     np.testing.assert_array_equal(expected_date, obtained_date)
 
 
-def test_change_date_format():
-    expected_EN_date = "31/Aug/2020"
-    expected_GECI_date = "31/Ago/2020"
+MONTHS_SENTENCE_EN = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+]
+
+
+MONTHS_SENTENCE_ES = [
+    "Ene",
+    "Feb",
+    "Mar",
+    "Abr",
+    "May",
+    "Jun",
+    "Jul",
+    "Ago",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dic",
+]
+
+
+MONTHS_CAPITAL_ES = [
+    "ENE",
+    "FEB",
+    "MAR",
+    "ABR",
+    "MAY",
+    "JUN",
+    "JUL",
+    "AGO",
+    "SEP",
+    "OCT",
+    "NOV",
+    "DIC",
+]
+
+MONTHS = zip(MONTHS_SENTENCE_EN, MONTHS_CAPITAL_ES, MONTHS_SENTENCE_ES)
+
+param_change_date_format = [month for month in MONTHS]
+
+
+@pytest.mark.parametrize(
+    "months_sentence_en, months_capital_es, months_sentence_es", param_change_date_format
+)
+def test_change_date_format(months_sentence_en, months_capital_es, months_sentence_es):
+    name_file = f"IG_POSICION_TRAMPAS_31{months_capital_es}2020.xlsx"
+    expected_EN_date2 = f"31/{months_sentence_en}/2020"
     date_from_filename = date_interval_tools.date_from_filename(name_file)
     obtained_EN_date = date_interval_tools.change_date_format(date_from_filename, format="EN")
+    np.testing.assert_array_equal(expected_EN_date2, obtained_EN_date)
+
+    expected_GECI_date2 = f"31/{months_sentence_es}/2020"
     obtained_GECI_date = date_interval_tools.change_date_format(obtained_EN_date, format="GECI")
-    np.testing.assert_array_equal(expected_EN_date, obtained_EN_date)
-    np.testing.assert_array_equal(expected_GECI_date, obtained_GECI_date)
+    np.testing.assert_array_equal(expected_GECI_date2, obtained_GECI_date)
 
 
 def test_expected_date_interval():
