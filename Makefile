@@ -146,7 +146,7 @@ format:
 install:
 	pip install .
 	R CMD build diferenciasMorfometriaPosicionTrampas && \
-	R CMD INSTALL diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
+	R CMD INSTALL diferenciasMorfometriaPosicionTrampas_0.1.1.tar.gz
 
 linter:
 	$(call lint, ${module})
