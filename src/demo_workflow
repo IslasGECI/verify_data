@@ -25,7 +25,7 @@ errors_directory=${files_path}/errores
 	${src_path}/make_check_header.R --data ${position_trap_data_file}.csv
 
 # 3.1 Revisar intervalo de fechas
-	python -m src.check_date_interval --input "${files_path}" --input "${position_trap_file_name}"
+	python -m src.check_date_interval.py --input "${files_path}" --input "${position_trap_file_name}"
 
 # 4. Validacion con datapackage
 	#Cambiamos el encabezado del archivo CSV para correr en la carpeta 'validacion_datapackage' el goodtables
