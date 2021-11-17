@@ -11,10 +11,10 @@ endef
 # Variables a resultados
 
 xlsxIgPosicionTrampas10May2020 = \
-	tests/data/IG_POSICION_TRAMPAS_10MAY2020.xlsx
+	tests/data/datos_formato_excel/IG_POSICION_TRAMPAS_10MAY2020.xlsx
 
 csvIgPosicionTrampas10May2020 = \
-	tests/data/IG_POSICION_TRAMPAS_10MAY2020.csv
+	tests/data/datos_formato_csv/IG_POSICION_TRAMPAS_10MAY2020.csv
 
 csvRepeatedDataTest = \
 	tests/data/repeated_data_test.csv
@@ -74,7 +74,7 @@ $(csv_PosicionTrampasGatosDatapackage): $(csvIgPosicionTrampas10May2020) src/cha
 	mkdir --parents $(@D)
 	src/change_header $< > $@
 
-$(csvRepeatedDataTest): $(xlsxIgPosicionTrampas10May2020) src/distinct_position_traps
+$(csvRepeatedDataTest): $(csvIgPosicionTrampas10May2020) src/distinct_position_traps
 	mkdir --parents $(@D)
 	src/distinct_position_traps $< > $@
 
@@ -161,5 +161,5 @@ tests: install tests_data $(csvRepeatedDataTest)
 	pytest --verbose tests/pytest/
 	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
 
-tests_data: $(xlsxIgPosicionTrampas10May2020)
+tests_data: $(csvIgPosicionTrampas10May2020)
 	./src/distinct_position_traps $<
