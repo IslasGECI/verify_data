@@ -116,16 +116,17 @@ check:
 	flake8 --max-line-length 100 tests
 
 clean:
+	rm --force --recursive **/__pycache__
 	rm --force --recursive data/raw/*ISO8601.csv
-	rm --force tests/data/*.csv
-	rm --force tests/data/*.tmp
 	rm --force --recursive data/validacion_datapackage/processed
 	rm --force --recursive reports/tables
 	rm --force --recursive tests/**/__pycache__
-	rm --force --recursive **/__pycache__
 	rm --force *.tmp
 	rm --force data/validacion_datapackage/*.csv
 	rm --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
+	rm --force tests/data/*.csv
+	rm --force tests/data/*.tmp
+	rm --force tests/data/datos_formato_excel/*.csv
 
 module = date_interval_tools
 codecov_token = 17875b5e-e175-46f0-b473-ba3fcfe79c6e
