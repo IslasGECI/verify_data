@@ -47,8 +47,6 @@ errors_directory=${files_path}/errores
 	echo "VERIFICACIÓN ESTRUCTURAL"
 	goodtables ${dtp_src}/datapackage.json > ${errors_directory}/errores_estructurales_${position_trap_file_name}.txt
 
-	exit
-
 # Revisa y compara las capturas de los archivos posición trampas y morfometría gatos
 # 5. Hacerlos tidy (feature/agrega_script_con_cli)
 	echo "CONVIERTE TABLA A FORMATO TIDY Y CAMBIA FORMATO DE FECHA"
