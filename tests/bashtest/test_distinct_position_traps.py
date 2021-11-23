@@ -15,5 +15,5 @@ def assert_distinct_position_traps(file_input):
 
 def have_same_content(file_new):
     bash_command = f"diff {file_new} ./tests/data_tests/repeated_data_test.csv | wc --lines"
-    subprocess.getoutput(bash_command)
-    return int(subprocess.getoutput(bash_command))
+    output = int(subprocess.getoutput(bash_command))
+    return output
