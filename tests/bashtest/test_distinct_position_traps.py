@@ -8,8 +8,9 @@ def test_distinct_position_traps():
 def assert_distinct_position_traps(file_input):
     bash_command = f"./src/distinct_position_traps {file_input} > tests/data/salida.tmp"
     subprocess.getoutput(bash_command)
-    output = have_same_content("./tests/data/salida.tmp")
-    assert output == 0
+    obtained_output = have_same_content("./tests/data/salida.tmp")
+    expected_output = 0
+    assert obtained_output == expected_output
 
 
 def have_same_content(file_new):
