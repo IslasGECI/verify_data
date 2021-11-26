@@ -18,7 +18,19 @@ Correremos los datos de la siguiente forma:
 ```shell
 ./src/verify_data.sh data_folder
 ```
-Por ejemplo para los datos que se encuentran dentro del folder IG_DATOS_GATOS_24OCT2021 corremos:
+Por ejemplo para los datos que se encuentran dentro del folder IG_DATOS_GATOS_21NOV2021 corremos:
 ```shell
-./src/verify_data.sh IG_DATOS_GATOS_24OCT2021
+./src/verify_data.sh tests/data/IG_DATOS_GATOS_21NOV2021
+```
+
+Los errores que existan en los datos los vamos a poder ver en la carpeta `errores` que se genera
+dentro de nuestra carpeta de datos.
+
+Para limpiar la carpeta de los datos corremos la siguiente instrucción:
+```shell
+/src/clean_output_data data_folder
+```
+Por ejemplo, para nuestros datos de prueba:
+```shell
+/src/clean_output_data tests/data/IG_DATOS_GATOS_21NOV2021
 ```
