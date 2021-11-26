@@ -9,3 +9,16 @@ cd diferencias_morfometria_posicion_trampas
 make --makefile=build/Makefile build
 sudo make --makefile=build/Makefile install
 ```
+
+Para para poder verificar los datos de `IG_POSICION_TRAMPAS_FECHA.XLSX` y los de
+`IG_MORFOMETRIA_GATOS_FECHA.XLSX`, es necesario tenerlos juntos en una carpeta; es decir, solo debe
+de estar el par de archivos de la fecha que estemos revisando.
+
+Correremos los datos de la siguiente forma:
+```shell
+./src/verify_data.sh data_folder
+```
+Por ejemplo para los datos que se encuentran dentro del folder IG_DATOS_GATOS_24OCT2021 corremos:
+```shell
+./src/verify_data.sh IG_DATOS_GATOS_24OCT2021
+```
