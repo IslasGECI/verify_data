@@ -29,9 +29,9 @@ dentro de nuestra carpeta de datos.
 
 Para limpiar la carpeta de los datos corremos la siguiente instrucción:
 ```shell
-/src/clean_output_data data_folder
+./src/clean_output_data data_folder
 ```
 Por ejemplo, para nuestros datos de prueba:
 ```shell
-/src/clean_output_data tests/data/IG_DATOS_GATOS_21NOV2021
+./src/clean_output_data tests/data/IG_DATOS_GATOS_21NOV2021
 ```
