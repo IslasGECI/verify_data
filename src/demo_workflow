@@ -5,7 +5,7 @@ position_trap_file_name_xlsx=${1}
 files_path=$(dirname ${position_trap_file_name_xlsx})
 position_trap_file_name=$(basename ${position_trap_file_name_xlsx} .xlsx)
 position_trap_data_file=${files_path}/${position_trap_file_name}
-position_trap_cutted_data=${position_trap_data_file}_cut
+position_trap_cutted_data=${position_trap_data_file}_clean
 
 # Archivo de morfometría
 cat_morphometry_file_name_xlsx=${2}
