@@ -18,7 +18,8 @@ Correremos los datos de la siguiente forma:
 ```shell
 ./src/verify_data.sh data_folder
 ```
-Por ejemplo para los datos que se encuentran dentro del folder IG_DATOS_GATOS_21NOV2021 corremos:
+Por ejemplo para los datos que se encuentran dentro del folder `tests/data/IG_DATOS_GATOS_21NOV2021`
+corremos:
 ```shell
 ./src/verify_data.sh tests/data/IG_DATOS_GATOS_21NOV2021
 ```
