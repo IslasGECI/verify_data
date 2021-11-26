@@ -89,3 +89,5 @@ errors_directory=${files_path}/errores
 		--data_1=${files_path}/cleaned_morphometry_cats.csv \
 		--data_2=${files_path}/cleaned_position_traps.csv \
 		> ${errors_directory}/missing_captures_in_position.csv
+
+	echo "🧐 El resultado de esta verificación los podemos ver a detalle en la carpeta `errores` que se genera dentro de nuestra carpeta de datos 🗃️"

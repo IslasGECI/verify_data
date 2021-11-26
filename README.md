@@ -24,7 +24,7 @@ corremos:
 ./src/verify_data.sh tests/data/IG_DATOS_GATOS_21NOV2021
 ```
 
-Los errores que existan en los datos los vamos a poder ver en la carpeta `errores` que se genera
+El resultado de esta verificación los podemos ver a detalle en la carpeta `errores` que se genera
 dentro de nuestra carpeta de datos.
 
 Para limpiar la carpeta de los datos corremos la siguiente instrucción:
