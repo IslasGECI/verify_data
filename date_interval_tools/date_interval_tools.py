@@ -12,16 +12,8 @@ def change_date_format(date, format="GECI"):
     if format == "GECI":
         date = (
             date.replace("Jan", "Ene")
-            .replace("Feb", "Feb")
-            .replace("Mar", "Mar")
             .replace("Apr", "Abr")
-            .replace("May", "May")
-            .replace("Jun", "Jun")
-            .replace("Jul", "Jul")
             .replace("Aug", "Ago")
-            .replace("Sep", "Sep")
-            .replace("Oct", "Oct")
-            .replace("Nov", "Nov")
             .replace("Dec", "Dic")
         )
     elif format == "EN":
