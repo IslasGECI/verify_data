@@ -1,4 +1,4 @@
-# A tibble: 11 x 2
+# A tibble: 11 × 2
    columna                es_correcto
    <chr>                  <lgl>      
  1 ID                     TRUE       
