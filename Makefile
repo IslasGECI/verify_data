@@ -93,6 +93,8 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 		coverage \
 		format \
 		install \
+		install_python \
+		install_r \
 		linter \
 		mutants \
 		tests \
@@ -121,6 +123,7 @@ clean:
 	rm --force --recursive data/validacion_datapackage/processed
 	rm --force --recursive reports/tables
 	rm --force --recursive tests/**/__pycache__
+	rm --force .mutmut-cache
 	rm --force *.tmp
 	rm --force data/validacion_datapackage/*.csv
 	rm --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
@@ -144,8 +147,12 @@ format:
 	  -e "style_dir('src')" \
 	  -e "style_dir('tests')"
 
-install:
-	pip install .
+install: install_python install_r
+
+install_python:
+	pip install --editable .
+
+install_r:
 	R CMD build diferenciasMorfometriaPosicionTrampas && \
 	R CMD INSTALL diferenciasMorfometriaPosicionTrampas_0.1.1.tar.gz
 
@@ -154,7 +161,7 @@ linter:
 	$(call lint, src)
 	$(call lint, tests)
 
-mutants: install tests_data $(csvRepeatedDataTest)
+mutants: install_python tests_data $(csvRepeatedDataTest)
 	mutmut run --paths-to-mutate ${module}
 
 tests: install tests_data $(csvRepeatedDataTest)
