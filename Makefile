@@ -161,7 +161,7 @@ linter:
 	$(call lint, src)
 	$(call lint, tests)
 
-mutants: install_python tests_data $(csvRepeatedDataTest)
+mutants: install tests_data $(csvRepeatedDataTest)
 	mutmut run --paths-to-mutate ${module}
 
 tests: install tests_data $(csvRepeatedDataTest)
