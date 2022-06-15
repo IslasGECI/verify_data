@@ -5,4 +5,4 @@ data_file=${1}
 src_path=$(dirname "${data_file}")
 table_name=$(basename "${data_file}" .xlsx)
 in2csv --no-header-row --blanks ${data_file} | tail --lines=+2 > ${src_path}/${table_name}.tmp
-csvcut -c 1-11 -x ${src_path}/${table_name}.tmp > ${src_path}/${table_name}.csv
+csvcut -c 1-13 -x ${src_path}/${table_name}.tmp > ${src_path}/${table_name}.csv
