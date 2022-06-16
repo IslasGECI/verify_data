@@ -89,16 +89,22 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 # ===========================================================================
 .PHONY: \
 		check \
+		check_python \
+		check_r \
 		clean \
 		coverage \
 		format \
+		init \
 		install \
 		install_python \
 		install_r \
 		linter \
 		mutants \
 		tests \
-		tests_data
+		tests_bash \
+		tests_data \
+		tests_python \
+		tests_r 
 
 define lint
 	pylint \
@@ -109,13 +115,23 @@ define lint
         ${1}
 endef
 
-check:
+check: check_r check_python
+
+check_python:
 	black --check --line-length 100 ${module}
 	black --check --line-length 100 src
 	black --check --line-length 100 tests
 	flake8 --max-line-length 100 ${module}
 	flake8 --max-line-length 100 src
 	flake8 --max-line-length 100 tests
+
+check_r:
+	R -e "library(styler)" \
+	  -e "resumen <- style_dir('diferenciasMorfometriaPosicionTrampas')" \
+	  -e "resumen <- rbind(resumen, style_dir('src'))" \
+	  -e "resumen <- rbind(resumen, style_dir('tests'))" \
+	  -e "any(resumen[[2]])" \
+	  | grep FALSE
 
 clean:
 	rm --force --recursive **/__pycache__
@@ -147,6 +163,8 @@ format:
 	  -e "style_dir('src')" \
 	  -e "style_dir('tests')"
 
+init: install tests
+
 install: install_python install_r
 
 install_python:
@@ -164,9 +182,15 @@ linter:
 mutants: install tests_data $(csvRepeatedDataTest)
 	mutmut run --paths-to-mutate ${module}
 
-tests: install tests_data $(csvRepeatedDataTest)
+tests: tests_data $(csvRepeatedDataTest) tests_bash tests_python tests_r
+
+tests_bash:
 	pytest --verbose tests/bashtest/
+
+tests_python:
 	pytest --verbose tests/pytest/
+
+tests_r:
 	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
 
 tests_data: $(csvIgPosicionTrampas10May2020)

@@ -130,3 +130,9 @@ def test_obtained_date_interval():
     ]
     obtained_date_interval = date_interval_tools.obtained_date_interval(file_path, filename)
     np.testing.assert_array_equal(obtained_date_interval, expected_date_interval)
+
+
+def test_check_date_interval():
+    name_file = "IG_POSICION_TRAMPAS_10MAY2020_correcto"
+    file_path = "tests/data/raw"
+    date_interval_tools.check_date_interval(file_path, name_file)
