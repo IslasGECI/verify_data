@@ -23,7 +23,8 @@ errors_directory=${files_path}/errores
 
 # Revisión estructural de la tabla posición trampa
 # 1. Convertir archivos XLSX a CSV
-	./src/cleaned_position_xlsx_2_csv.sh ${position_trap_file_name_xlsx}
+	number_columns_position=13
+	./src/clean_xlsx_2_csv.sh ${position_trap_file_name_xlsx} ${number_columns_position}
 
 # 2. Selecciona solamente columnas necesarias
 	./src/select_needed_columns.sh ${position_trap_data_file}.csv > ${position_trap_cutted_data}.csv
@@ -60,7 +61,8 @@ errors_directory=${files_path}/errores
 # 6.1 Morfometría
 # Convierte archivo de morfometría_gatos de xslx a csv
 	echo "CONVIERTE ARCHIVO DE MORFOMETRIA DE XLSX A CSV"
-	./src/cleaned_morphometry_xlsx_2_csv.sh ${cat_morphometry_file_name_xlsx} \
+	number_columns_morphometry=31
+	./src/clean_xlsx_2_csv.sh ${cat_morphometry_file_name_xlsx} ${number_columns_morphometry} \
 	&& cambia_formato_fecha ${cat_morphometry_data_file}.csv \
 		> ${cat_morphometry_data_file}_ISO8601.csv
 
