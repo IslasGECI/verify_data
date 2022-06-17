@@ -10,3 +10,4 @@ RUN pip install \
     pylint \
     pytest \
     pytest-cov
+RUN make install 
