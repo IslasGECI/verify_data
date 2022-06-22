@@ -7,19 +7,23 @@ set -euo pipefail
 
 
 xlsx_2_csv(){
-    src_path=$(dirname "${1}")
-    table_name=$(basename "${1}" .xlsx)
+    data_file=${1}
+    number_columns=${2}
+    src_path=$(dirname "${data_file}")
+    table_name=$(basename "${data_file}" .xlsx)
     file_name=${src_path}/${table_name}
-    in2csv --no-header-row --blanks ${1} | tail --lines=+2 > ${file_name}.tmp
-    csvcut -c 1-${2} -x ${file_name}.tmp > ${file_name}.csv
+    in2csv --no-header-row --blanks ${data_file} | tail --lines=+2 > ${file_name}.tmp
+    csvcut -c 1-${number_columns} -x ${file_name}.tmp > ${file_name}.csv
 }
 
 clean_position() {
+    data_file=${1}
     number_columns=13
-    xlsx_2_csv ${1} ${number_columns}
+    xlsx_2_csv ${data_file} ${number_columns}
 }
 
 clean_morphometry() {
+    data_file=${1}
     number_columns=31
-    xlsx_2_csv ${1} ${number_columns}
+    xlsx_2_csv ${data_file} ${number_columns}
 }
