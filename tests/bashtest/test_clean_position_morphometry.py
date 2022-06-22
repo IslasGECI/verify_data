@@ -2,8 +2,9 @@ import subprocess
 
 
 def setup_xlsx_2_csv(type_data):
-    bash_command = f"rm --force tests/data/datos_formato_excel/IG_{type_data}_12JUN2022.csv" 
-    subprocess.run(["bash", "-c", bash_command]) 
+    bash_command = f"rm --force tests/data/datos_formato_excel/IG_{type_data}_12JUN2022.csv"
+    subprocess.run(["bash", "-c", bash_command])
+
 
 def test_clean_position():
     # Set up:

@@ -63,7 +63,7 @@ def check_date_interval(file_path, filename):
     date_in_filename = date_from_filename(filename)
     date_in_filename = change_date_format(date_in_filename, format="EN")
     expected_dates = expected_date_interval(date_in_filename)
-    expected_dates = change_date_array_format(expected_dates, format="GECI")
+    expected_dates = change_date_array_format(expected_dates)
     obtained_dates = obtained_date_interval(file_path, filename)
     if (expected_dates == obtained_dates).all():
         print("Las fechas son correctas")
