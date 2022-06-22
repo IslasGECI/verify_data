@@ -18,3 +18,8 @@ clean_position() {
     number_columns=13
     xlsx_2_csv ${1} ${number_columns}
 }
+
+clean_morphometry() {
+    number_columns=31
+    xlsx_2_csv ${1} ${number_columns}
+}
