@@ -1,10 +1,9 @@
 import subprocess
 
 
-
 def setup_xlsx_2_csv(type_data):
-    bash_command = f"rm --force tests/data/datos_formato_excel/IG_{type_data}_12JUN2022.csv" # TODO: Extraer a setup
-    subprocess.run(["bash", "-c", bash_command]) # TODO: Extraer a setup
+    bash_command = f"rm --force tests/data/datos_formato_excel/IG_{type_data}_12JUN2022.csv" 
+    subprocess.run(["bash", "-c", bash_command]) 
 
 def test_clean_position():
     # Set up:
@@ -19,6 +18,7 @@ def test_clean_position():
     obtained_md5 = output.split(" ")[0]
     expected_md5 = "4fd30809660722b7bef86b3216b00d30"
     assert obtained_md5 == expected_md5
+
 
 def test_clean_morphometry():
     # Set up:
