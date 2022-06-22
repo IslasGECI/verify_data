@@ -22,8 +22,8 @@ def test_clean_position():
 
 def test_clean_morphometry():
     # Set up:
-    bash_command = "rm --force tests/data/datos_formato_excel/IG_MORFOMETRIA_GATOS_12JUN2022.csv" # TODO: Extraer a setup
-    subprocess.run(["bash", "-c", bash_command]) # TODO: Extraer a setup
+    type_data = "MORFOMETRIA_GATOS"
+    setup_xlsx_2_csv(type_data)
     # Carga la función clean_position() desde el archivo clean_xlsx_2_csv.sh
     bash_command = "source src/clean_position_morphometry.sh && clean_morphometry tests/data/datos_formato_excel/IG_MORFOMETRIA_GATOS_12JUN2022.xlsx"
     subprocess.run(["bash", "-c", bash_command])
