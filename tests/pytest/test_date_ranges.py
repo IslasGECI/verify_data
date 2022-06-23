@@ -74,7 +74,7 @@ def test_change_date_format(months_sentence_en, months_capital_es, months_senten
     np.testing.assert_array_equal(expected_EN_date2, obtained_EN_date)
 
     expected_GECI_date2 = f"31/{months_sentence_es}/2020"
-    obtained_GECI_date = date_interval_tools.change_date_format(obtained_EN_date, format="GECI")
+    obtained_GECI_date = date_interval_tools.change_date_format(obtained_EN_date)
     np.testing.assert_array_equal(expected_GECI_date2, obtained_GECI_date)
 
 
