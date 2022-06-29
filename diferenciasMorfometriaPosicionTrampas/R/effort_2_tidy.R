@@ -12,11 +12,15 @@ effort_2_tidy <- function(datos_prueba) {
       result <- rbind(result, melt(filter_table[i, ], "ID"))
     }
   }
-  names(result) <- c("ID_de_trampa", "Fecha", "Estado_trampa")
-  result[] <- lapply(result[], factor)
   if (length(result) != 0) {
+    names(result) <- c("ID_de_trampa", "Fecha", "Estado_trampa")
+    result[] <- lapply(result[], factor)
     return(result[, c("ID_de_trampa", "Estado_trampa", "Fecha")])
   } else {
-    return("no hay capturas")
+    warning("NO HAY CAPTURAS")
+    result <- data.frame(ID_de_trampa = "",
+                         Estado_trampa = "",
+                         Fecha = "")
+    return(result)
   }
 }
