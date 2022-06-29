@@ -18,9 +18,11 @@ effort_2_tidy <- function(datos_prueba) {
     return(result[, c("ID_de_trampa", "Estado_trampa", "Fecha")])
   } else {
     warning("NO HAY CAPTURAS")
-    result <- data.frame(ID_de_trampa = "",
-                         Estado_trampa = "",
-                         Fecha = "")
+    result <- data.frame(
+      ID_de_trampa = "",
+      Estado_trampa = "",
+      Fecha = ""
+    )
     return(result)
   }
 }

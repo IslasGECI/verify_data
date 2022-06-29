@@ -17,10 +17,10 @@ salida_test_3 <- data.frame(
   Fecha = factor(rep(c("4/27/2020", "4/28/2020", "4/29/2020", "4/30/2020", "5/1/2020", "5/2/2020", "5/3/2020"), 3))
 )
 salida_test_sin_capturas <- data.frame(
-  ID_de_trampa = "", 
-  Estado_trampa = "", 
+  ID_de_trampa = "",
+  Estado_trampa = "",
   Fecha = ""
-  )
+)
 
 archivo_prueba <- "../data_tests/esfuerzo_data_tests.csv"
 datos_prueba <- readr::read_csv(archivo_prueba)
