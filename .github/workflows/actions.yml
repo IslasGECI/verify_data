@@ -22,6 +22,8 @@ jobs:
       run: docker run islasgeci make coverage
     - name: Evalúa resistencia a mutaciones
       run: docker run islasgeci make mutants
+    - name: Renombra imagen
+      run: docker tag islasgeci islasgeci/diferencias_morfometria_posicion_trampas
     - name: Docker log-in
       env:
         docker_username: ${{ secrets.docker_username }}
