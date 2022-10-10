@@ -28,6 +28,7 @@ jobs:
       env:
         docker_username: ${{ secrets.docker_username }}
         docker_password: ${{ secrets.docker_password }}
+        github_sha: ${{ github.sha }}
       run: echo "${docker_password}" | docker login --username "${docker_username}" --password-stdin
     - name: Upload image to Docker Hub
       run: docker push islasgeci/diferencias_morfometria_posicion_trampas:latest
