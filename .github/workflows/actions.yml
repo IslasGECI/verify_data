@@ -22,3 +22,12 @@ jobs:
       run: docker run islasgeci make coverage
     - name: Evalúa resistencia a mutaciones
       run: docker run islasgeci make mutants
+    - name: Docker log-in
+      env:
+        docker_username: ${{ secrets.docker_username }}
+        docker_password: ${{ secrets.docker_password }}
+      run: echo "${docker_password}" | docker login --username "${docker_username}" --password-stdin
+    - name: Upload image to Docker Hub
+      run: docker push islasgeci/robinson_code:latest
+    - name: Tag image with hash
+      run: docker push islasgeci/robinson_code:${github_sha:0:4}
