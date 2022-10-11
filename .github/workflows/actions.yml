@@ -28,9 +28,10 @@ jobs:
       env:
         docker_username: ${{ secrets.docker_username }}
         docker_password: ${{ secrets.docker_password }}
-        github_sha: ${{ github.sha }}
       run: echo "${docker_password}" | docker login --username "${docker_username}" --password-stdin
     - name: Upload image to Docker Hub
       run: docker push islasgeci/diferencias_morfometria_posicion_trampas:latest
     - name: Tag image with hash
+      env:
+        github_sha: ${{ github.sha }}
       run: docker push islasgeci/diferencias_morfometria_posicion_trampas:${github_sha:0:4}
