@@ -9,28 +9,32 @@ def date_from_filename(filename):
 
 
 def change_date_format(date, format="GECI"):
-    if format == "GECI":
-        date = (
-            date.replace("Jan", "Ene")
-            .replace("Apr", "Abr")
-            .replace("Aug", "Ago")
-            .replace("Dec", "Dic")
-        )
-    elif format == "EN":
-        date = (
-            date.replace("ENE", "Jan")
-            .replace("FEB", "Feb")
-            .replace("MAR", "Mar")
-            .replace("ABR", "Apr")
-            .replace("MAY", "May")
-            .replace("JUN", "Jun")
-            .replace("JUL", "Jul")
-            .replace("AGO", "Aug")
-            .replace("SEP", "Sep")
-            .replace("OCT", "Oct")
-            .replace("NOV", "Nov")
-            .replace("DIC", "Dec")
-        )
+    functions = {"GECI": change_date_format_geci, "EN": change_date_format_english}
+    return functions[format](date)
+
+
+def change_date_format_english(date):
+    date = (
+        date.replace("ENE", "Jan")
+        .replace("FEB", "Feb")
+        .replace("MAR", "Mar")
+        .replace("ABR", "Apr")
+        .replace("MAY", "May")
+        .replace("JUN", "Jun")
+        .replace("JUL", "Jul")
+        .replace("AGO", "Aug")
+        .replace("SEP", "Sep")
+        .replace("OCT", "Oct")
+        .replace("NOV", "Nov")
+        .replace("DIC", "Dec")
+    )
+    return date
+
+
+def change_date_format_geci(date):
+    date = (
+        date.replace("Jan", "Ene").replace("Apr", "Abr").replace("Aug", "Ago").replace("Dec", "Dic")
+    )
     return date
 
 

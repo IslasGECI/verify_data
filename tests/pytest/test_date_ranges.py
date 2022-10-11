@@ -132,7 +132,16 @@ def test_obtained_date_interval():
     np.testing.assert_array_equal(obtained_date_interval, expected_date_interval)
 
 
-def test_check_date_interval():
+def test_check_date_interval(capsys):
     name_file = "IG_POSICION_TRAMPAS_10MAY2020_correcto"
     file_path = "tests/data/raw"
     date_interval_tools.check_date_interval(file_path, name_file)
+    obtained = capsys.readouterr().out
+    expected = "Las fechas son correctas\n"
+    assert obtained == expected
+    name_file = "IG_POSICION_TRAMPAS_10MAY2020_incorrecto"
+    file_path = "tests/data/raw"
+
+    expected_error = r"^El intervalo de fechas es incorrecto"
+    with pytest.raises(ValueError, match=expected_error):
+        date_interval_tools.check_date_interval(file_path, name_file)
