@@ -11,27 +11,29 @@ on:
 jobs:
   actions:
     runs-on: ubuntu-latest
+    env:
+        github_sha: ${{ github.sha }}
     steps:
-    - name: Copia repositorio
+    - name: Copy repository
       uses: actions/checkout@v2
-    - name: Construye imagen
+    - name: Build image
       run: docker build --tag islasgeci .
-    - name: Verifica el formato
+    - name: Check format
       run: docker run islasgeci make check
-    - name: Corre pruebas y evalúa cobertura
+    - name: Run tests and coverage
       run: docker run islasgeci make coverage
-    - name: Evalúa resistencia a mutaciones
+    - name: Run mutation testing
       run: docker run islasgeci make mutants
-    - name: Renombra imagen
-      run: docker tag islasgeci islasgeci/diferencias_morfometria_posicion_trampas
+    - name: Rename image
+      run: docker tag islasgeci islasgeci/diferencias_morfometria_posicion_trampas:latest
     - name: Docker log-in
       env:
         docker_username: ${{ secrets.docker_username }}
         docker_password: ${{ secrets.docker_password }}
       run: echo "${docker_password}" | docker login --username "${docker_username}" --password-stdin
-    - name: Upload image to Docker Hub
+    - name: Upload latest image to Docker Hub
       run: docker push islasgeci/diferencias_morfometria_posicion_trampas:latest
+    - name: Rename image with tag
+      run: docker tag islasgeci/diferencias_morfometria_posicion_trampas:latest islasgeci/diferencias_morfometria_posicion_trampas:${github_sha:0:4}
     - name: Tag image with hash
-      env:
-        github_sha: ${{ github.sha }}
       run: docker push islasgeci/diferencias_morfometria_posicion_trampas:${github_sha:0:4}
