@@ -1,0 +1,3 @@
+library(testthat)
+library(diferenciasMorfometriaPosicionTrampas)
+test_check("diferenciasMorfometriaPosicionTrampas")
