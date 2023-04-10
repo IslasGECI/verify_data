@@ -31,4 +31,3 @@ data <- read_csv(options$data)
 differences <- diferenciasMorfometriaPosicionTrampas::effort_2_tidy(data)
 output_file <- options$salida
 write_csv(differences, output_file)
-cat(format_csv(differences))
