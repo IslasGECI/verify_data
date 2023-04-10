@@ -191,7 +191,7 @@ tests_python:
 	pytest --verbose tests/pytest/
 
 tests_r:
-	R -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
+	Rscript -e "devtools::test('diferenciasMorfometriaPosicionTrampas', stop_on_failure = TRUE)"
 
 tests_data: $(csvIgPosicionTrampas10May2020)
 	./src/distinct_position_traps $<
