@@ -7,21 +7,14 @@ effort_2_tidy <- function(datos_prueba) {
   result <- data.frame()
   nrows <- nrow(filter_table)
   for (i in 1:nrows) {
-    cats <- which(filter_table[i, ] == "X")
-    if (length(cats) > 0) {
-      result <- rbind(result, melt(filter_table[i, ], "ID"))
-    }
+    result <- rbind(result, melt(filter_table[i, ], "ID"))
   }
-  if (length(result) != 0) {
-    names(result) <- c("ID_de_trampa", "Fecha", "Estado_trampa")
-    result[] <- lapply(result[], factor)
-    return(result[, c("ID_de_trampa", "Estado_trampa", "Fecha")])
-  } else {
-    result <- data.frame(
-      ID_de_trampa = "",
-      Estado_trampa = "",
-      Fecha = ""
-    )
-    return(result)
+  names(result) <- c("ID_de_trampa", "Fecha", "Estado_trampa")
+  result[] <- lapply(result[], factor)
+  tidy <- result[, c("ID_de_trampa", "Estado_trampa", "Fecha")]
+  rows_with_captures <- filter(tidy, Estado_trampa == "X")
+  if (nrow(rows_with_captures) == 0) {
+    message("NO HAY CAPTURAS")
   }
+  return(tidy)
 }
