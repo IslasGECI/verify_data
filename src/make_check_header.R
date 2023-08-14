@@ -20,7 +20,7 @@ option_list <- list(
 opt_parser <- OptionParser(option_list = option_list)
 options <- parse_args(opt_parser)
 input_file <- options$data
-data <- readr::read_csv(input_file, show_col_types=FALSE)
+data <- readr::read_csv(input_file, show_col_types = FALSE)
 table <- diferenciasMorfometriaPosicionTrampas::check_columns_name(data)
 if (all(table$es_correcto)) {
   print("LA CABECERA ES CORRECTA")

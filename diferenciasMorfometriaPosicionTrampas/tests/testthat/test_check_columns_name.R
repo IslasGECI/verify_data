@@ -4,9 +4,9 @@ library(diferenciasMorfometriaPosicionTrampas)
 library(reshape2)
 
 archivo_salida <- "../data_tests/column_name_data_test.csv"
-salida_test <- tibble::as_tibble(readr::read_csv(archivo_salida, show_col_types=FALSE))
+salida_test <- tibble::as_tibble(readr::read_csv(archivo_salida, show_col_types = FALSE))
 archivo_prueba <- "/workdir/tests/data/datos_formato_csv/IG_POSICION_TRAMPAS_10MAY2020.csv"
-datos_prueba <- readr::read_csv(archivo_prueba, show_col_types=FALSE)
+datos_prueba <- readr::read_csv(archivo_prueba, show_col_types = FALSE)
 obtained <- diferenciasMorfometriaPosicionTrampas::check_columns_name(datos_prueba)
 nrow_obtained <- nrow(obtained)
 nrow_expected <- 11
