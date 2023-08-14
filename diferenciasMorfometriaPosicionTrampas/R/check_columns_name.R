@@ -1,6 +1,7 @@
 library(tidyverse)
 library(reshape2)
 
+#' @export
 check_columns_name <- function(data) {
   table <- vector()
   n_col <- ncol(data)
