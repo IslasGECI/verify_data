@@ -142,7 +142,7 @@ clean:
 	rm --force .mutmut-cache
 	rm --force *.tmp
 	rm --force data/validacion_datapackage/*.csv
-	rm --force diferenciasMorfometriaPosicionTrampas_1.0.tar.gz
+	rm --force diferenciasMorfometriaPosicionTrampas_*.tar.gz
 	rm --force tests/data/*.csv
 	rm --force tests/data/*.tmp
 	rm --force tests/data/datos_formato_excel/*.csv
