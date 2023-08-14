@@ -1,6 +1,7 @@
 library(tidyverse)
 library(reshape2)
 
+#' @export
 effort_2_tidy <- function(datos_prueba) {
   filter_table <-
     datos_prueba %>% select(c("ID", (length(datos_prueba) - 6):length(datos_prueba)))
