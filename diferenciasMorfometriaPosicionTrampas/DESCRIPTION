@@ -1,11 +1,11 @@
 Package: diferenciasMorfometriaPosicionTrampas
 Type: Package
-Title: What the package does (short line)
-Version: 0.1.1
-Date: 2021-07-12
+Title: Diferencias morfometría posición trampas.
+Version: 0.1.2
+Date: 2023-08-14
 Author: Ciencia de Datos • GECI
 Maintainer: Ciencia de Datos <ciencia.datos@islas.org.mx>
-Description: More about what it does (maybe more than one line)
+Description: Tools to check columns format, and remove in all tables.
 RoxygenNote: 7.2.1
 License: GPL-3
 Encoding: UTF-8
