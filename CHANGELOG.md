@@ -7,17 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.2] - 2023-08-14
+## [0.1.3] - 2023-08-14
 
 ### Added
 
 ### Fixed
 
-- Update recipe `install-r`.
-- Exort function `check_columns_name()`.
+- Update recipe `clean`.
+- Export function `effort_2_tidy()`.
 
 ### Changed
 
 ### Removed
 
+## [0.1.2] - 2023-08-14
+
+### Fixed
+
+- Update recipe `install-r`.
+- Export function `check_columns_name()`.
+
+[0.1.3]: https://github.com/IslasGECI/diferencias_morfometrias_posicion_trampas/compare/v0.1.2...v0.1.3
 [0.1.2]: https://github.com/IslasGECI/diferencias_morfometrias_posicion_trampas/compare/v0.1.1...v0.1.2
