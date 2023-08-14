@@ -25,7 +25,7 @@ option_list <- list(
 opt_parser <- OptionParser(option_list = option_list)
 options <- parse_args(opt_parser)
 input_file <- options$data
-trap_position <- read_csv(input_file)
+trap_position <- read_csv(input_file, show_col_types = FALSE)
 trap_position_captures <- trap_position %>% filter(Estado_trampa == "X")
 output_file <- options$out
 write_csv(trap_position_captures, output_file)

@@ -25,7 +25,7 @@ option_list <- list(
 opt_parser <- OptionParser(option_list = option_list)
 options <- parse_args(opt_parser)
 input_file <- options$data
-morphometry <- read_csv(input_file)
+morphometry <- read_csv(input_file, show_col_types = FALSE)
 clean_morphometry <- morphometry %>% filter(Fecha > as.Date("2018-04-23"))
 output_file <- options$out
 write_csv(clean_morphometry, output_file)
