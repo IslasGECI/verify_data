@@ -1,8 +1,8 @@
 Package: diferenciasMorfometriaPosicionTrampas
 Type: Package
 Title: Diferencias morfometría posición trampas.
-Version: 0.1.3
-Date: 2023-08-14
+Version: 0.2.0
+Date: 2023-11-07
 Author: Ciencia de Datos • GECI
 Maintainer: Ciencia de Datos <ciencia.datos@islas.org.mx>
 Description: Tools to check columns format, and remove in all tables.
