@@ -164,6 +164,9 @@ format:
 	  -e "style_dir('tests')"
 
 init: install tests
+	git config --global --add safe.directory /workdir
+	git config --global user.name "Ciencia de Datos • GECI"
+	git config --global user.email "ciencia.datos@islas.org.mx"
 
 install: install_python install_r
 
@@ -183,6 +186,24 @@ linter:
 
 mutants: install tests_data $(csvRepeatedDataTest)
 	mutmut run --paths-to-mutate ${module}
+
+red: format
+	Rscript -e "devtools::test('diferenciasMorfometriaPosicionTrampas', stop_on_failure = TRUE)" \
+	&& git restore diferenciasMorfometriaPosicionTrampas/R/*.R \
+	|| (git add diferenciasMorfometriaPosicionTrampas/tests/testthat/*.R && git commit -m "🛑🧪 Fail tests")
+	chmod g+w -R .
+
+green: format
+	Rscript -e "devtools::test('diferenciasMorfometriaPosicionTrampas', stop_on_failure = TRUE)" \
+	&& (git add diferenciasMorfometriaPosicionTrampas/R/*.R && git commit -m "✅ Pass tests") \
+	|| git restore diferenciasMorfometriaPosicionTrampas/R/*.R
+	chmod g+w -R .
+
+refactor: format
+	Rscript -e "devtools::test('diferenciasMorfometriaPosicionTrampas', stop_on_failure = TRUE)" \
+	&& (git add diferenciasMorfometriaPosicionTrampas/R/*.R diferenciasMorfometriaPosicionTrampas/tests/testthat/*.R && git commit -m "♻️  Refactor") \
+	|| git restore diferenciasMorfometriaPosicionTrampas/*.R
+	chmod g+w -R .
 
 tests: tests_data $(csvRepeatedDataTest) tests_bash tests_python tests_r
 
