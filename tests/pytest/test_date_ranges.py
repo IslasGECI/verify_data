@@ -139,9 +139,10 @@ def test_check_date_interval(capsys):
     obtained = capsys.readouterr().out
     expected = "Las fechas son correctas\n"
     assert obtained == expected
+
     name_file = "IG_POSICION_TRAMPAS_10MAY2020_incorrecto"
     file_path = "tests/data/raw"
 
-    expected_error = r"^El intervalo de fechas es incorrecto"
+    expected_error = r"^El intervalo de fechas es incorrecto. Verificar fechas en IG_POSICION_TRAMPAS_10MAY2020_incorrecto."
     with pytest.raises(ValueError, match=expected_error):
         date_interval_tools.check_date_interval(file_path, name_file)

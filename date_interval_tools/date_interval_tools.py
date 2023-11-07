@@ -72,5 +72,4 @@ def check_date_interval(file_path, filename):
     if (expected_dates == obtained_dates).all():
         print("Las fechas son correctas")
     else:
-        print(f"Verificar fechas en {filename}")
-        raise ValueError("El intervalo de fechas es incorrecto")
+        raise ValueError(f"El intervalo de fechas es incorrecto. Verificar fechas en {filename}.")
