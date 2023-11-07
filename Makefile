@@ -176,8 +176,8 @@ install_python:
 install_r:
 	R -e "devtools::document('diferenciasMorfometriaPosicionTrampas')" && \
 	R CMD build diferenciasMorfometriaPosicionTrampas && \
-	R CMD check diferenciasMorfometriaPosicionTrampas_0.1.3.tar.gz && \
-	R CMD INSTALL diferenciasMorfometriaPosicionTrampas_0.1.3.tar.gz
+	R CMD check diferenciasMorfometriaPosicionTrampas_0.2.0.tar.gz && \
+	R CMD INSTALL diferenciasMorfometriaPosicionTrampas_0.2.0.tar.gz
 
 linter:
 	$(call lint, ${module})
