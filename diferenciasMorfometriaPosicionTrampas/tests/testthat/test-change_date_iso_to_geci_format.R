@@ -29,4 +29,10 @@ describe("Change iso to geci format", {
     obtained <- change_date_iso_to_geci_format(date)
     expect_equal(obtained, expected)
   })
+  it("English to spanish example: December", {
+    date <- "2012-12-24"
+    expected <- "24/Dic/2012"
+    obtained <- change_date_iso_to_geci_format(date)
+    expect_equal(obtained, expected)
+  })
 })
