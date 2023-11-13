@@ -24,3 +24,15 @@ describe("Change iso to geci format", {
     expect_equal(obtained, expected)
   })
 })
+
+describe("xx ", {
+  it("Tests time_series_plot_wrapper", {
+    input <- "/workdir/diferenciasMorfometriaPosicionTrampas/tests/data_tests/cleaned_morphometry_iso_date.csv"
+    output <- "/workdir/cleaned_morphometry_geci_format.csv"
+    options_for_testing <- list("data_path" = input, "output_path" = output)
+    write_morphometry_geci_format(options_for_testing)
+    expected <- readr::read_csv("/workdir/diferenciasMorfometriaPosicionTrampas/tests/data_tests/cleaned_morphometry_geci_format.csv")
+    obtained <- readr::read_csv(output)
+    expect_equal(obtained, expected)
+  })
+})
