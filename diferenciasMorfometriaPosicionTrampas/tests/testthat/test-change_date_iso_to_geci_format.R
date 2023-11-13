@@ -17,4 +17,10 @@ describe("Change iso to geci format", {
     obtained <- change_date_iso_to_geci_format(dates)
     expect_equal(obtained, expected)
   })
+  iso_dates <- tibble::tibble(Fecha = c("2023-01-30", "2023-04-16", "2012-08-24", "2012-12-14"), other_column = 2)
+  it("Change Fecha column of a tibble", {
+    expected <- tibble::tibble(Fecha = c("30/Ene/2023", "16/Abr/2023", "24/Ago/2012", "14/Dic/2012"), other_column = 2)
+    obtained <- change_date_columns_to_geci_format(iso_dates)
+    expect_equal(obtained, expected)
+  })
 })
