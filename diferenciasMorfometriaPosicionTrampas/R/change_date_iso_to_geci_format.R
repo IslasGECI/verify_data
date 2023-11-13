@@ -1,3 +1,4 @@
 change_date_iso_to_geci_format <- function(date) {
-  return("13/Nov/2023")
+  geci_format_date <- format(lubridate::ymd(date), "%d/%b/%Y")
+  return(geci_format_date)
 }
