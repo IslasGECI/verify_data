@@ -7,11 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.0] - 2023-11-07
+## [0.2.0] - 2023-11-13
 
 ### Added
 
-- Add function `lower_columns_age_patron_and_status()`.
+- Add functions `lower_columns_age_patron_and_status()` and `change_date_columns_to_geci_format()`.
 
 ### Fixed
 
