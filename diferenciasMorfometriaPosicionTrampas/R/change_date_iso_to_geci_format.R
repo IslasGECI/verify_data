@@ -1,4 +1,14 @@
 #' @export
+write_morphometry_geci_format <- function(options) {
+  data_path <- options[["data_path"]]
+  output_path <- options[["output_path"]]
+  iso_format <- readr::read_csv(data_path)
+  iso_format |>
+    change_date_columns_to_geci_format() |>
+    readr::write_csv(output_path)
+}
+
+
 change_date_columns_to_geci_format <- function(iso_dates_tibble) {
   iso_dates_tibble |>
     dplyr::mutate(Fecha = change_date_iso_to_geci_format(Fecha))
