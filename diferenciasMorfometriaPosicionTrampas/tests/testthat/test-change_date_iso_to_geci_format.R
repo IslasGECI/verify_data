@@ -5,9 +5,15 @@ describe("Change iso to geci format", {
     obtained <- change_date_iso_to_geci_format(date)
     expect_equal(obtained, expected)
   })
-  it("First example", {
+  it("Second example", {
     date <- "2023-11-30"
     expected <- "30/Nov/2023"
+    obtained <- change_date_iso_to_geci_format(date)
+    expect_equal(obtained, expected)
+  })
+  it("Third example", {
+    date <- "2023-01-30"
+    expected <- "30/Ene/2023"
     obtained <- change_date_iso_to_geci_format(date)
     expect_equal(obtained, expected)
   })
