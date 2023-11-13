@@ -2,7 +2,7 @@
 write_morphometry_geci_format <- function(options) {
   data_path <- options[["data_path"]]
   output_path <- options[["output_path"]]
-  iso_format <- readr::read_csv(data_path)
+  iso_format <- readr::read_csv(data_path, show_col_types = FALSE)
   iso_format |>
     change_date_columns_to_geci_format() |>
     readr::write_csv(output_path)

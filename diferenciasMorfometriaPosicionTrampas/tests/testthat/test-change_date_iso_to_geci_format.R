@@ -31,8 +31,8 @@ describe("xx ", {
     output <- "/workdir/cleaned_morphometry_geci_format.csv"
     options_for_testing <- list("data_path" = input, "output_path" = output)
     write_morphometry_geci_format(options_for_testing)
-    expected <- readr::read_csv("/workdir/diferenciasMorfometriaPosicionTrampas/tests/data_tests/cleaned_morphometry_geci_format.csv")
-    obtained <- readr::read_csv(output)
+    expected <- readr::read_csv("/workdir/diferenciasMorfometriaPosicionTrampas/tests/data_tests/cleaned_morphometry_geci_format.csv", show_col_types = FALSE)
+    obtained <- readr::read_csv(output, show_col_types = FALSE)
     expect_equal(obtained, expected)
   })
 })
