@@ -1,3 +1,7 @@
+change_date_columns_to_geci_format <- function(iso_dates_tibble) {
+  iso_dates_tibble |> mutate(Fecha = change_date_iso_to_geci_format(Fecha))
+}
+
 change_date_iso_to_geci_format <- function(date) {
   geci_format_date <- lubridate::ymd(date) |>
     format("%d/%b/%Y") |>
