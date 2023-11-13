@@ -29,7 +29,6 @@ input_file <- options$data
 morphometry <- read_csv(input_file, show_col_types = FALSE)
 clean_morphometry <- morphometry %>%
   filter(Fecha > as.Date("2018-04-23")) %>%
-  lower_columns_age_patron_and_status() %>%
-  change_date_columns_to_geci_format()
+  lower_columns_age_patron_and_status()
 output_file <- options$out
 write_csv(clean_morphometry, output_file)
