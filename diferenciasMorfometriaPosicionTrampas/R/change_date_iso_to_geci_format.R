@@ -1,5 +1,7 @@
+#' @export
 change_date_columns_to_geci_format <- function(iso_dates_tibble) {
-  iso_dates_tibble |> mutate(Fecha = change_date_iso_to_geci_format(Fecha))
+  iso_dates_tibble |>
+    dplyr::mutate(Fecha = change_date_iso_to_geci_format(Fecha))
 }
 
 change_date_iso_to_geci_format <- function(date) {
