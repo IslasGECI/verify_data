@@ -101,8 +101,8 @@ errors_directory=${files_path}/errores
 		--data_2=${files_path}/cleaned_position_traps.csv \
 		> ${errors_directory}/missing_captures_in_position.csv
 
-	Rscript -e "differenciasMorfometriaPosicionTrampas::write_morphometry_geci_format(geci.optparse::get_options())" \
+	Rscript -e "diferenciasMorfometriaPosicionTrampas::write_morphometry_geci_format(geci.optparse::get_options())" \
 		--data_path ${files_path}/cleaned_morphometry_cats.csv \
-		--output_path${files_path}/cleaned_morphometry_cats_geci_format.csv
+		--output_path ${files_path}/cleaned_morphometry_cats_geci_format.csv
 
 	echo "🧐 El resultado de esta verificación los podemos ver a detalle en la carpeta \`errores\` que se genera dentro de nuestra carpeta de datos 🗃️"
