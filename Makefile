@@ -66,10 +66,11 @@ $(csvCleanedPositionTraps): $(csvPosicionTrampas) src/get_captures.R
 		--out=$@
 
 $(csvMissingPosition): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps) src/show_diff_morphometry_position.R
-	src/show_diff_morphometry_position.R \
-		--data_1=reports/tables/cleaned_morphometry_cats.csv \
-		--data_2=reports/tables/cleaned_position_traps.csv \
-		>$@
+	R -e "diferenciasMorfometriaPosicionTrampas::write_diff_in_captures_between(geci.optparse::get_options())" \
+		--left_data=reports/tables/cleaned_morphometry_cats.csv \
+		--right_data=reports/tables/cleaned_position_traps.csv \
+		--output_path=$@
+
 $(csv_PosicionTrampasGatosDatapackage): $(csvIgPosicionTrampas10May2020) src/change_header
 	mkdir --parents $(@D)
 	src/change_header $< > $@
