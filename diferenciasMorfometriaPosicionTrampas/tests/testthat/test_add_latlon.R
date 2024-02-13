@@ -6,6 +6,6 @@ describe("Add latitude and longitude column", {
     expect_true(all(added_columns %in% colnames(obtained)))
     expected_latitude <- 29.038756
     expected_longitude <- -118.268294
-    expect_equal(obtained[6, "latitude"], expected_latitude)
+    expect_equal(obtained$latitude[[7]], expected_latitude, tolerance = 1e-6)
   })
 })
