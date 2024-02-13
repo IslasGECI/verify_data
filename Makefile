@@ -65,7 +65,7 @@ $(csvCleanedPositionTraps): $(csvPosicionTrampas) src/get_captures.R
 		--data=$< \
 		--out=$@
 
-$(csvMissingPosition): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps) src/show_diff_morphometry_position.R
+$(csvMissingPosition): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 	R -e "diferenciasMorfometriaPosicionTrampas::write_diff_in_captures_between(geci.optparse::get_options())" \
 		--left_data=reports/tables/cleaned_morphometry_cats.csv \
 		--right_data=reports/tables/cleaned_position_traps.csv \
@@ -79,11 +79,11 @@ $(csvRepeatedDataTest): $(csvIgPosicionTrampas10May2020) src/distinct_position_t
 	mkdir --parents $(@D)
 	src/distinct_position_traps $< > $@
 
-$(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps) src/show_diff_morphometry_position.R
-	src/show_diff_morphometry_position.R \
-		--data_1=reports/tables/cleaned_position_traps.csv \
-		--data_2=reports/tables/cleaned_morphometry_cats.csv \
-		>$@
+$(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
+	R -e "diferenciasMorfometriaPosicionTrampas::write_diff_in_captures_between(geci.optparse::get_options())" \
+		--left_data=reports/tables/cleaned_position_traps.csv \
+		--right_data=reports/tables/cleaned_morphometry_cats.csv \
+		--output_path=$@
 
 
 # V. Reglas del resto de los phonies

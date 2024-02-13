@@ -89,17 +89,17 @@ errors_directory=${files_path}/errores
 
 # 7. Comparar morfometría con posicion (Capturas que no están en morfometría)
 	echo "LAS CAPTURAS FALTANTES EN EL ARCHIVO DE MORFOMETRÍA ESTÁN EN EL ARCHIVO missing_captures_in_morphometry"
-	src/show_diff_morphometry_position.R \
-		--data_1=${files_path}/cleaned_position_traps.csv \
-		--data_2=${files_path}/cleaned_morphometry_cats.csv \
-		> ${errors_directory}/missing_captures_in_morphometry.csv
+	Rscript -e "diferenciasMorfometriaPosicionTrampas::write_diff_in_captures_between(geci.optparse::get_options())" \
+		--left_data=${files_path}/cleaned_position_traps.csv \
+		--right_data=${files_path}/cleaned_morphometry_cats.csv \
+		--output_path=${errors_directory}/missing_captures_in_morphometry.csv
 
 # 8. Comparar posicion con morfometría (Capturas que no están en posición)
 	echo "LAS CAPTURAS FALTANTES EN EL ARCHIVO DE MORFOMETRÍA ESTÁN EN EL ARCHIVO missing_captures_in_morphometry"
-	src/show_diff_morphometry_position.R \
-		--data_1=${files_path}/cleaned_morphometry_cats.csv \
-		--data_2=${files_path}/cleaned_position_traps.csv \
-		> ${errors_directory}/missing_captures_in_position.csv
+	Rscript -e "diferenciasMorfometriaPosicionTrampas::write_diff_in_captures_between(geci.optparse::get_options())" \
+		--left_data=${files_path}/cleaned_morphometry_cats.csv \
+		--right_data=${files_path}/cleaned_position_traps.csv \
+		--output_path=${errors_directory}/missing_captures_in_position.csv
 
 	Rscript -e "diferenciasMorfometriaPosicionTrampas::write_morphometry_geci_format(geci.optparse::get_options())" \
 		--data_path ${files_path}/cleaned_morphometry_cats.csv \
