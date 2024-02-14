@@ -1,0 +1,939 @@
+Fecha,ID_de_trampa,Zona,Coordenada_Este,Coordenada_Norte,Responsable_de_captura,Otros_responsables,Longitud_total,Longitud_de_cola,Altura,Sexo,Edad,Color,Patron,Gris,Negro,Pardo,Amarillo,Naranja,Blanco,Peso,Condicion_corporal,Altitud,Fase,Estado_de_salud,Estado_reproductivo,Contenido_estomacal_notas,Contenido_estomacal_plumas,Contenido_estomacal_pelos,Contenido_estomacal_insectos,Contenido_estomacal_plantas,Contenido_estomacal_desperdicios,Contenido_estomacal_inorganico,Observaciones
+2017-11-03,NA,NA,NA,NA,NA,NA,NA,NA,NA,H,cria,gris tigre,atigrado,1,0,0,0,0,0,1.5,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-11-03,NA,1,375823,3197653,NA,NA,NA,NA,NA,H,adulto,negro,solido,0,1,0,0,0,0,3,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-11-10,NA,1,NA,NA,NA,NA,46,22,25,H,juvenil,NA,NA,NA,NA,NA,NA,NA,NA,2.5,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-11-13,NA,1,NA,NA,NA,NA,NA,NA,NA,H,adulto,NA,NA,NA,NA,NA,NA,NA,NA,3,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-11-17,TC-01-194-JA,1,377963,3199161,NA,NA,50,30,28,M,adulto,NA,NA,NA,NA,NA,NA,NA,NA,3,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-11-18,TC-01-101-TR,1,376213,3199105,NA,NA,NA,NA,NA,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,4,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-11-28,TC-01-197-JA,1,377379,3199587,NA,NA,51,28,25,M,adulto,NA,NA,NA,NA,NA,NA,NA,NA,3.9,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-12-12,TC-01-100-TR,1,376134,3198945,NA,NA,67,26,27,H,juvenil,negro,solido,0,1,0,0,0,0,2.5,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-12-13,TC-01-100-TR,1,NA,NA,NA,NA,51,28,26,M,adulto,NA,NA,NA,NA,NA,NA,NA,NA,4.3,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-01-03,TC-01-101-TR,1,376134,3198945,NA,NA,73,29,28,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.1,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-01-05,TC-01-123-SF,1,376213,3199105,NA,NA,72,27,28,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.2,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-01-12,TC-01-115-SF,1,377318,3198713,NA,NA,27,27,27.5,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.5,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-01-12,TC-01-102-TR,1,378777,3197805,NA,NA,60,22,22.5,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-01-14,TC-01-112-SF,1,376372,3199292,NA,NA,83,34,31,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,4.6,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-01-17,TC-01-102-TR,1,378522,3198255,NA,NA,70,27,25,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,2.9,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-01-23,TC-01-124-SF,1,376372,3199292,NA,NA,69,26,24,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-01-26,TC-01-106-SF,1,377115,3198799,NA,NA,71,27,26,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.6,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-01-26,TC-01-104-TR,1,377305,3198974,NA,NA,72.5,28,24,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.4,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-03,TC-01-111-SF,1,376112,3199157,NA,NA,73,29,25,M,adulto,negro,solido,0,1,0,0,0,0,2.8,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-03,TC-01-111-SF,1,378349,3198356,NA,NA,77,28,27.5,M,adulto,café tigre,atigrado,0,0,1,0,0,0,3.3,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-08,TC-01-106-SF,1,378349,3198356,NA,NA,71,25,24,H,adulto,amarillo/negro,bicolor,0,1,0,1,0,0,2.5,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-08,TC-01-096-TR,1,377305,3198974,NA,NA,69,23,22.5,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-08,TC-01-102-TR,1,375619,3199032,NA,NA,79,28,26,M,adulto,negro,solido,0,1,0,0,0,0,3,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-18,TC-01-113-SF,1,376372,3199292,NA,NA,71,26,25.5,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.2,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-19,TC-01-118-SF,1,378713,3198181,NA,NA,68,25,24,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,3,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-24,TC-01-122-SF,1,378265,3198158,NA,NA,76,29,26,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.5,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-24,TC-01-036-AG,1,377507,3198580,NA,NA,71,24,24,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-26,TC-01-014-AG,1,377414,3196724,NA,NA,62,24,22,H,juvenil,negro,solido,0,1,0,0,0,0,2.1,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-26,TC-01-119-SF,1,378090,3198276,NA,NA,68,24,25,H,juvenil,negro,solido,0,1,0,0,0,0,2.5,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-26,TC-01-120-SF,1,377906,3198370,NA,NA,76,28,25,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.5,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-28,TC-01-213-DN,1,378530,3199055,NA,NA,74,25,22,H,adulto,negro,solido,0,1,0,0,0,0,3.4,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-28,TC-01-175-AG,1,377459,3199661,NA,NA,NA,NA,NA,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-02-28,TC-01-060-JA,1,378442,3197224,NA,NA,66,28.5,25.8,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-01,TC-01-295-JA,1,378165,3200013,NA,NA,48,25,20,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.4,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-01,TC-01-296-JA,1,377508,3200447,NA,NA,44,24,19,H,adulto,negro,solido,0,1,0,0,0,0,3,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-01,TC-01-088-TR,1,375359,3199178,NA,NA,65,22,20,M,juvenil,NA,NA,NA,NA,NA,NA,NA,NA,2.1,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-01,TC-01-291-JA,1,378904,3199666,NA,NA,55,19,18,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-02,TC-01-027-AG,1,375385,3196888,NA,NA,70,27,26,M,juvenil,negro,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-03,TC-01-261-AC,1,377488,3199970,NA,NA,71,25,NA,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.8,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-03,TC-01-270-AC,1,375764,3200564,NA,NA,48,19,NA,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,0.92,1,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-04,TC-01-100-TR,1,376134,3198945,NA,NA,59.8,20.1,22.5,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.2,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-06,TC-01-060-JA,1,378442,3197224,NA,NA,71,28,24.5,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.5,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-06,TC-01-195-JA,1,377677,3199252,NA,NA,40,22,17,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-07,TC-01-165-TR,1,374961,3199175,NA,NA,68,21,20,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-07,TC-01-266-AC,1,376506,3200349,NA,NA,71,28,28,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,NA,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-07,TC-01-211-DN,1,378917,3198891,NA,NA,48,16.5,17.5,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.1,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-07,TC-02-001-DN,2,374440,3200878,NA,NA,77,28.5,22,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.7,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-08,TC-01-004-AC,1,376132,3197375,NA,NA,59,21,22,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.6,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-08,TC-01-013-AC,1,376875,3197324,NA,NA,71,29,24,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.5,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-09,TC-01-215-DN,1,378140,3199298,NA,NA,62,22.5,21,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-09,TC-01-207-JA,1,374626,3200439,NA,NA,59,22,18,H,juvenil,negro,solido,0,1,0,0,0,0,2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-09,TC-01-232-SF,1,NA,NA,NA,NA,76,30,28,H,juvenil,negro,solido,0,1,0,0,0,0,4.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-13,TC-01-238-SF,1,NA,NA,NA,NA,68,26,25,H,juvenil,blanco con negro,bicolor,0,1,0,0,0,1,2.5,1,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-13,TC-01-273-AC,1,NA,NA,NA,NA,68.5,25,31,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-15,TC-01-218-DN,1,376524,3203658,NA,NA,76,26,25,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3.5,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-15,TC-01-275-AC,1,NA,NA,NA,NA,75,29,32,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,4,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-16,TC-01-176-AG,1,NA,NA,NA,NA,74,26.5,36,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,4.7,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-12,TC-01-233-SF,1,NA,NA,NA,NA,63,24,23.5,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.5,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-12,TC-01-234-SF,1,NA,NA,NA,NA,56,22,22,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.5,1,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-14,TC-02-005-K9,2,374669,3202833,NA,NA,79,29,28,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.1,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-14,TC-02-007-TX,2,376524,3203658,NA,NA,70,28,26,H,juvenil,negro,solido,0,1,0,0,0,0,2.3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-14,TC-02-007-TX,2,NA,NA,NA,NA,60,21,22,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.7,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-17,TC-01-225-DN,1,376001,3200172,David Najera,NA,36.5,22,22,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-18,TC-01-227-DN,1,375430,3200534,David Najera,NA,77,28,29,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,4,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-18,TC-01-187-AG,1,NA,NA,Antonio Gorriño,NA,75,28,31,M,adulto,negro,solido,0,1,0,0,0,0,4,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-19,TC-01-201-JA,1,NA,NA,Javier Angulo,NA,66,24,19,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-21,TC-02-002-DN,1,NA,NA,David Najera,NA,72.5,28,28.5,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-22,TC-01-098-TR,1,NA,NA,Martín Vázquez,NA,60,17,13,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Tetillas muy pronunciadas,posiblemente preñada. "
+2018-03-23,TC-01-218-DN,1,377313,3199774,Adriana Solís,NA,65,23,24,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.8,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-24,TC-02-007-DN,2,NA,NA,David Najera,NA,75,28,29,M,adulto,negro,solido,0,1,0,0,0,0,3.6,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-24,TC-01-230-SF,1,NA,NA,Carlos Tafoya,NA,61,30,28,H,adulto,café tigre,atigrado,0,0,1,0,0,0,2.7,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-24,TC-01-054-JA,1,NA,NA,Tomás Zamorano,NA,69,27,26,H,juvenil,negro,solido,0,1,0,0,0,0,3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-24,TC-01-088-TR,1,NA,NA,Martín Vázquez,NA,60,27,16,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-24,TC-01-263-AC,1,NA,NA,Ana Catzim,NA,75,28,37.5,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.9,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-25,TC-01-176-AG,1,NA,NA,Antonio Gorriño,NA,79,31,28.7,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-25,TC-01-240-SF,1,NA,NA,Carlos Tafoya,NA,65,26,25.5,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.8,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-25,TC-01-259-AC,1,NA,NA,NA,NA,59.5,22,28,M,juvenil,negro,solido,0,1,0,0,0,0,1.9,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-25,TC-01-258-AC,1,NA,NA,NA,NA,64,26,34,M,juvenil,negro,solido,0,1,0,0,0,0,2.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-26,TC-01-242-SF,1,NA,NA,Carlos Tafoya,NA,77,32,31,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.4,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-26,TC-01-223-DN,1,NA,NA,Adriana Solís,NA,69,28.5,32,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-26,TC-01-218-DN,1,NA,NA,Adriana Solís,NA,51.5,20,17,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-27,TC-01-195-JA,1,NA,NA,Javier Angulo,NA,72,27,22,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.6,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-27,TC-01-234-SF,1,NA,NA,Carlos Tafoya,NA,69,29,23,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.4,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-27,TC-01-236-SF,1,NA,NA,Carlos Tafoya,NA,80,32,30.5,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.7,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-27,TC-02-008-TX,2,NA,NA,Antonio Gorriño,NA,67,25.5,25,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.2,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-27,TC-02-001-TX,2,NA,NA,Antonio Gorriño,NA,74,26,28.5,H,adulto,negro,solido,0,1,0,0,0,0,3.1,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-27,TC-02-002-TX,2,NA,NA,Antonio Gorriño,NA,72,27,27,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-27,TC-02-003-TX,2,NA,NA,Antonio Gorriño,NA,65,24,25,H,juvenil,blanco- tigre,atigrado,0,0,0,0,0,1,2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-27,TC-01-068-JA,1,NA,NA,Tomás Zamorano,NA,74,27,25,H,juvenil,negro,solido,0,1,0,0,0,0,2.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-27,TC-01-224-DN,1,NA,NA,Adriana Solís,NA,67,26,23,M,juvenil,negro,solido,0,1,0,0,0,0,2.6,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-27,TC-01-215-DN,1,NA,NA,Adriana Solís,NA,55,24,20,H,juvenil,negro,solido,0,1,0,0,0,0,1.6,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-27,TC-01-150-TR,1,NA,NA,Tonancy Rodríguez,NA,67,33,28,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-28,TC-01-227-DN,1,NA,NA,David Najera,NA,62.5,25,25,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-28,TC-02-004-K9,2,NA,NA,David Najera,NA,59,23,25,H,juvenil,negro,solido,0,1,0,0,0,0,1.3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-28,TC-01-270-AC,1,NA,NA,Ana Catzim,NA,59,26,23,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,2.5,3,NA,erradicacion,NA,lactante,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-29,TC-02-007-DN,2,NA,NA,David Najera,NA,77,30,29.5,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,4,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-29,TC-02-266-AC,2,NA,NA,Tonancy Rodríguez,NA,63,25,23,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.9,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-30,TC-02-265-AC,2,NA,NA,Ana Catzim,NA,69,26,25,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-31,TC-01-191-JA,1,NA,NA,Javier Angulo,NA,61,25,18,M,juvenil,negro,solido,0,1,0,0,0,0,1.8,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-31,TC-02-005-K9,2,NA,NA,Luciano González,NA,77,30,29,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,4,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-03-31,TC-02-008-TX,2,NA,NA,Antonio Gorriño,NA,52,19,18.5,H,juvenil,negro,solido,0,1,0,0,0,0,1.1,1,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-01,TC-02-002-TX,2,NA,NA,David Najera,Antonio Gorriño,67,25,25,M,juvenil,negro,solido,0,1,0,0,0,0,2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-01,TC-01-338-AS,1,NA,NA,NA,NA,63,26.5,10.5,H,juvenil,negro,solido,0,1,0,0,0,0,2.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-01,TC-01-318-CR,1,NA,NA,NA,NA,65,24,22,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.1,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-01,TC-01-321-CR,1,NA,NA,NA,NA,61,22,22,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-01,TC-02-007-DN,2,NA,NA,NA,NA,54,20,24,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.4,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-02,TC-01-225-DN,1,NA,NA,NA,NA,60,24,21,H,juvenil,negro,solido,0,1,0,0,0,0,1.6,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-02,TC-01-257-AC,1,NA,NA,Tomás Zamorano,NA,62,23,22,M,juvenil,negro,solido,0,1,0,0,0,0,2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-03,TC-01-373-AG,1,NA,NA,NA,NA,62,24,24,M,juvenil,negro,solido,0,1,0,0,0,0,1.6,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-03,TC-01-371-AG,1,NA,NA,NA,NA,58,23,22,H,juvenil,negro,solido,0,1,0,0,0,0,1.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-03,TC-01-369-AG,1,NA,NA,NA,NA,77,29,28,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-03,TC-01-335-AC,1,NA,NA,NA,NA,75,31,28,M,adulto,negro,solido,0,1,0,0,0,0,3.2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-03,TC-01-260-AC,1,NA,NA,NA,NA,65,27,26,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.5,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-03,TC-01-253-AC,1,NA,NA,NA,NA,58,25,23,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-04,TC-01-247-SF,1,NA,NA,NA,NA,62,24.5,23,M,juvenil,negro,solido,0,1,0,0,0,0,1.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-04,TC-02-003-K9,2,NA,NA,NA,NA,75,31,28,M,juvenil,negro,solido,0,1,0,0,0,0,2.6,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-04,TC-01-167-AG,1,NA,NA,NA,NA,71,31,29,M,adulto,negro,solido,0,1,0,0,0,0,2.9,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-04,TC-01-205-JA,1,NA,NA,NA,NA,63,22,18,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.5,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-05,TC-01-342-DN,1,NA,NA,NA,NA,69,24,27,M,juvenil,negro,solido,0,1,0,0,0,0,2.4,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-05,TC-01-344-DN,1,NA,NA,NA,NA,64,23,20,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.5,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-05,TC-01-363-CT,1,NA,NA,NA,NA,69,26,27,M,juvenil,negro,solido,0,1,0,0,0,0,1.8,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-05,TC-01-357-CT,1,NA,NA,NA,NA,66.5,26,26,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-05,TC-01-321-CR,1,NA,NA,NA,NA,74,29,25,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.3,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-05,TC-01-332-AC,1,NA,NA,NA,NA,72.3,28,29,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,2.8,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-05,TC-01-056-JA,1,NA,NA,NA,NA,69,24,23,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-05,TC-01-197-JA,1,NA,NA,NA,NA,77,27,25,M,juvenil,negro,solido,0,1,0,0,0,0,3.4,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-06,TC-01-353-AS,1,NA,NA,NA,NA,65,29,30,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-06,TC-01-197-JA,1,NA,NA,NA,NA,68,26,22,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-06,TC-01-304-JA,1,NA,NA,NA,NA,69,26,22,M,juvenil,"negro, patas blancas",bicolor,0,1,0,0,0,1,2.3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-06,TC-01-342-DN,1,NA,NA,NA,NA,80,30,29,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3.3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-06,TC-01-276-AC,1,NA,NA,NA,NA,55,7,32,M,juvenil,negro,solido,0,1,0,0,0,0,2.8,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Cola corta
+2018-04-07,TC-01-372-AG,1,NA,NA,NA,NA,76,24,28,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,4.3,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-07,TC-01-370-AG,1,NA,NA,NA,NA,67,23,25,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,2.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-07,TC-02-008-TX,2,NA,NA,NA,NA,66,26,23,H,juvenil,negro,solido,0,1,0,0,0,0,1.7,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-07,TC-01-354-CT,1,NA,NA,NA,NA,76,27,27,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.3,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-07,TC-01-359-CT,1,NA,NA,NA,NA,76,28,27.5,M,adulto,negro,solido,0,1,0,0,0,0,2.7,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-07,TC-01-360-CT,1,NA,NA,NA,NA,62,24,23.5,M,juvenil,negro,solido,0,1,0,0,0,0,1.4,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-07,TC-01-356-CT,1,NA,NA,NA,NA,62,23,24.5,M,juvenil,negro,solido,0,1,0,0,0,0,1.3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-07,TC-01-321-CR,1,NA,NA,NA,NA,58,21,21,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.2,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-07,TC-01-220-DN,1,NA,NA,NA,NA,62,25,27,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.4,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-07,TC-01-198-JA,1,NA,NA,NA,NA,73,29,25,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-07,TC-01-272-AC,1,NA,NA,NA,NA,79,32,33,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-08,TC-01-263-AC,1,NA,NA,NA,NA,68,27,26,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.9,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-08,TC-01-261-AC,1,NA,NA,NA,NA,71,28,26,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-08,TC-02-006-TX,2,NA,NA,NA,NA,68,24,24,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.5,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-10,TC-02-008-TX,2,NA,NA,NA,NA,77,29,27,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-10,TC-02-007-TX,2,NA,NA,NA,NA,61,25,24,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-10,TC-02-001-TX,2,NA,NA,NA,NA,68,24,33,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,2.4,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-10,TC-01-363-CT,1,NA,NA,NA,NA,52,22,20.5,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-10,TC-01-365-CT,1,NA,NA,NA,NA,62,22,22,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-11,TC-01-344-DN,1,NA,NA,NA,NA,71,28,24,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.8,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-11,TC-02-005-K9,2,NA,NA,NA,NA,67,25,24,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.4,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-11,TC-01-180-AG,1,NA,NA,NA,NA,70,24,25,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-11,TC-01-176-AG,1,NA,NA,NA,NA,64,23,25,H,juvenil,blanco-negro,bicolor,0,1,0,0,0,1,1.9,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-12,TC-01-373-AG,1,NA,NA,NA,NA,66,24,24,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.5,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-12,TC-01-354-CT,1,NA,NA,NA,NA,61,22,22.5,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.6,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-12,TC-01-359-CT,1,NA,NA,NA,NA,74,30,26,M,adulto,negro,solido,0,1,0,0,0,0,2.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-12,TC-02-002-DN,2,NA,NA,NA,NA,79,29,28,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,2.7,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-12,TC-02-003-DN,2,NA,NA,NA,NA,70,26,23.5,H,adulto,gris tigre  moteado,atigrado,1,0,0,0,0,0,2.4,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Lactancia
+2018-04-12,TC-02-004-DN,2,NA,NA,NA,NA,74,27,26,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,2.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Lactancia
+2018-04-12,TC-02-006-DN,2,NA,NA,NA,NA,71,27,23.5,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-12,TC-01-284-TR,1,NA,NA,NA,NA,77,33,25,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.5,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-12,TC-01-224-DN,1,NA,NA,NA,NA,57.5,24.5,24,M,juvenil,amarillo tigre,atigrado,0,0,0,1,0,0,1.5,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-12,TC-01-219-DN,1,NA,NA,NA,NA,68.5,29,29,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-13,TC-01-374-AG,1,NA,NA,NA,NA,71,26,24,H,juvenil,negro,solido,0,1,0,0,0,0,1.7,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-14,TC-01-365-AG,1,NA,NA,NA,NA,67,27,25,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.6,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-10,TC-01-333-AC,1,NA,NA,NA,NA,68,29,27,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-12,TC-01-332-AC,1,NA,NA,NA,NA,72,29,26.5,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-12,TC-01-328-AC,1,NA,NA,NA,NA,73.5,31,29,M,adulto,negro,solido,0,1,0,0,0,0,2.8,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-13,TC-01-262-AC,1,NA,NA,NA,NA,74,26,30,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,2.9,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-15,TC-02-001-TX,2,NA,NA,NA,NA,83,35,28,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-17,TC-02-007-DN,2,NA,NA,Javier Angulo,Nicolas Nuñez-Georgina Castro,77,29.5,26.5,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,4.2,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Orejas redondas y con muesca en la oreja izquierda. 
+2018-04-17,TC-02-006-K9,2,NA,NA,Javier Angulo,Nicolas Nuñez-Georgina Castro,67,26,24.5,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.6,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Muesca en ambas orejas.
+2018-04-17,TC-02-006-DN,2,NA,NA,Javier Angulo,Nicolas Nuñez-Georgina Castro,59,28,25.5,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Camninos muy desarrollados. Orejas largas y puntiagudas.
+2018-04-17,TC-02-004-DN,2,NA,NA,Javier Angulo,Nicolas Nuñez-Georgina Castro,59,27,23,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.7,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-18,TC-01-361-CT,1,NA,NA,Gustavo Vásquez,Nicolás Núñez,72,28,24.5,M,juvenil,negro tigre,atigrado,0,1,0,0,0,0,2.6,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-18,TC-01-360-CT,1,NA,NA,Javier Angulo,NA,69,25,20,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.7,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-19,TC-02-007-DN,2,NA,NA,Georgina Castro,NA,28,26,22.5,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.1,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Orejas alargadas 
+2018-04-20,TC-01-368-AG,1,NA,NA,Georgina Castro,NA,70,24.5,25.5,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.1,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,PreNAda
+2018-04-20,TC-01-366-AG,1,NA,NA,Georgina Castro,NA,47,17.5,17,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,0.7,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-20,TC-01-330-DN,1,NA,NA,Nicolás Núñez,NA,72,32,22,M,adulto,negro atigrado,atigrado,0,1,0,0,0,0,3.6,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-20,TC-01-355-CT,1,NA,NA,Gustavo Vásquez,NA,62,25,21,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,1.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-20,TC-01-356-CT,1,NA,NA,Gustavo Vásquez,NA,58,24,20,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,1.6,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-20,TC-01-358-CT,1,NA,NA,Gustavo Vásquez,NA,65,26,24,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,1.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-21,TC-02-005-DN,2,NA,NA,Georgina Castro,NA,67,26,22.5,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.1,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-21,TC-01-315-TR,1,NA,NA,Nicolás Núñez,NA,61,26,22,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.1,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-21,TC-01-316-TR,1,NA,NA,Nicolás Núñez,NA,59,24,24,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-21,TC-01-361-CT,1,NA,NA,Javier Angulo,NA,69,27,21,H,juvenil,negro,solido,0,1,0,0,0,0,1.9,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-22,TC-01-203-JA,1,NA,NA,Javier Angulo,NA,77,29,23,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-22,TC-01-208-JA,1,NA,NA,Javier Angulo,NA,64,25,19,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-22,TC-01-241-SF,1,NA,NA,Camerino Reyes,NA,75,26,23,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-23,TC-01-321-CR,1,NA,NA,Camerino Reyes,NA,61,23,16,H,juvenil,negro,solido,0,1,0,0,0,0,1.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-23,TC-01-333-AC,1,NA,NA,Nicolás Núñez,NA,61,25,21,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.4,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-23,TC-01-367-AG,1,NA,NA,Javier Angulo,NA,69,26,21,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.8,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-24,TC-01-314-TR,1,NA,NA,Nicolás Núñez,NA,58,23.5,22.5,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-24,TC-01-124-SF,1,NA,NA,Camerino Reyes,NA,80,32,22,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,4.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-25,TC-01-154-TR,1,NA,NA,Javier Angulo,NA,71,29,20,M,juvenil,negro,solido,0,1,0,0,0,0,1.9,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-25,TC-01-099-TR,1,NA,NA,Nicolás Núñez,NA,56,25,20.5,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.7,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-26,TC-01-359-CT,1,NA,NA,Gustavo Vásquez,NA,70,31,27,M,adulto,negro,solido,0,1,0,0,0,0,2.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-26,TC-01-360-CT,1,NA,NA,Gustavo Vásquez,NA,63,29,26,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-26,TC-01-330-AC,1,NA,NA,Camerino Reyes,NA,73,30,23,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-27,TC-01-288-JA,1,NA,NA,Gustavo Vásquez,NA,56,23,21,M,juvenil,negro,solido,0,1,0,0,0,0,1,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-28,TC-01-302-JA,1,NA,NA,Gustavo Vásquez,NA,62,25,20,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-28,TC-01-180-AG,1,NA,NA,Javier Angulo,NA,73,26,24,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-28,TC-01-180-AG,1,NA,NA,NA,NA,73,26,24,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-29,TC-02-004-K9,2,NA,NA,NA,NA,74.5,28.5,24,H,juvenil,negro,solido,0,1,0,0,0,0,2.3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-29,TC-02-004-DN,2,NA,NA,NA,NA,77,29,26,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.4,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-29,TC-01-365-AG,1,NA,NA,NA,NA,70.5,22.5,24.5,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-29,TC-01-338-AC,1,NA,NA,NA,NA,69,25,23,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-29,TC-01-275-AC,1,NA,NA,NA,NA,66,25,20,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.9,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-04-29,TC-01-270-AC,1,NA,NA,NA,NA,76,28,23,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.8,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-08-22,TC-02-002-DN,2,NA,NA,Camerino Reyes,NA,68,26,24,H,adulto,negro,solido,0,1,0,0,0,0,2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-11-28,TC-02-030-NN,2,NA,NA,Lluvia Espinoza,NA,72,23,32,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.2,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-11-28,TC-02-012-HH,2,NA,NA,Camerino Reyes,NA,68,23,22,H,adulto,gris rayado,atigrado,1,0,0,0,0,0,2.4,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Orejas dañadas
+2018-11-28,TC-02-020-HH,2,NA,NA,Camerino Reyes,NA,46,18,16,H,cria,negro,solido,0,1,0,0,0,0,0.7,4,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-01,TC-02-071-GV,2,NA,NA,Jairo R. Carlin,NA,69,24,26,H,juvenil,pardo rayado,atigrado,0,0,1,0,0,0,2.1,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Oreja con leve corte
+2018-12-01,TC-02-075-GV,2,NA,NA,Jairo R. Carlin,NA,79,25,26.5,M,adulto,pardo rayado,atigrado,0,0,1,0,0,0,3.2,5,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se observaron restos de plumas cercanos en la revision anterior a la fecha de captura
+2018-12-03,TC-02-009-K9,2,NA,NA,Cristian Flores,NA,73,28,27,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-03,TC-02-105-AM,2,NA,NA,Cristian Flores,NA,73,27,26,H,juvenil,negro,solido,0,1,0,0,0,0,3,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Orejas con corte
+2018-12-04,TC-04-010-CF,4,NA,NA,Cristian Flores,NA,71,27,25,H,juvenil,atigrado y am,atigrado,0,0,1,0,0,0,2.1,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-04,TC-05-003-LE,5,NA,NA,Cristian Flores,NA,70,24,26,H,juvenil,atigrado y bla,atigrado,0,0,0,0,0,1,2.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-04,TC-05-002-LE,5,NA,NA,Cristian Flores,NA,74,26,27,H,juvenil,gris con negro,bicolor,1,1,0,0,0,0,3,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Orejas cortadas
+2018-12-04,TL-03-011-CR,3,NA,NA,Camerino Reyes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Canivalismo (habia otro gato comiendoselo)
+2018-12-04,TC-03-007-NN,3,NA,NA,Nicolás Núñez,NA,63,26,21,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se comio parte de su pata
+2018-12-04,TL-03-001-JR,3,NA,NA,Nicolás Núñez,NA,77,29,28,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,4.9,4,NA,erradicacion,muerto,reproductivo,5 RATONES,0,1,0,0,0,0,NA
+2018-12-07,TC-02-067-GV,2,NA,NA,Jairo R. Carlin,NA,75,25,24,H,adulto,rayado,atigrado,NA,NA,NA,NA,NA,NA,2.6,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-07,TC-02-058-NN,2,NA,NA,José Cortez,NA,78,30,26,M,adulto,gris con negro,bicolor,1,1,0,0,0,0,3.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Con collar de telemetria
+2018-12-07,TC-02-123-MO,2,NA,NA,Jairo R. Carlin,NA,75,25,24,H,adulto,gris pardo,bicolor,1,0,1,0,0,0,2.9,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-07,TC-02-109-MO,2,NA,NA,Jairo R. Carlin,NA,74,28.5,26.5,H,adulto,gris,solido,1,0,0,0,0,0,2.8,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-11,TC-01-360-CT,1,NA,NA,Luis Armando Estudillo ,NA,70,24,20,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.5,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-13,TC-01-376-NN,1,NA,NA,Nicolás Núñez,NA,71,30,23,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.4,2,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-13,TC-02-112-MO,2,NA,NA,Luis Armando Estudillo ,NA,73,29,24,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.4,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-13,TC-02-123-MO,2,NA,NA,Luis Armando Estudillo ,NA,68,25,21,H,adulto,amarillo atigrado ,atigrado,0,0,0,1,0,0,2.3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-13,TC-02-089-EJ,2,NA,NA,Armando Martínez,NA,72,25,24,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.3,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-13,TC-02-103-AM,2,NA,NA,Cristian Flores,NA,67,26,22,H,juvenil,negro,solido,0,1,0,0,0,0,2.1,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-13,TC-02-059-GV,2,NA,NA,Jairo R. Carlin,NA,79.5,29,25,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.7,NA,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-10,TC-03-014-LE,3,NA,NA,Cristian Flores,NA,70,28,23,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-10,TC-03-015-LE,3,NA,NA,Cristian Flores,NA,73,27,22,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-10,TC-03-017-LE,3,NA,NA,Cristian Flores,NA,72,29,21,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-10,TC-03-029-AM,3,NA,NA,Armando Martínez,NA,68,28,24,H,juvenil,negro,solido,0,1,0,0,0,0,1.5,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-16,TL-03-002-JR,3,NA,NA,Camerino Reyes,NA,NA,NA,NA,NA,adulto,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Cadaver
+2018-12-16,TC-03-050-AM,3,NA,NA,José Cortez,NA,65,25,21,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.6,2,NA,erradicacion,enfermo,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Tenia dos cepos
+2018-12-16,TC-03-034-LE,3,NA,NA,Luis Armando Estudillo ,NA,70,26,20,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.3,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-16,TC-03-017-LE,3,NA,NA,Nicolás Núñez,NA,73,28,26.5,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,4,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-16,TL-03-008-CR,3,NA,NA,Nicolás Núñez,NA,NA,NA,NA,NA,NA,negro,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Cadaver
+2018-12-15,TC-04-034-JR,4,NA,NA,Jairo R. Carlin,NA,75,29.5,22.5,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.9,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-15,TC-04-033-JR,4,NA,NA,Jairo R. Carlin,NA,83,32,28.5,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.9,4,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se automutilo la pata para liberarse
+2018-12-15,TC-04-019-JC,4,NA,NA,José Cortez,NA,63,24,21,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.1,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-15,TC-04-020-JC,4,NA,NA,José Cortez,NA,66,25,23,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.9,3,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-15,TC-04-015-CR,4,NA,NA,Camerino Reyes,NA,NA,26,NA,NA,NA,gris con rayas,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Muerto
+2018-12-15,TC-04-014-CR,4,NA,NA,Camerino Reyes,NA,73,29,25,H,adulto,gris rayado,atigrado,1,0,0,0,0,0,1.7,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-15,TC-04-012-CR,4,NA,NA,Camerino Reyes,NA,NA,24,NA,NA,NA,negro,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Muerto
+2018-12-15,TC-04-011-CR,4,NA,NA,Camerino Reyes,NA,NA,24,NA,H,adulto,gris rayado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Muerto
+2018-12-15,TC-04-026-NN,4,NA,NA,Nicolás Núñez,NA,69,27,23,H,juvenil,gris rayado,atigrado,1,0,0,0,0,0,1.9,2,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Muerto
+2018-12-16,TL-04-005-AM,4,NA,NA,Cristian Flores,NA,78,31,24,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.1,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-16,TC-04-010-CF,4,NA,NA,Cristian Flores,NA,89,26,25,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,4.6,5,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-16,TL-04-003-JC,4,NA,NA,Nicolás Núñez,NA,NA,NA,NA,NA,NA,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Cadaver
+2018-12-15,TC-05-021-LE,5,NA,NA,Luis Armando Estudillo ,NA,60,26,16,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.5,1,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-15,TC-05-004-JR,5,NA,NA,Jairo R. Carlin,NA,79,32,24.5,M,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.8,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-15,TC-05-013-CF,5,NA,NA,Cristian Flores,NA,85,32,25,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,4,5,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-15,TC-05-015-CF,5,NA,NA,Cristian Flores,NA,75,31,20,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.6,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-15,TC-05-023-LE,5,NA,NA,Lluvia Espinoza,NA,65,28,25,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.9,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,Automutilado
+2018-12-15,TC-05-026-LE,5,NA,NA,Lluvia Espinoza,NA,69,25,25,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-16,TL-05-002-LE,5,NA,NA,Cristian Flores,NA,75,29,22,H,juvenil,gris con blanco,bicolor,1,0,0,0,0,1,2.2,3,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-21,TC-02-076-GV,2,NA,NA,Jairo R. Carlin,NA,54,19.5,17,M,juvenil,gris rayado,atigrado,1,0,0,0,0,0,0.8,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-23,TC-03-039-LE,3,NA,NA,José Cortez,NA,72,27,33,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.9,2,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Tenia collar de telemetria
+2018-12-23,TC-03-070-CF,3,NA,NA,Camerino Reyes,NA,69,27,24,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3,3,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,Bueno
+2018-12-23,TC-03-031-AM,3,NA,NA,Armando Martínez,NA,73,25,27,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,1.3,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Pata mutilada
+2018-12-23,TC-03-019-JC,3,NA,NA,Armando Martínez,NA,80,29,26,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.3,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-23,TC-03-027-JR,3,NA,NA,Luis Armando Estudillo ,NA,69,24,20,H,adulto,negro,solido,0,1,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-23,TC-03-066-K9,3,NA,NA,Luis Armando Estudillo ,NA,74,28,23,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.1,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Orejas cortas mas no mutiladas
+2018-12-17,TC-04-013-CR,4,NA,NA,Camerino Reyes,NA,73,30,26,M,adulto,negro,solido,0,1,0,0,0,0,3.5,3,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-17,TC-04-011-CR,4,NA,NA,Camerino Reyes,NA,79,32,27,H,adulto,gris rayado,atigrado,1,0,0,0,0,0,3,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-18,TC-04-042-CF,4,NA,NA,Cristian Flores,NA,75,27,25,M,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.5,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-18,TC-04-055-NN,4,NA,NA,Nicolás Núñez,NA,69,26,24,H,juvenil,negro,solido,0,1,0,0,0,0,2.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-18,TC-04-045-JR,4,NA,NA,Jairo R. Carlin,NA,84,29.5,25.5,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.8,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-18,TC-04-046-JR,4,NA,NA,Jairo R. Carlin,NA,68.5,26,24.5,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.8,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-29,TC-04-022-JC,4,NA,NA,José Cortez,NA,63,23,28,M,juvenil,negro,solido,0,1,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-29,TC-04-013-CR,4,NA,NA,Camerino Reyes,NA,74,28,25,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-30,TC-05-024-LE,5,NA,NA,José Cortez,NA,75,31,33,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.8,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-30,TC-05-023-LE,5,NA,NA,José Cortez,NA,65,26,29,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-30,TC-05-027-JR,5,NA,NA,Jairo R. Carlin,NA,69.5,28,23.5,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-30,TC-05-044-NN,5,NA,NA,Jairo R. Carlin,NA,67.5,27,25,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.8,1,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-29,TC-03-070-CF,3,NA,NA,Camerino Reyes,NA,79,29,27,M,adulto,gris rayado ,atigrado,1,0,0,0,0,0,4.8,1,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-29,TC-05-007-AM,5,NA,NA,Armando Martínez,NA,70,25,24,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.1,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-30,TC-05-047-LE,5,NA,NA,Luis Armando Estudillo ,NA,70,26,20,H,adulto,negro,solido,0,1,0,0,0,0,2.3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-30,TC-05-051-CR,5,NA,NA,Camerino Reyes,NA,74,30,26,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-30,TC-05-052-CR,5,NA,NA,Camerino Reyes,NA,70,28,25,H,adulto,negro,solido,0,1,0,0,0,0,2.7,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-12-30,TC-05-053-CR,5,NA,NA,Camerino Reyes,NA,74,27,24,H,adulto,negro,solido,0,1,0,0,0,0,2.3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-02,TC-01-273-AC,1,NA,NA,Roxana Carrillo,NA,73,25,30,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.4,1,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Orejas cortadas
+2018-07-03,TC-01-225-DN,1,NA,NA,Javier Angulo,NA,83,31,24,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.9,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-08,TC-02-006-K9,2,NA,NA,Roxana Carrillo,NA,79,32,32,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.5,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-18,TC-01-346-AS,1,NA,NA,Javier Angulo,NA,55,20,16,M,juvenil,negro,solido,0,1,0,0,0,0,1.3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-18,TC-02-004-DN,2,NA,NA,Pablo Nereyda,Georgina Castro,71,24,24,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.7,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-22,TC-01-221-DN,1,NA,NA,Georgina Castro,NA,56,20.4,19,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-23,TC-01-338-AS,1,NA,NA,Antonio Gorriño,NA,55,22,24,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-24,NA,1,NA,NA,Camerino Reyes,NA,79,24,25,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.7,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Gravida
+2018-07-26,TC-02-002-TX,2,NA,NA,Antonio Gorriño,NA,77,25,23,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Oreja derecha cortada
+2018-06-03,TC-01-375-DN,1,NA,NA,Aldo Rodríguez,NA,NA,NA,NA,NA,NA,gris tigre,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,No se logro medir por descomposición
+2018-06-10,TC-01-271-AC,1,NA,NA,Salvador Figueroa,NA,77,31,28,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3.5,3,NA,erradicacion,enfermo,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-06-13,TC-02-006-K9,2,NA,NA,Roxana Carrillo,NA,69,28,28,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.3,1,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-06-15,TC-02-004-DN,2,NA,NA,Georgina Castro,NA,72,26,26,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.4,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-06-23,TC-01-157-TR,1,NA,NA,Roxana Carrillo,NA,79,26,30,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,3,1,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Tenia collar con frecuencia 167.041
+2018-06-29,TC-01-053-AS,1,NA,NA,Armando Martínez,NA,68.5,22.8,20.3,H,juvenil,gris atrigrado,atigrado,1,0,0,0,0,0,1.6,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-02,TC-01-266-AC,1,NA,NA,NA,NA,73,28,22,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-03,TC-02-004-K9,2,NA,NA,Georgina Castro,NA,70,28,23,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.5,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-03,TC-02-007-DN,2,NA,NA,Georgina Castro,NA,73,28,23,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,1.7,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-03,TC-01-349-AS,1,NA,NA,Gustavo Vásquez,NA,74,31,25,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Peludo
+2018-05-03,TC-01-359-CT,1,NA,NA,Gustavo Vásquez,NA,75,31,26,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,2.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-04,TC-01-176-AG,1,NA,NA,Javier Angulo,NA,68,25,19,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.4,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-04,TC-01-316-TR,1,NA,NA,Georgina Castro,NA,66,27,23,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-06,TC-02-321-CR,2,NA,NA,Camerino Reyes,NA,67,28,26,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-06,TC-01-338-AC,1,NA,NA,Camerino Reyes,NA,76,26,32,M,adulto,gris tigre,atigrado,1,0,0,0,0,0,4.5,4,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-06,TC-02-002-K9,2,NA,NA,Georgina Castro,NA,83,30,29,M,adulto,negro,solido,0,1,0,0,0,0,3.5,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-09,TC-01-367-AG,1,NA,NA,Nicolás Núñez,NA,62,25,24,M,juvenil,negro,solido,0,1,0,0,0,0,2.4,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-09,TC-02-005-K9,2,NA,NA,Georgina Castro,NA,72,29,27,H,adulto,gris tigre,atigrado,1,0,0,0,0,0,2.1,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-11,TC-01-189-JA,1,NA,NA,Javier Angulo,NA,77,30,23,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2.2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-12,TC-01-335-AC,1,NA,NA,Javier Angulo,NA,69,27,20,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,1.4,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-13,TC-01-082-TR,1,NA,NA,NA,NA,75,28,23,H,juvenil,gris tigre,atigrado,1,0,0,0,0,0,2,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-14,NA,1,NA,NA,Javier Angulo,NA,79,29,27,M,adulto,negro,solido,0,1,0,0,0,0,3.4,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-23,TC-02-002-DN,2,NA,NA,Georgina Castro,NA,78,28,28.5,M,adulto,grtis tigre,atigrado,1,0,0,0,0,0,4.1,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-23,TC-01-321-CR,1,NA,NA,Salvador Figueroa,NA,75,29,25.5,M,juvenil,negro,solido,0,1,0,0,0,0,2.5,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-28,TC-01-311-TR,1,NA,NA,Roxana Carrillo,NA,84,29,29,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-05-27,TC-01-311-TR,1,NA,NA,Roxana Carrillo,NA,84,29,29,M,juvenil,gris tigre,atigrado,1,0,0,0,0,0,3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-11-05,TC-02-103-AM,2,NA,NA,Luis Armando Estudillo ,NA,74,30,32,M,adulto,gris obscuro,solido,1,0,0,0,0,0,4,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-11-06,TC-02-005-K9,2,NA,NA,Luis Armando Estudillo ,NA,78,29,25,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.1,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Sin pata anterior derecha
+2018-11-08,TC-02-101-AM,2,NA,NA,Marco Ontiveros Cordova,NA,69,26,26,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-11-17,TC-01-360-CT,1,NA,NA,Nicolás Núñez,NA,46,18,16,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-11-16,TC-02-075-GV,2,NA,NA,Luis Armando Estudillo ,NA,70,24,21,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.7,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-11-22,TC-01-302-JA,1,NA,NA,Nicolás Núñez,NA,49,18,17,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.1,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-11-21,TC-02-067-GV,2,NA,NA,Lluvia Espinoza,Jairo R. Carlin,66.5,31,22,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.5,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-31,TC-02-066-GV,2,NA,NA,Eduardo Jiménez,NA,72,26,25,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,3.7,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-02,TC-02-081-EJ,2,NA,NA,José Luis Bolivar,NA,70,27,29,H,adulto,blanco con negro,bicolor,0,1,0,0,0,1,3,5,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-02,TC-02-072-GV,2,NA,NA,Gustavo Vásquez,NA,64,26,29,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.5,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-06,TC-02-101-AM,2,NA,NA,Armando Martínez,NA,68,26,28,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.2,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,Orejas mochas
+2018-10-09,TC-01-094-TR,1,NA,NA,Atzin Arenas,NA,73,28,32,H,adulto,gris atrigrado,atigrado,1,0,0,0,0,0,2.4,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-09,TC-01-001-AG,1,NA,NA,José Luis Bolivar,NA,70,26,25,H,juvenil,gris atrigrado,atigrado,1,0,0,0,0,0,2.3,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-12,TC-02-080-EJ,2,NA,NA,José Luis Bolivar,NA,70,24,25,H,juvenil,negro,solido,0,1,0,0,0,0,2.5,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-13,TC-01-154-TR,1,NA,NA,Atzin Arenas,NA,76,28,30,H,adulto,gris atrigrado,atigrado,1,0,0,0,0,0,3.2,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-19,TC-02-064-GV,2,NA,NA,Eduardo Jiménez,NA,74,25,20,H,adulto,gris atrigrado,atigrado,1,0,0,0,0,0,3,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-20,TC-02-078-EJ,2,NA,NA,Atzin Arenas,NA,74,27,25,H,adulto,gris atrigrado,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-20,TC-02-087-EJ,2,NA,NA,Atzin Arenas,NA,67,24,30,H,adulto,gris atrigrado,atigrado,1,0,0,0,0,0,2.1,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-22,TC-02-101-AM,2,NA,NA,Luis Armando Estudillo ,NA,78,30,29,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,3,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-22,TC-02-058-NN,2,NA,NA,Cristian Flores,NA,74,29,26,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.5,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-22,TC-02-086-EJ,2,NA,NA,Atzin Arenas,NA,72,25,29,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.7,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-24,TC-01-152-TR,1,NA,NA,Atzin Arenas,NA,88,30,33,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,4.5,4,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-25,TC-02-066-GV,2,NA,NA,Nicolás Núñez,NA,72,26,23,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-10-28,TC-02-095-AM,2,NA,NA,Nicolás Núñez,NA,76,26,25,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,debil,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-01,TC-02-022-NN,2,NA,NA,Cristian Flores,NA,68,28,25,H,juvenil,negro y blanco,bicolor,0,1,0,0,0,1,3,3,NA,erradicacion,debil,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-04,TC-02-065-GV,2,NA,NA,Gustavo Vásquez,NA,79,30,27,H,juvenil,negro,solido,0,1,0,0,0,0,2,3,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-04,TC-02-053-NN,2,NA,NA,Nicolás Núñez,NA,73,26,24,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.5,3,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,Orejas mochas
+2018-09-08,TC-02-038-NN,2,NA,NA,Cristina Casillas,NA,72,28,23,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.1,4,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-11,TC-01-101-TR,1,NA,NA,Armando Martínez,NA,61,23,21,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1,2,NA,erradicacion,debil,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-11,TC-01-228-DN,1,NA,NA,Nicolás Núñez,NA,73,25,25,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.1,3,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Orejas mochas
+2018-09-16,TC-02-100-AM,2,NA,NA,Armando Martínez,NA,68,22,29,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2,3,NA,erradicacion,debil,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-16,TC-02-061-GV,2,NA,NA,Gustavo Vásquez,NA,70,25,23,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.5,2,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-20,TC-01-099-TR,1,NA,NA,Armando Martínez,NA,33,16,14,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,0.5,1,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-21,TC-02-023-NN,2,NA,NA,Gustavo Vásquez,NA,74,25,24,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2,3,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-21,TC-02-042-NN,2,NA,NA,Eduardo Jiménez,NA,67,23,15,H,juvenil,amarillo grisaceo,solido,0,0,0,1,0,0,2,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-22,TC-01-158-TR,1,NA,NA,José Luis Bolivar,NA,75,32,38,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.8,4,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-22,TC-01-224-DN,1,NA,NA,José Luis Bolivar,NA,68,27,28,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.5,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-22,TC-01-343-DN,1,NA,NA,José Luis Bolivar,NA,74,27,26,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3,4,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-24,TC-02-058-NN,2,NA,NA,Sergio Muños ,NA,68,22,27,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.5,3,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-24,TC-01-371-AG,1,NA,NA,Atzin Arenas,NA,76,26,NA,M,juvenil,negro,solido,0,1,0,0,0,0,2.5,2,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-09-29,TC-01-364-AG,1,NA,NA,José Luis Bolivar,NA,65,27,26,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.5,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-04-02,TC-07-012-AC,7,NA,NA,Cristian Flores,NA,76,30,26,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.4,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se le tomó muestra
+2019-04-28,TC-01-055-JA,1,NA,NA,Nicolás Núñez,NA,70,26,25,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.1,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se le tomó muestra de oreja en NAcl t-2206
+2019-04-23,TC-03-074-CF,3,NA,NA,Alejandra Ochoa,NA,37,27,24,NA,NA,negro,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-04-24,TC-03-026-JR,3,NA,NA,Alejandra Ochoa,NA,41,30,25,NA,NA,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-04-23,TC-04-015-CR,4,NA,NA,Efraín Carrillo,NA,73,28,24,NA,NA,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-04-23,TC-04-011-CR,4,NA,NA,Efraín Carrillo,NA,NA,NA,NA,NA,NA,negro,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-04-25,TC-04-092-CR,4,NA,NA,Alejandra Ochoa,NA,48,28,28,NA,NA,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-04-26,TC-05-051-CR,5,NA,NA,Miguel Vázquez,NA,NA,NA,NA,NA,NA,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-04-26,TC-05-053-CR,5,NA,NA,Miguel Vázquez,NA,NA,NA,NA,NA,NA,negro,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-04-26,TC-05-021-LE,5,NA,NA,Efraín Carrillo,NA,NA,NA,NA,NA,NA,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-04-25,TC-05-006-AM,5,NA,NA,Eva García,NA,71,31,22,H,adulto,negro,solido,0,1,0,0,0,0,2.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se le tomó muestra t-2205
+2019-01-04,TC-02-142-CR,2,NA,NA,Cristian Flores,NA,NA,NA,NA,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,No se pudieron tomar medidas por el estado abanzado de descomposicion.
+2019-01-04,TC-02-132-JR,2,NA,NA,Cristian Flores,NA,64,26,20,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.5,1,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-04,TC-02-136-CF,2,NA,NA,Cristian Flores,NA,NA,NA,NA,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,NA,1,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,No se pudieron tomar medidas por el estado abanzado de descomposicion.
+2019-01-03,TC-03-007-NN,3,NA,NA,Luis Armando Estudillo ,NA,NA,NA,NA,NA,adulto,gris atigrado ,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Se le encontro en estado muy avanzado de descomposición. 
+2019-01-03,TC-03-037-LE,3,NA,NA,Jairo R. Carlin,NA,72,28,24,H,adulto,gris atigrado ,atigrado,1,0,0,0,0,0,2.4,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-03,TC-03-064-K9,3,NA,NA,Jairo R. Carlin,NA,73.5,27,25,H,adulto,gris atigrado ,atigrado,1,0,0,0,0,0,1.8,1,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-04,TC-03-074-CF,3,NA,NA,Luis Armando Estudillo ,NA,79,28,25,M,adulto,gris atigrado ,atigrado,1,0,0,0,0,0,3,3,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-04,TC-03-054-JR,3,NA,NA,Armando Martínez,NA,67,22,21,H,adulto,gris,solido,1,0,0,0,0,0,1.6,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-04,TC-03-076-K9,3,NA,NA,Armando Martínez,NA,66,24,22,H,adulto,gris atigrado ,atigrado,1,0,0,0,0,0,0.9,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-02,TC-04-055-NN,4,NA,NA,Camerino Reyes,NA,72,30,25,H,adulto,gris atigrado ,atigrado,1,0,0,0,0,0,2.2,2,NA,erradicacion,enfermo,NA,NA,NA,NA,NA,NA,NA,NA,Debil
+2019-01-03,TC-04-010-CF,4,NA,NA,Cristian Flores,NA,NA,NA,NA,M,juvenil,gris atigrado ,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Se encontro muerto en estado avanzado de descomposicion.
+2019-01-02,TL-05-016-LE,5,NA,NA,Luis Armando Estudillo ,NA,80,20,15,NA,NA,gris atigrado ,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Se le encontro ya en un grado muy avanzado de descomposición .
+2019-01-02,TC-05-013-CF,5,NA,NA,Cristian Flores,NA,77,30,24,M,juvenil,gris atigrado ,atigrado,1,0,0,0,0,0,3.1,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-02,TC-05-015-CF,5,NA,NA,Cristian Flores,NA,69,26,21,H,juvenil,gris atigrado ,atigrado,1,0,0,0,0,0,1.5,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-07,TC-02-119-MO,2,NA,NA,Jairo R. Carlin,NA,80,31.5,25,H,adulto,gris rayado,atigrado,1,0,0,0,0,0,2.4,1,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-07,TC-02-097-AM,2,NA,NA,Camerino Reyes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Se le encontro muerto en estado avanzado de descopmpsición. 
+2019-01-07,TC-02-103-AM,2,NA,NA,Camerino Reyes,NA,66,24,22,H,adulto,gris rayado,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Se encontro muerto.
+2019-01-08,TC-03-050-AM,3,NA,NA,José Cortez,NA,79,30,30,M,adulto,gris atigrado ,atigrado,1,0,0,0,0,0,3.4,3,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-08,TC-03-040-LE,3,NA,NA,José Cortez,NA,68,25,27,H,juvenil,gris atigrado ,atigrado,1,0,0,0,0,0,2.2,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-12,TC-03-070-CF,3,NA,NA,José Cortez,NA,67,25,26,H,juvenil,blanco con negr,bicolor,0,1,0,0,0,1,2.2,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-13,TC-03-037-LE,3,NA,NA,Camerino Reyes,NA,75,26,24,H,adulto,gris atigrado ,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-10,TC-04-013-CR,4,NA,NA,Camerino Reyes,NA,71,26,24,H,adulto,gris rayado,atigrado,1,0,0,0,0,0,2.2,2,NA,erradicacion,debil,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-10,TC-04-031-JR,4,NA,NA,Jairo R. Carlin,NA,71,27,20,H,adulto,negro,solido,0,1,0,0,0,0,1.7,1,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-10,TC-04-032-JR,4,NA,NA,Jairo R. Carlin,NA,76,28,22,H,adulto,bicolor,bicolor,NA,NA,NA,NA,NA,NA,1.8,1,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-09,TC-05-020-LE,5,NA,NA,Luis Armando Estudillo ,NA,69,20,17,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.3,2,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Se encontro ya muerto. 
+2019-01-09,TC-05-052-CR,5,NA,NA,Camerino Reyes,NA,71,27,25,H,adulto,negro,solido,0,1,0,0,0,0,2,2,NA,erradicacion,debil,NA,NA,NA,NA,NA,NA,NA,NA,Se comio parte de la pata anterior.
+2019-01-10,TC-05-023-LE,5,NA,NA,Luis Armando Estudillo ,NA,27,15,17,H,juvenil,negro,solido,0,1,0,0,0,0,2.2,2,NA,erradicacion,debil,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-19,TC-02-126-NN,2,NA,NA,Nicolás Núñez,NA,NA,NA,NA,NA,NA,negro,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Despedazado
+2019-01-14,TC-03-015-LE,3,NA,NA,Cristian Flores,NA,66,27,23,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,debil,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-14,TC-03-074-CF,3,NA,NA,Cristian Flores,NA,79,29,23,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-17,TC-03-089-AM,3,NA,NA,Camerino Reyes,NA,67,26,24,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.8,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-21,TC-01-321-CR,1,NA,NA,Jesús Alejandro Hernández ,NA,NA,NA,NA,NA,NA,gris,solido,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Estado de  descomposicion
+2019-01-21,TC-01-360-CT,1,NA,NA,Camerino Reyes,NA,NA,NA,NA,NA,NA,negro,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Estado de  descomposicion
+2019-01-25,TC-04-034-JR,4,NA,NA,Jairo R. Carlin,NA,69,26,22,H,juvenil,gris rayado,atigrado,1,0,0,0,0,0,1.6,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-21,TC-04-068-CR,4,NA,NA,Alejandro Hernández,NA,73,24,24,H,adulto,atigrado,atigrado,NA,NA,NA,NA,NA,NA,1.5,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-22,TC-05-045-LE,5,NA,NA,Nicolás Núñez,NA,66,25,24,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.1,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Orejas cortadas 
+2019-01-22,TC-05-043-NN,5,NA,NA,Jairo R. Carlin,NA,77,28,27,H,adulto,negro,solido,0,1,0,0,0,0,2.4,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Ambas orejas mutiladas completamente
+2019-01-22,TC-05-055-CR,5,NA,NA,Camerino Reyes,NA,75,27,25,H,adulto,negro,solido,0,1,0,0,0,0,2.5,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-01-29,TC-03-007-NN,3,NA,NA,Nicolás Núñez,NA,NA,NA,NA,NA,NA,negro,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Estado en  descomposición
+2019-02-01,TC-05-054-LE,5,NA,NA,Nicolás Núñez,NA,72,26,25,H,adulto,gris rayado,atigrado,1,0,0,0,0,0,2.9,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-02-07,TC-02-070-GV,2,NA,NA,Jairo R. Carlin,NA,75,27.5,24,H,adulto,gris rayado,atigrado,1,0,0,0,0,0,1.4,2,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,Tenia pocos dias de muerto
+2019-02-12,TC-04-073-JC,4,NA,NA,Jairo R. Carlin,NA,72,25,26,H,adulto,gris rayado,atigrado,1,0,0,0,0,0,2.4,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Orejas con laceraciones
+2019-02-12,TC-04-075-JC,4,NA,NA,Jairo R. Carlin,NA,75,25,26,H,adulto,gris rayado,atigrado,1,0,0,0,0,0,2.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-02-13,TC-04-010-CF,4,NA,NA,Camerino Reyes,NA,75,29,24,M,adulto,gris rayado,atigrado,1,0,0,0,0,0,2.8,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-02-13,TC-05-021-LE,5,NA,NA,Jesús Alejandro Hernández ,NA,72,29,22,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,1.5,3,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,"Muerto en cepo, reciente"
+2019-02-22,TC-01-179-AG,1,NA,NA,Christian Angulo,NA,65,24,26,NA,NA,gris atrigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Muerto en cepo
+2019-02-20,TC-02-142-CR,2,NA,NA,Karem Ramírez,NA,67,11,23,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se tomo muestra t2137
+2019-02-20,TL-02-003-CF,2,NA,NA,Asdrubal Leal,NA,85,30,32,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-02-21,TC-03-036-LE,3,NA,NA,José Cortez,NA,65,26,33,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,0.6,2,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se tomo muestra t2139
+2019-02-24,TL-03-006-NN,3,NA,NA,Christian Angulo,NA,NA,NA,NA,NA,NA,negro,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Se tomo muestra t2143
+2019-02-24,TC-04-031-JR,4,NA,NA,Karem Ramírez,NA,65,23,21,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se tomo muestra t2138
+2019-02-24,TC-04-010-CF,4,NA,NA,Karina Cerda,NA,53,28,21,M,adulto,claro,solido,NA,NA,NA,NA,NA,NA,3.2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se tomo muestra t2140
+2019-02-24,TC-06-001-AC,6,NA,NA,Ana Cárdenas,NA,78,31,29,H,adulto,gris rayado,atigrado,1,0,0,0,0,0,3.1,NA,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-03-05,TC-04-063-JR,4,NA,NA,Christian Angulo,NA,75.7,28.7,29,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.2,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Se tomo muestra t2143
+2019-03-07,TC-04-011-CR,4,NA,NA,José Cortez,NA,47,28,25,M,juvenil,negro,solido,0,1,0,0,0,0,2.9,2,NA,erradicacion,enfermo,reproductivo,NA,NA,NA,NA,NA,NA,NA,"Fue encontrado en la comunidad, pata posterior izquierda demasiado lastimada, encontrado a los tres dias."
+2019-03-06,TC-05-009-AM,5,NA,NA,Karina Cerda,NA,70,25,23,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se tomó muestra 2142
+2019-03-06,TC-05-013-CF,5,NA,NA,Asdrubal Leal,NA,73,31,29,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.5,5,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se tomó muestra t2150
+2019-03-06,TC-05-014-CF,5,NA,NA,Asdrubal Leal,NA,76,31,28,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-03-04,TC-06-001-AC,6,NA,NA,Ana Cárdenas,NA,78,31,29,H,adulto,café atigrado,atigrado,0,0,1,0,0,0,3.1,3,NA,erradicacion,enfermo,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-03-06,TC-08-008-CF,8,NA,NA,Cristian Flores,NA,75,28,24,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.5,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-03-06,TC-08-009-CF,8,NA,NA,Cristian Flores,NA,70,28,21,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.4,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-03-13,TC-03-074-CF,3,NA,NA,Efraín Carrillo,NA,75,30,26,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.2,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,Muestra de oreja y sangre. Código 2013
+2019-03-14,TC-05-067-AM,5,NA,NA,Armando Martínez,NA,NA,NA,NA,NA,NA,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-03-15,TC-05-002-LE,5,NA,NA,Efraín Carrillo,NA,NA,NA,NA,NA,NA,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,"Se obtuvo muestra de oreja en alcohol y bufer, con registro 2012"
+2019-03-13,TC-07-007-AC,7,NA,NA,Ana Cárdenas,NA,68,29,25,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3,NA,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-03-22,TL-03-002-JR,3,NA,NA,Christian Angulo,NA,71,26,31,NA,NA,café tigre,atigrado,0,0,1,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En descomposición
+2019-03-22,TC-04-010-CF,4,NA,NA,Nicolás Núñez,NA,66,27,21,H,juvenil,gris atrigrado,atigrado,1,0,0,0,0,0,1.3,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se le tomó muestras
+2019-03-19,TC-08-003-CF,8,NA,NA,Cristian Flores,NA,64,27,21,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.6,2,NA,erradicacion,enfermo,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-03-19,TC-08-001-CF,8,NA,NA,Cristian Flores,NA,76,29,28,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-03-26,TC-01-227-DN,1,NA,NA,Valeria Agoitia,NA,72,26,25,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,3.5,4,NA,erradicacion,sano,preñada,NA,NA,NA,NA,NA,NA,NA,NA
+2019-03-29,TC-03-026-JR,3,NA,NA,Armando Martínez,NA,69,23,22,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,3,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-03-26,TC-07-007-AC,7,NA,NA,Cristian Flores,NA,77,31,26,M,juvenil,negro,solido,0,1,0,0,0,0,2.4,2,NA,erradicacion,NA,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-03-25,TC-08-008-CF,8,NA,NA,Cristian Flores,NA,75,30,28,M,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.5,2,NA,erradicacion,NA,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-03-25,TC-08-004-CF,8,NA,NA,Cristian Flores,NA,69,28,24,M,juvenil,negro,solido,0,1,0,0,0,0,3,3,NA,erradicacion,NA,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-05-01,TC-02-105-AM,2,NA,NA,Miguel Vázquez,NA,67,25,21,NA,NA,negro,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-05-04,TC-08-003-CF,8,NA,NA,Nicolás Núñez,NA,NA,NA,NA,NA,NA,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-05-06,TT-07-001-AC,7,NA,NA,Nicolás Núñez,NA,82,34,26,M,adulto,negro,solido,0,1,0,0,0,0,3.1,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se le tomó muestra t-2207
+2019-06-05,TC-04-008-CF,4,380608,3213617,Juan Carlos Rios,NA,79,NA,30,M,adulto,negro,solido,0,1,0,0,0,0,3,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,No se tomo longitud cola
+2019-05-22,TC-03-059-AM,3,378200,3206258,Karem Ramírez,NA,72,29,25,H,adulto,negro,solido,0,1,0,0,0,0,2.5,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Sin orejas
+2019-05-25,TC-04-008-CF,4,380608,3213617,Camerino Reyes,NA,NA,NA,NA,NA,adulto,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Avanzado grado de descomposición
+2019-05-25,TC-05-031-CF,5,373202,3217409,Miguel Vázquez,NA,NA,NA,NA,NA,adulto,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En estado de descomposicion
+2019-06-25,TC-04-027-JC,4,372654,3212119,Karem Ramírez,NA,44,71,24,M,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.7,5,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-06-26,TC-04-023-JC,4,372492,3211666,Karem Ramírez,NA,38,61,23,H,juvenil,negro,solido,0,1,0,0,0,0,1.5,5,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-06-29,TC-04-058-NN,4,375059,3213798,Mercedes Yamily Chi Chan,NA,70,28,21,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.1,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se encontraron dos crías vivas de 3-4 meses aproximadamente
+2019-07-26,TC-03-052-JR,3,377252,3205267,Nicole Sicaeros,NA,64,20,21.5,M,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,2.1,NA,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,Uñas ensangrentadas. Al dilatar esfinteres no hubo oriNA ni excreta.
+2019-07-27,TC-03-013-CF,3,374753,3209878,Claudia Espinoza,NA,55,22,19,H,juvenil,gris atigrado,atigrado,1,0,0,0,0,0,1.8,NA,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-07-26,TC-04-100-MV,4,380286,3211530,Aurora Aguilar,NA,72,28,31,H,adulto,gris atigrado,atigrado,1,0,0,0,0,0,2.5,NA,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,Poco responsivo
+2019-07-26,TC-04-119-MV,4,378210,3211610,David Gastélum,NA,52,21,24,M,juvenil,gris/negro atigrado,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alta descomposición 
+2019-07-27,TC-04-069-CR,4,377311,3212665,Alejandro Romero,NA,54,24,26,NA,adulto,gris atigrado,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Altura no confiable por el alto grado de descomposicion
+2019-07-27,TC-04-186-JR,4,372226,3206518,Cristian Flores,NA,50,18,17,M,cria,gris atigrado,atigrado,1,0,0,0,0,0,1.7,NA,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-07-30,TC-03-022-JR,3,378353,3206975,Eva García,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-07-30,TC-05-086-KR,5,376492,3216250,Aurora Aguilar,NA,73,29,26,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion
+2019-08-03,TC-04-023-JR,4,372492,3211666,Aurora Aguilar,NA,76,31,32,M,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,Pesaba 2.5kg a pesar del alto grado de degradacion
+2019-07-30,TC-04-077-AM,4,374989,3213856,Martha Alcantar,NA,50,20,24,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion
+2019-07-30,TC-04-186-JR,4,372226,3206518,Claudia Espinoza,NA,67,23,27,H,adulto,NA,atigrado,1,1,0,0,0,0,2.5,NA,NA,erradicacion,sano,lactante,NA,NA,NA,NA,NA,NA,NA,NA
+2019-08-01,TC-04-177-JR,4,373893,3207727,Cristian Flores,NA,58,23,19,M,cria,NA,atigrado,1,1,0,0,0,0,1.5,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-08-01,TC-04-174-NN,4,373619,3206738,Cristian Flores,NA,75,30,24,H,adulto,NA,atigrado,1,1,0,0,0,0,2.5,2,NA,erradicacion,sano,preñada,NA,NA,NA,NA,NA,NA,NA,Preñada
+2019-07-30,TC-04-148-JR,4,373073,3208815,Juan Carlos Rios,NA,64,26,23,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.5,3,NA,erradicacion,sano,lactante,NA,NA,NA,NA,NA,NA,NA,NA
+2019-07-30,TC-04-166-NN,4,373896,3208038,Cristian Flores,NA,63,27,22,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-08-08,TC-02-103-AM,2,374804,3204550,Nicole Sicaeros,NA,55,18,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-08-09,TC-03-036-LE,3,376924,3207721,Nicole Sicaeros,NA,67,26,NA,M,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-08-09,TC-03-116-JR,3,379953,3208266,Miguel Vázquez ,NA,69,26,24,M,adulto,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-08-06,TC-04-170-NN,4,373422,3206700,Nicolás Núñez,NA,79,28,28,M,adulto,NA,solido,0,1,0,0,0,0,4.6,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Muy agresivo
+2019-08-05,TC-04-153-JR,4,372935,3207647,Juan Carlos Rios,NA,56,22,25,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.1,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Se dono a investigadores de sonora
+2019-08-15,TC-05-059-JR,5,375176,3216060,Alejandro Romero,NA,51,21,19,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Se encontro en estado de desconposicion por lo que no se pudo determiNAr peso ni sexo. Se tomo muestra de oreja
+2019-08-24,TC-04-013-CR,4,373232,3209832,José Cortez,NA,72,28,26,H,adulto,NA,carey,1,1,0,0,0,0,3,3,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Gestante
+2019-08-22,TC-05-085-AL,5,376183,3209832,Emmanuel Mendoza,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Muerto
+2019-08-23,TC-05-081-AR,5,376738,3215796,Emmanuel Mendoza,NA,NA,NA,NA,NA,NA,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Muerto
+2019-08-24,TC-04-077-AM,4,374989,3213856,Emmanuel Mendoza,NA,66,28,25,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.8,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-08-21,TC-04-178-JC,4,373868,3207950,Claudia Espinoza,NA,NA,NA,NA,H,adulto,NA,atigrado,1,0,0,0,0,1,NA,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Muerto
+2019-08-21,TC-04-176-JC,4,373837,3207496,Claudia Espinoza,NA,53,19,NA,M,juvenil,NA,atigrado,1,0,0,0,0,1,1,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Muerto
+2019-08-26,TC-04-204-JC,4,372934,3206159,José Cortez,NA,70,23,29,H,adulto,NA,solido,0,1,0,0,0,0,3.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-08-28,TC-01-361-CT,1,379754,3201317,Miguel Vázquez ,NA,62,25,21,H,adulto,NA,atigrado,0,1,0,0,0,1,2.1,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-08-27,TC-04-032-JR,4,372719,3213269,Martin Del Angel ,NA,53,22,18,M,juvenil,NA,solido,0,1,0,0,0,0,1.5,4,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-08-29,TC-04-107-AL,4,377460,3212035,Martin Del Angel ,NA,50,19,18,NA,juvenil,NA,solido,0,1,0,0,0,0,0.2,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Estado de putrefaccion avanzado dificil obtener medidas
+2019-08-28,TC-04-170-NN,4,373422,3206700,Aurora Aguilar,NA,62,24,23,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.6,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-08-29,TC-04-097-MV,4,379507,3211452,Eva García,NA,78,27,25,H,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-08-29,TC-04-100-MV,4,380286,3211530,Eva García,NA,NA,NA,NA,NA,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Petrificado
+2019-09-03,TC-04-176-JC,4,373837,3207496,José Cortez,NA,63,27,25,M,juvenil,NA,atigrado,1,1,0,0,0,0,2.5,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,No se le tomo muestra al gato
+2019-09-05,TC-03-070-CF,3,376297,3209559,Martin Del Angel ,NA,66,23,NA,NA,adulto,NA,atigrado,1,1,0,0,0,1,NA,NA,NA,NA,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Estado de putrefacción avanza
+2019-09-04,TC-04-119-MV,4,378210,3211610,Emmanuel Mendoza,NA,71,25,27,H,juvenil,NA,atigrado,1,1,0,0,0,1,2,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-05,TC-04-066-LE,4,373644,3212509,Emmanuel Mendoza,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,1,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-06,TC-02-165-CR,2,377076,3203849,Miguel Vázquez ,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Llevaba mas de uNA semaNA en el cepo
+2019-09-06,TC-02-155-K9,2,377871,3204767,Eva García,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,1,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-10,TC-05-022-LE,5,372781,3215799,Eva García,NA,57.5,25.5,23,H,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-11,TC-04-048-JC,4,375597,3212973,Eva García,Martin Del Angel,58,24.5,22,H,juvenil,NA,atigrado,1,1,0,0,0,1,1.5,NA,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-12,TC-03-122-CF,3,375045,3210048,Aurora Aguilar,NA,62,23,24,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,Posible macho
+2019-09-10,TC-05-078-AR,5,375829,3215966,Emmanuel Mendoza,NA,NA,NA,NA,NA,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-13,TC-04-097-MV,4,379507,3211452,Emmanuel Mendoza,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-10,TC-03-120-NC,3,379699,3205616,Armando Martínez,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-12,TC-02-097-AM,2,375651,3204054,Armando Martínez,NA,72,27,23,H,adulto,NA,atigrado,1,1,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se entrego el ejemplar a equipo k9
+2019-09-10,TC-03-095-K9,3,379267,3206301,Miguel Vázquez ,NA,NA,NA,NA,NA,juvenil,NA,NA,0,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Llevaba semaNAs en la trampa
+2019-09-11,TC-03-024-JR,3,378204,3208021,Efraín Carrillo,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Llevaba semaNAs en la trampa
+2019-09-11,TC-03-025-JR,3,378442,3208089,Efraín Carrillo,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Llevaba semaNAs en la trampa
+2019-09-11,TC-03-114-JR,3,379535,3208146,Efraín Carrillo,NA,NA,NA,NA,NA,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Llevaba semaNAs en la trampa
+2019-09-11,TC-03-116-JR,3,379953,3208266,Efraín Carrillo,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-14,TC-02-187-AM,2,376786,3204627,Efraín Carrillo,Armando Martinez,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-14,TC-02-188-AM,2,376870,3204631,Efraín Carrillo,Armando Martinez,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-10,TC-05-092-KR,5,376760,3216185,Martin Del Angel ,NA,72,26,16,NA,adulto,NA,atigrado,1,1,0,0,0,1,0.6,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-11,TL-05-002-LE,5,379611,3215927,Martin Del Angel ,NA,NA,NA,NA,NA,adulto,NA,solido,0,1,0,0,0,1,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Estado de putrefaccion avanza
+2019-09-27,TC-07-019-LE,7,370773,3222356,Lluvia Espinoza,NA,73,28,27,M,juvenil,NA,atigrado,1,1,0,0,0,0,3.2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Atrofia ojo derecho
+2019-09-25,TC-04-040-CF,4,374800,3213595,Martin Del Angel ,NA,68,20,NA,NA,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-27,TC-04-023-JC,4,372492,3211666,Martin Del Angel ,NA,70,17,17,H,adulto,NA,atigrado,1,1,0,0,0,0,4.5,4,NA,erradicacion,sano,preñada,NA,NA,NA,NA,NA,NA,NA,NA
+2019-09-24,TC-05-058-JC,5,373203,3216040,Marco Antinio,NA,44,18,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion 
+2019-09-24,TC-05-022-LE,5,372781,3215799,Marco Antinio,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion 
+2019-09-23,TC-05-080-AR,5,376408,3215906,Armando Martínez,NA,60,23,21,NA,NA,NA,atigrado,1,1,0,0,0,0,2,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion 
+2019-09-25,TC-04-010-CF,4,380569,3213908,Armando Martínez,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion 
+2019-10-04,TC-02-180-AM,2,375632,3203741,Armando Martínez,NA,73,27,26,H,adulto,NA,NA,0,1,0,0,0,0,2.5,2,NA,erradicacion,NA,reproductivo,NA,NA,NA,NA,NA,NA,NA,"La trampa en la que se capturo fue cebado con ""ahumado"""
+2019-10-04,TC-02-118-MO,2,379139,3203311,Francisco Magana,NA,72,27,28,M,NA,NA,atigrado,1,1,0,0,0,0,1.5,2,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-04,TC-02-123-MO,2,380474,3203370,Francisco Magana,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,2,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposición.
+2019-10-09,TC-05-100-UT,5,373515,3216349,Nicolás Núñez,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion
+2019-10-11,TC-04-034-JR,4,372597,3213594,Karem Ramírez,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion
+2019-10-12,TC-05-094-KR,5,377181,3216386,Armando Martínez,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion
+2019-10-09,TC-03-014-LE,3,377430,3211095,Emmanuel Mendoza,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,1,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-08,TC-02-088-EJ,2,379131,3202993,Francisco Magana,NA,65,26,28,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En descomposición
+2019-10-17,TC-02-150-JR,2,378247,3025423,Armando Martínez,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-26,TC-02-182-MV,2,376226,3204629,Francisco Magana,Juan Ibarra,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En proceso de descomposicion
+2019-10-26,TC-03-107-CR,3,377919,3209412,Eva Garcia,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,1,0,1,NA,4,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion
+2019-10-26,TC-03-108-CR,3,378124,3209438,Eva Garcia,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,1,NA,4,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion
+2019-10-27,TC-05-120-AL,5,375724,3216761,David  Gastelum ,NA,NA,NA,NA,NA,NA,NA,solido,1,1,0,0,0,0,NA,4,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-27,TC-05-119-AL,5,375949,3216837,David  Gastelum ,NA,63,22,20,M,NA,NA,atigrado,NA,1,0,0,0,0,NA,4,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-27,TC-05-109-UT,5,372399,3216377,Eva Garcia,NA,NA,NA,NA,M,juvenil,NA,atigrado,1,1,0,0,0,1,NA,4,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-27,TC-05-083-AL,5,375532,3216529,Daniel Moreno ,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,1,NA,4,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-27,TC-05-085-AL,5,376183,3216640,Daniel Moreno ,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,1,NA,4,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-27,TL-05-097-AL,5,376815,3216605,Daniel Moreno ,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,1,NA,4,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-27,TC-05-094-KR,5,377181,3216386,Luis  Martinez ,NA,68,29,32,H,adulto,NA,atigrado,1,1,0,0,0,1,2.5,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de deshidratacion.  no se mostro agresiva. 
+2019-10-28,TC-03-025-JR,3,378442,3208089,Jessica Vazquez,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En proceso de descomposicion
+2019-10-28,TC-03-037-LE,3,376657,3207707,Jessica Vazquez,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En proceso de descomposicion
+2019-10-28,TC-04-113-K9,4,378404,3213058,Luis Martinez,NA,NA,NA,NA,H,NA,NA,atigrado,1,1,0,0,0,0,NA,4,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-29,TC-06-056-CR,6,370581,3220311,Francisco  Alejo,NA,82,31,30,M,juvenil,NA,atigrado,1,1,0,0,0,0,3.2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-29,TC-06-069-CR,6,368747,3219999,Camerino Reyes,NA,67,29,25,H,adulto,NA,atigrado,1,1,0,0,0,0,3,4,NA,erradicacion,sano,preñada,NA,NA,NA,NA,NA,NA,NA,Preñada
+2019-10-30,TC-02-136-CF,2,378156,3204026,Francisco Magana,NA,NA,NA,21,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.4,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-30,TC-02-137-CF,2,378221,3204083,Francisco Magana,NA,NA,28,23,H,adulto,NA,atigrado,1,1,0,0,0,0,2.1,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-30,TC-02-142-CR,2,378118,3204210,Francisco Magana,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion 
+2019-10-31,TC-06-069-CR,6,368747,3219999,Camerino Reyes,NA,70,29,23,H,adulto,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-31,TC-07-043-KR,7,370328,3223398,Karem Ramirez,NA,43,29.5,NA,M,adulto,NA,atigrado,1,1,0,0,1,0,3.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-10-31,NA,6,370870,3218970,Ivan Monge,NA,56,23,19,H,juvenil,NA,atigrado,1,1,0,0,0,0,NA,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Capturado por la unidad caniNA
+2019-10-31,NA,6,370870,3218970,Ivan Monge,NA,53,23,20,H,juvenil,NA,atigrado,1,1,0,0,0,0,NA,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Capturado por la unidad caniNA
+2019-11-01,TC-04-100-MV,4,380286,3211530,Eva Garcia,NA,68,27,26,H,adulto,NA,atigrado,0,1,1,0,0,1,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-01,TL-04-007-CF,4,380634,3213353,Daniel Moreno Arteaga,NA,66,26,26,M,juvenil,NA,atigrado,0,0,1,1,0,1,2.3,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,No mostro agresividad en ningun momento.
+2019-11-01,TL-04-006-AM,4,380633,3213179,Daniel Moreno Arteaga,NA,NA,NA,NA,NA,NA,NA,solido,0,1,0,0,0,1,NA,4,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-01,TC-04-119-MV,4,378210,3211610,David Alejandro Gastelum Gurrola,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,4,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-01,TC-04-132-MV,4,379736,3212660,Jesus David Najera Corrigeux ,NA,78,21,28,M,adulto,NA,atigrado,1,0,1,0,0,0,4,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Presentaba uNA muesca en oreja posiblemente por pelea. 
+2019-11-01,TC-06-065-CR,6,369400,3220178,Camerino Reyes,NA,62,27,23,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.1,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-01,TC-03-052-JR,3,377252,3205267,Francisco Magana,NA,63,24,20,M,adulto,NA,atigrado,1,1,0,0,0,0,2.6,3,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-01,TC-03-101-MV,3,379857,3206224,Jessica Vazquez,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion 
+2019-11-01,TC-03-102-MV,3,380082,3206208,Jessica Vazquez,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion 
+2019-11-01,TC-03-103-MV,3,380242,3206306,Jessica Vazquez,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion 
+2019-11-01,TC-03-120-NS,3,379699,3205616,Juan Ibarra,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Alto grado de descomposicion 
+2019-11-01,TC-02-186-MD,2,379937,3205456,Juan Ibarra,NA,48,15,18,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.8,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,Pata frontal quebrada
+2019-11-01,TC-02-158-K9,2,378880,3204752,Miguel vazquez,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-01,TC-02-176-MA,2,379657,3205043,Miguel vazquez,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-02,TC-07-026-KR,7,371329,3221599,Jose Cortez,NA,66,24,23,M,juvenil,NA,atigrado,1,1,0,0,0,0,2.5,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-02,TC-07-032-PC,7,371501,3221793,Jose Cortez,NA,64,28,25,H,juvenil,negro,solido,0,1,0,0,0,0,2.5,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-02,TC-06-042-PC,6,372649,3220752,Pedro  Cabrera,NA,40,21,20,H,juvenil,NA,atigrado,1,1,0,0,0,0,2.2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-04,TC-06-062-CR,6,369562,3220544,Camerino Reyes,NA,60,23,23,M,juvenil,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-05,TC-07-041-MA,7,370299,3223072,Eva Garcia,NA,73,33,28,M,adulto,NA,solido,0,1,0,0,0,1,2.5,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,tenia el un parche blanco en el pecho.
+2019-11-05,TC-07-028-KR,7,370198,3221441,Karem Ramirez,NA,69.5,26.5,24,M,adulto,NA,atigrado,1,1,0,0,0,0,3,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-05,TC-02-038-NN,2,379510,3202052,Daniel Moreno,NA,NA,NA,NA,NA,NA,NA,solido,0,1,0,0,0,0,0.01,1,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Putrefacción
+2019-11-05,TC-07-043-KR,7,370328,3223398,Karem Ramirez,NA,62,24,23,H,juvenil,NA,atigrado,1,1,0,0,0,0,2.5,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-05,TC-07-042-KR,7,370478,3223635,Karem Ramirez,NA,75.5,30,25,M,adulto,NA,solido,0,1,1,0,0,0,3.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,pelaje negro con rayas cafes.
+2019-11-05,TC-03-111-CR,3,378704,3209599,Martha Jeannette Alcantar Pena,NA,43,18,NA,NA,juvenil,NA,atigrado,0,1,0,0,1,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Putrefacción
+2019-11-05,TC-08-009-CF,8,370836,3224255,Karem Ramirez,NA,67,27,24,M,juvenil,NA,atigrado,1,1,0,0,0,0,2.6,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-06,TC-04-066-LE,4,373644,3212509,David Najera,NA,NA,NA,NA,NA,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Putrefacción
+2019-11-06,TC-04-064-LE,4,374046,3212536,David Najera,NA,NA,NA,NA,NA,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Putrefacción
+2019-11-06,TC-04-078-AM,4,375110,3214144,Francisco Duarte,NA,67,28,29,M,juvenil,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-06,TC-06-095-CR,6,368579,3219556,Camerino Reyes,NA,74,29,23,H,adulto,NA,atigrado,1,1,0,0,0,0,2.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA, Sano pendiente en posicion trampa 
+2019-11-06,TC-05-067-AM,5,377228,3215128,Francisco Duarte,NA,NA,NA,NA,NA,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-06,TC-05-022-LE,5,372781,3215799,Pedro Cabrera,NA,46,24,22,H,juvenil,NA,solido,0,1,0,0,0,0,2.4,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-06,TC-05-135-EC,5,373245,3214467,Luis Martinez,NA,72,31,39,H,juvenil,NA,atigrado,1,0,1,0,0,0,3,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-06,TC-05-126-MD,5,373393,3215065,Martha Jeannette Alcantar Pena,NA,56,18,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-07,TC-05-120-AL,5,375949,3216837,Pedro Cabrera,NA,NA,NA,NA,NA,NA,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-07,TC-01-323-CR,1,380258,3200637,Daniel Moreno,NA,64,28,26,H,NA,NA,solido,0,1,0,0,0,0,1.2,NA,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,No mostró comportamiento agresivo
+2019-11-07,TC-07-024-MA,7,371751,3221503,Jessica Vazquez,NA,67.5,27,23,H,adulto,NA,atigrado,1,1,0,0,0,0,2.3,3,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,Estaba muy debil y delgada
+2019-11-07,TC-07-027-KR,7,371748,3221735,Jessica Vazquez,NA,49,15,9.5,NA,cria,NA,atigrado,1,1,0,0,0,0,1.1,4,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,cria
+2019-11-08,TC-03-072-CF,3,377937,3210598,Pedro Cabrera,NA,49,29,28,M,juvenil,NA,atigrado,1,1,0,0,0,0,3,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-08,TT-04-057-MD,4,375397,3213887,Francisco Duarte,NA,55,23,27,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-08,TC-04-056-NN,4,375498,3213758,Francisco Duarte,NA,65,23,30,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.6,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-08,TC-04-092-CR,4,376590,3214308,Francisco Duarte,NA,65,25,30,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-08,TC-06-028-CR,6,371782,3219068,Miguel Vasquez,NA,59,23,19,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.2,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-09,TC-06-036-CR,6,371909,3219365,Eva Garcia,NA,71,28,26,M,juvenil,NA,solido,0,1,0,0,0,1,3,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Tenia un pequeño parche blanco en el pecho
+2019-11-09,TC-07-044-KR,7,370037,3223141,Karem Ramirez,NA,77,32,26,M,adulto,NA,solido,0,1,0,0,0,1,NA,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Tenia uNA mancha blanca en el pecho.
+2019-11-09,TC-07-039-EG,7,370184,3222774,Jessica Vazquez,NA,71,28,25,M,adulto,NA,solido,0,1,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-09,TC-07-035-MA,7,370060,3222219,Jessica Vazquez,NA,70,30,26,M,adulto,NA,solido,0,1,0,0,0,0,3,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-09,TC-07-025-KR,7,371780,3221575,Miguel Vazquez,NA,51,19,15,M,juvenil,NA,atigrado,1,1,0,0,0,0,1,3,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-09,TC-03-114-JR,3,379535,3208146,Daniel Moreno,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,1,NA,1,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Putrefacción
+2019-11-09,TC-03-116-JR,3,379953,3208266,Daniel Moreno,NA,NA,NA,NA,NA,NA,NA,solido,0,1,0,0,0,0,NA,1,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Putrefacción
+2019-11-11,TC-06-062-CR,6,369562,3220544,Camerino Reyes,NA,60,23,23,M,juvenil,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-11,TC-07-029-MA,7,370430,3221331,Jose Cortez,NA,69,28,27,H,juvenil,NA,atigrado,1,1,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-11,TC-06-078-JV,6,370254,3218379,Jessica Vazquez,NA,59,24,27,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.6,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-11,TC-06-085-KR,6,369187,3219693,Miguel Vazquez ,NA,73,28,24,H,adulto,NA,solido,0,1,0,0,0,0,3.5,3,NA,erradicacion,sano,preñada,NA,NA,NA,NA,NA,NA,NA,Preñada 
+2019-11-12,TC-04-020-JC,4,372498,3211214,David Najera,NA,58,27,25,H,adulto,NA,solido,0,1,0,0,0,0,2,3,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-12,TC-02-174-JR,2,379263,3205025,David Gastelum,NA,38,17,16,H,juvenil,NA,atigrado,1,1,0,0,0,1,NA,1,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,Putrefaccion
+2019-11-12,TC-04-033-JR,4,372656,3213495,Pedro Cabrera,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-12,TC-04-029-NN,4,372792,3212537,Pedro Cabrera,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-12,TC-06-041-MA,6,372153,3220068,Jessica Vazquez,NA,70,29,24,M,adulto,NA,atigrado,1,1,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-12,TC-05-008-AM,5,371879,3214548,Luis Alberto Martinez Hernandez,NA,NA,NA,NA,NA,NA,NA,atigrado,1,0,1,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-12,TC-05-005-AM,5,371870,3213972,Luis Alberto Martinez Hernandez,NA,NA,NA,NA,NA,NA,NA,atigrado,1,0,1,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-13,TC-07-043-KR,7,370328,3223398,Camerino Reyes,NA,65,26,22,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-13,TC-02-134-JR,2,378865,3204201,Daniel Moreno,NA,59,27,27,M,juvenil,NA,atigrado,1,1,0,0,0,0,2,1,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,No mostró agresividad.
+2019-11-13,TC-06-093-CR,6,368144,3218243,Jose Cortez,NA,66,27,28,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.8,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,marmoleado
+2019-11-13,TC-05-123-MD,5,374443,3214783,Martha Alcantar,NA,46,26,26,M,juvenil,NA,atigrado,1,1,0,1,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Muy agresivo
+2019-11-13,TC-05-094-KR,5,377181,3216386,Luis Alberto Martinez Hernandez,NA,74,30,34,M,adulto,NA,atigrado,1,0,1,0,0,0,NA,NA,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-13,TC-06-013-JC,6,371831,3218432,Miguel Vazquez ,NA,66,27,20,M,juvenil,NA,solido,0,1,0,0,0,0,1.8,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-15,TC-04-020-JC,4,372498,3211214,David Najera,NA,66,26,23,H,juvenil,NA,atigrado,1,1,0,0,0,0,2.2,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-15,TC-01-089-TR,1,375317,3199009,Juan Ibarra,NA,73,29,23,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.7,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,marmoleado
+2019-11-15,TC-07-024-MA,7,371751,3221503,Jose Cortez,NA,70,26,33,H,adulto,NA,solido,0,1,0,0,0,0,3.5,4,NA,erradicacion,sano,preñada,NA,NA,NA,NA,NA,NA,NA,Preñada 
+2019-11-15,TC-06-073-MA,6,371457,3221153,Jose Cortez,NA,63,27,28,H,juvenil,NA,solido,0,1,0,0,0,0,2,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-11-16,TC-07-045-KR,7,369997,3222850,Eva Garcia,NA,77.5,33,30,M,adulto,NA,atigrado,1,1,0,0,0,1,3,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-01,TC-07-006-CF,7,370757,3223945,Karem Ramirez,NA,66,27,24,H,adulto,NA,solido,0,1,0,0,0,0,2.5,2,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-01,TC-07-043-KR,7,370328,3223398,Karem Ramirez,NA,78,29,28,M,adulto,NA,atigrado,1,1,0,0,0,0,4.5,3,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-01,TC-07-045-KR,7,369997,3222850,Karem Ramirez,NA,69,27,26,M,juvenil,NA,solido,0,1,0,0,0,0,2,2,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-01,TC-07-047-KR,7,369682,3222358,Karem Ramirez,NA,70,30,25,H,juvenil,NA,solido,0,1,0,0,0,0,2.5,2,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-01,TC-06-009-CR,6,372113,3218296,Pedro Cabrera,NA,38,19,18,M,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-01,TC-07-014-AC,7,371483,3223293,Alejandro Romero,NA,71,27,25,H,adulto,NA,atigrado,1,1,0,0,0,0,1.9,2,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-01,TC-07-012-AC,7,371305,3222285,Alejandro Romero,NA,51,20,18,M,juvenil,NA,atigrado,1,1,0,0,0,0,0.92,2,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-01,TC-07-034-MA,7,370276,3221829,Jessica Vazquez,NA,NA,NA,NA,H,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-01,TC-06-044-MA,6,371900,3220126,Eva Garcia,NA,64.5,26,25,M,juvenil,NA,atigrado,0,1,1,0,0,1,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-01,TC-06-037-MA,6,372329,3219596,Eva Garcia,NA,72.5,32,23,M,adulto,NA,atigrado,0,1,1,0,0,1,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-02,TC-06-069-CR,6,368747,3219999,Karem Ramirez,NA,63,25,23,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.8,1,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-05,TC-06-031-CR,6,371169,3218628,Eva Garcia,NA,64,30,24,H,juvenil,NA,atigrado,1,1,0,0,0,1,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-07,TC-07-031-PC,7,371754,3221855,Jessica Vazquez,NA,57,22,21,H,juvenil,NA,atigrado,1,1,0,0,0,1,1.1,1,NA,erradicacion,NA,no reproductivo,NA,NA,NA,NA,NA,NA,NA,vivo
+2019-12-07,TC-06-090-CR,6,368413,3218983,Alejandro Romero,NA,71,25,26,M,juvenil,NA,atigrado,1,1,0,0,0,0,2.37,1,NA,erradicacion,NA,no reproductivo,NA,NA,NA,NA,NA,NA,NA,vivo
+2019-12-09,TC-06-014-CR,6,372020,3218491,Karem Ramirez,NA,66,26,25,M,juvenil,NA,solido,0,1,0,0,0,0,2.5,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-09,TL-06-162-FD,6,372724,3220611,Francisco Duarte,NA,82,31,30,M,adulto,NA,atigrado,1,1,0,0,0,0,5.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-09,TC-05-226-FA,5,371897,3217190,Eva Garcia,NA,79,33,31,M,adulto,NA,atigrado,0,1,1,0,0,1,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-12,TC-06-065-FA,6,360400,3220178,Jessica Vazquez,NA,66,29,28,M,adulto,NA,solido,0,1,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-14,TC-06-113-JC,6,371836,3221143,Francisco Duarte,NA,56,22,20,H,juvenil,NA,atigrado,1,1,0,0,0,0,1,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-14,TL-05-047-AR,5,374814,3217558,Pedro Cabrera,NA,70,30,28,M,adulto,NA,solido,0,1,0,0,0,0,3.1,2,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-14,TC-04-082-CR,4,377269,3214289,Daniel Moreno,NA,NA,NA,NA,H,NA,NA,atigrado,1,1,0,0,0,1,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-14,TC-04-112-K9,4,378257,3212911,Leonel Garcia,NA,65,42,26,H,NA,NA,atigrado,1,1,0,0,0,0,1.6,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-16,TC-06-079-JV,6,370033,3218274,Miguel Vazquez ,NA,77,28,22,M,juvenil,NA,atigrado,1,1,0,0,0,0,2.9,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-16,TC-06-032-FA,6,370938,3218508,Miguel Vazquez ,NA,62,23,17,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.6,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-16,TC-06-103-EG,6,370165,3219489,Eva Garcia,NA,68.5,27,27,M,juvenil,NA,atigrado,1,1,0,0,0,1,2.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-16,TC-06-104-EG,6,370004,3219344,Eva Garcia,NA,64,26,26,H,juvenil,NA,atigrado,1,1,0,0,0,1,1.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-17,TL-02-210-DN,2,374489,3202986,Daniel Moreno,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-17,TC-06-081-KR,6,370997,3219555,Karem Ramirez,NA,47,17,19,NA,juvenil,NA,solido,0,1,0,0,0,0,0.5,2,NA,erradicacion,debil,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-18,TL-05-034-AR,5,374012,3217620,Eva Garcia,NA,81,32,29,M,adulto,NA,solido,0,1,0,0,0,0,3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-18,TC-03-102-MV,3,380082,3206208,Jose Cortez,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-18,TC-02-186-MD,2,379937,3205456,Daniel Moreno,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-18,TC-06-007-CR,6,372321,3217976,Jessica Vazquez,NA,75,31,29,M,adulto,NA,solido,0,0,0,0,0,0,3.1,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-18,TC-04-112-K9,4,378257,3212911,Leonel Garcia,NA,65,42,26,H,NA,NA,atigrado,1,1,0,0,0,0,1.6,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-19,TC-02-174-JR,2,379263,3205025,Jose Cortez,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-19,TC-03-136-NN,3,375770,3206103,Daniel Moreno,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-19,TC-07-042-KR,7,370479,3223635,Karem Ramirez,NA,68,27,24,M,adulto,NA,atigrado,1,1,0,0,0,0,2.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-19,TC-07-047-KR,7,369682,3222358,Karem Ramirez,NA,61,23,21,M,adulto,NA,atigrado,1,1,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-20,TC-06-100-MV,6,370118,3220384,Martha Alcantar,NA,59,25,14,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.8,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-20,TC-06-064-CR,6,369437,3220325,Miguel Vazquez ,NA,80,29,24,M,adulto,NA,atigrado,1,1,0,0,0,0,3,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2019-12-20,TC-07-031-PC,7,371754,3221855,Eva Garcia,NA,66,25,24,M,juvenil,NA,atigrado,1,1,0,0,0,1,2.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,marmoleado
+2019-12-20,TC-05-029-JR,5,374616,32016008,Leonel Garcia,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Se encontro en avanzado estado de putrefaccion  no se pudo tomar medida de NAda
+2020-01-08,TC-06-024-JC,6,372408,3219111,Miguel Vazquez ,NA,77,28,24,M,adulto,NA,atigrado,1,1,0,0,0,0,2.8,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-01-09,TC-02-020-HH,2,380257,3201577,Alejandro Romero,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Se encontro ya descompueto  solo pelo y hueso.
+2020-01-10,TC-07-045-KR,7,369997,3222850,Camerino Reyes,NA,67,28,23,H,adulto,NA,atigrado,1,1,0,0,0,0,2,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-01-10,TL-01-413-CR,1,375437,3196029,Jose Cortez,NA,75,28,24,M,adulto,NA,solido,0,1,0,0,0,0,3.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-01-10,TC-01-154-TR,1,376540,3199417,Jessica Vazquez,NA,77,36,34,M,adulto,NA,atigrado,1,1,0,0,0,0,2.3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-01-11,TC-07-029-MA,7,370430,3221331,Yureli Garibay,NA,71,27,23,M,adulto,NA,atigrado,1,1,0,0,0,0,3.5,4,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-01-11,TC-07-038-EG,7,369983,3222566,Yureli Garibay,NA,55,21,16,H,juvenil,NA,solido,0,1,0,0,0,0,2,4,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-01-30,TC-03-062-AM,3,378785,3205815,David Najera,NA,70,24,23,H,adulto,NA,atigrado,1,1,0,0,0,0,4,4,NA,NA,sano,lactando,NA,NA,NA,NA,NA,NA,NA,Orejas mutiladas
+2020-01-30,TC-03-105-KR,3,377712,3206350,Pedro Cabrera,NA,69,25,20,H,juvenil,NA,atigrado,1,1,0,0,0,0,2,2,NA,NA,debil,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-01,TC-04-049-JC,4,375845,3212931,Shamed Galicia,NA,72,27,26,H,adulto,NA,atigrado,1,1,0,0,0,0,3,2,NA,NA,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-01-31,TT-03-015-LE,3,377607,3210928,Erika Reyes ,NA,62,22,17,H,juvenil,NA,atigrado,1,1,0,0,0,0,3,4,NA,NA,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-04,TC-06-058-CR,6,370105,3220494,Ricardo Cortez,NA,69,29,21,H,juvenil,NA,atigrado,1,1,0,0,0,1,2.9,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-04,TC-06-061-CR,6,369628,3220392,Ricardo Cortez,NA,72,29,22,M,juvenil,NA,atigrado,1,1,0,0,0,0,3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-04,TC-06-078-JV,6,370254,3218379,Erika Reyes,NA,66,26,25,H,adulto,NA,atigrado,0,1,0,0,0,0,2.2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-04,TC-06-025-CR,6,372047,3218948,Carlos Cortez ,NA,67,30,25,H,adulto,NA,atigrado,1,1,0,0,0,0,1.5,4,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-05,TC-01-360-CT,1,380185,3200940,David Najera,NA,70,26,24,H,adulto,NA,solido,0,1,0,0,0,0,2.6,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-05,TC-07-031-PC,7,371754,3221855,Erika Reyes,NA,69,29,24,H,adulto,NA,solido,0,1,0,0,0,0,2.4,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-05,TC-06-113-JC,6,371836,3221143,Erika Reyes,NA,66,27,23,H,adulto,NA,atigrado,1,1,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-05,TC-07-049-KR,7,370141,3222039,Carlos Cortez ,NA,76,29,28,M,adulto,NA,atigrado,1,1,0,0,0,0,3.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Doble dosis de eutaNAsico 
+2020-02-05,TC-07-047-KR,7,369665,3222363,Carlos Cortez ,NA,74,31,21,M,adulto,NA,atigrado,1,1,0,0,0,0,2.45,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-05,TC-07-046-KR,7,369808,3222650,Carlos Cortez ,NA,65,27,21,H,adulto,NA,solido,0,1,0,0,0,0,1.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Negro atrigado con rayas cafes.
+2020-02-05,TC-06-099-MV,6,369947,3220289,Ricardo Cortez,NA,73,25,22,H,adulto,NA,atigrado,1,1,0,0,0,0,4,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Posiblemente embarazada.
+2020-02-06,TC-07-014-AC,7,371483,3223293,Erika Reyes,NA,66,26,25,H,juvenil,NA,solido,0,1,0,0,0,0,1.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-06,TC-07-012-AC,7,371305,3222285,Erika Reyes,NA,68,27,25,H,adulto,NA,atigrado,1,1,0,0,0,0,2.2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-07,TC-07-015-LE,7,370196,3221125,Jose Luis Bolivar,NA,63,24,21,H,juvenil,NA,solido,0,1,0,0,0,0,1.7,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Negro atigrado
+2020-02-07,TC-04-022-JC,4,372390,3211443,Pedro Cabrera,NA,63,21,20,H,adulto,NA,atigrado,1,1,0,0,0,0,3.5,4,NA,erradicacion,sano,preñada,NA,NA,NA,NA,NA,NA,NA,Se le aplicó doble dosis de anestésico y triple dosis de inyección letal  ya que el individuo no reaccionó a las dosis normales 
+2020-02-07,TC-07-043-KR,7,370328,3223398,Jose Luis Bolivar,NA,67,29,25,H,adulto,NA,atigrado,1,0,0,0,0,0,2.6,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-08,TC-07-027-KR,7,371748,3221735,Carlos Cortez ,NA,72,29,24,M,adulto,NA,atigrado,1,1,0,0,0,0,2.8,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Doble dosis de anestesico 
+2020-02-11,TC-03-099-K9,3,378475,3211272,Pedro Cabrera,NA,72,26,23,H,adulto,NA,atigrado,1,1,0,0,0,0,3,4,NA,erradicacion,sano,preñada,NA,NA,NA,NA,NA,NA,NA,Se le administraron tres dosis de pentobarbital sodico
+2020-02-11,TC-03-095-K9,3,378993,3211283,Pedro Cabrera,NA,72,28,22,M,adulto,NA,atigrado,1,1,0,0,0,0,2.2,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-11,TC-05-231-KR,5,372216,3217343,Carlos Cortez ,NA,51,20,16,H,juvenil,NA,atigrado,1,1,0,0,0,0,1,2,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-14,TL-06-140-DG,6,370601,3218349,Ricardo Cortez ,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,Se encontro en estado de avansado descomposicion.
+2020-02-11,TC-03-100-MV,3,380286,3211530,Pedro Cabrera,NA,68,25,19,H,adulto,NA,atigrado,1,1,0,0,1,1,2.4,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-14,TC-06-099-MV,6,369947,3220289,Pedro Cabrera,NA,59,22,19,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.7,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-14,TC-07-039-EG,7,370184,3222774,Erika Reyes,NA,66,26,24,H,adulto,NA,atigrado,0,1,1,0,0,0,3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,marmoleado
+2020-02-14,TC-07-049-KR,7,370145,3222035,Erika Reyes,NA,74,30,26,M,adulto,NA,atigrado,1,1,0,0,0,0,4.2,5,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-14,TC-06-057-CR,6,370308,3220444,Yureli Garibay,NA,57,21,18,M,juvenil,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-14,TC-06-059-CR,6,369933,3220486,Yureli Garibay,NA,57.5,21,18,M,juvenil,NA,atigrado,1,1,0,0,0,0,2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se le administro 0.4ml de ketamiNA por falta de xilaziNA.
+2020-02-14,TC-07-020-CR,7,369748,3220702,Shamed Galicia,NA,51,16,23,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Marmoleado. Ejemplar encontrado muerto  con avanzado estado de descomposición.
+2020-02-14,TC-06-063-CR,6,369459,3220454,Shamed Galicia,NA,54,21,23,NA,juvenil,NA,atigrado,1,1,1,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Ejemplar encontrado muerto
+2020-02-12,TC-07-033-MA,7,370385,3221607,Jose Luis Bolivar ,NA,60,21,21,H,juvenil,NA,atigrado,0,1,0,0,0,0,1.6,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-12,TC-07-034-MA,7,370276,3221829,Jose Luis Bolivar ,NA,63,23,24,H,adulto,NA,atigrado,1,0,0,0,0,0,2.2,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-12,TC-07-037-MA,7,369884,3222428,Jose Luis Bolivar ,NA,59,22,22,H,juvenil,NA,atigrado,1,0,0,0,0,0,1.58,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-06-088-CR,6,368695,3219174,Pedro Cabrera,NA,68,26,19,H,adulto,NA,atigrado,1,1,0,0,0,0,3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-06-062-CR,6,369562,3220544,Shamed Ulises,NA,70,26,25,M,adulto,NA,solido,0,1,0,0,0,0,2.1,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-06-066-CR,6,369291,3220049,Shamed Ulises,NA,70,23,25,H,adulto,NA,atigrado,1,1,0,0,0,0,1.2,4,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,jaspeado
+2020-02-18,TC-06-058-CR,6,370105,3220494,Yureli Garibay,NA,54.5,20,16,H,juvenil,NA,solido,0,1,0,0,0,0,1,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Con la dosis de xilaziNA y ketamiNA murio  no necesito pentobarbital.
+2020-02-18,TC-07-033-MA,7,370385,3221607,Erika Reyes,NA,52,20,18,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.5,4,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-07-035-MA,7,370060,3222219,Erika Reyes,NA,64,26,24,H,adulto,NA,solido,0,1,0,0,0,0,2.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-07-037-MA,7,369884,3222428,Erika Reyes,NA,60,25,22,H,adulto,NA,atigrado,1,1,0,0,0,0,2.3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-06-096-CR,6,368715,3219796,David Najera,NA,78,30,25,M,adulto,NA,atigrado,1,1,0,0,0,0,3.2,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-06-094-CR,6,368479,3219307,David Najera,NA,80,30,24,M,adulto,NA,atigrado,1,1,0,0,0,0,3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-06-089-CR,6,368506,329086,David Najera,NA,73,28,24,M,adulto,NA,atigrado,1,1,0,0,0,0,2.6,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-06-090-CR,6,368413,3218983,David Najera,NA,65,24,23,H,juvenil,NA,atigrado,1,1,1,0,0,0,1.8,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,atigrado (patron marmoleado)
+2020-02-18,TC-06-092-CR,6,368208,3218507,David Najera,NA,68,28,19,H,juvenil,NA,atigrado,1,1,0,0,0,0,2.2,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-06-093-CR,6,368127,3218220,David Najera,NA,66,24,20,M,juvenil,negro,solido,0,1,0,0,0,0,2.4,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-06-114-CR,6,367993,3217972,David Najera,NA,60,23,18,M,juvenil,negro,solido,0,1,0,0,0,0,1.5,4,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-07-015-LE,7,370196,3221125,Jose Luis Bolivar ,NA,44,19,19,H,juvenil,NA,atigrado,1,0,0,0,0,0,6.95,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-07-028-KR,7,370199,3221441,Jose Luis Bolivar ,NA,56,21,21,H,juvenil,NA,atigrado,1,0,0,0,0,0,1.34,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-18,TC-07-050-KR,7,370063,3221795,Jose Luis Bolivar ,NA,77,36,27,M,adulto,NA,atigrado,1,1,0,0,0,0,2.58,5,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-21,TC-07-024-MA,7,370430,3221331,Pedro Cabrera,NA,51,18,16,H,juvenil,NA,atigrado,1,1,0,0,0,0,1,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-22,TC-01-373-AG,1,375929,3201272,Pedro Cabrera,NA,68,26,17,H,adulto,NA,atigrado,0,1,1,0,0,0,2.3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-22,TC-01-350-AS,1,377355,3201022,Pedro Cabrera,NA,71,21,20,H,adulto,NA,atigrado,0,1,1,0,0,0,2.2,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-22,TC-04-081-CR,4,377092,3214079,Jose Cortez,NA,73,27,26,M,adulto,NA,solido,0,1,0,0,0,0,3.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-22,TC-04-088-JR,4,376658,3213557,Jose Cortez,NA,65,24,23,H,adulto,NA,atigrado,1,1,0,0,0,0,1.8,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,marmoleado
+2020-02-24,TC-04-116-AL,4,378467,3212276,Jose Cortez,NA,62,26,25,H,adulto,NA,solido,0,1,0,0,0,0,1,3,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-24,TC-04-112-K9,4,378257,3212911,Francisco Alejo Duarte,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Cepo DaNAdo
+2020-02-24,TC-04-109-K9,4,377590,3212639,Francisco Alejo Duarte,NA,72,25,27,M,adulto,NA,solido,0,1,0,0,0,0,2.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-24,TC-04-113-K9,4,378404,3213058,Francisco Alejo Duarte,NA,68,27,25,M,adulto,NA,atigrado,1,1,0,0,0,1,2,4,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,marmoleado
+2020-02-24,TC-04-123-JR,4,374092,3211131,Eva Garcia,NA,68,27.5,27,M,adulto,NA,atigrado,1,1,0,0,0,0,2.1,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-24,TC-03-082-K9,3,377418,3209218,Jose Luis Bolivar,NA,68,28,26,H,adulto,NA,atigrado,1,1,0,0,0,0,2.3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-24,TC-03-067-CF,3,376553,3210160,Jose Luis Bolivar,NA,49,20,19,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.1,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-25,TC-05-111-AL,5,375028,3216668,Eva Garcia,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-25,TC-05-250-EG,5,377011,3216950,Eva Garcia,NA,NA,NA,NA,NA,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-25,TC-03-073-CF,3,378119,3210454,Alejandro Romero,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,1,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En descomposición
+2020-02-25,TC-03-075-CF,3,378476,3210225,Alejandro Romero,NA,67,27,23,H,juvenil,NA,atigrado,1,1,0,0,0,0,2.6,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-26,TC-04-079-AM,4,375200,3214434,Francisco Alejo Duarte,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-26,TC-05-065-AM,5,376685,3215065,Francisco Alejo Duarte,NA,70,26,25,M,adulto,NA,atigrado,1,1,0,0,0,0,3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-26,TC-04-225-EG,4,374723,3214358,Eva Garcia,NA,77,32,28,M,adulto,NA,solido,0,1,0,0,0,0,2.2,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-26,TC-05-122-EG,5,374799,3214850,Eva Garcia,NA,67.5,30.5,25,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.6,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-26,TC-03-117-UT,3,378950,3205699,David Najera,NA,NA,NA,NA,M,adulto,NA,atigrado,1,1,0,0,0,0,NA,1,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,En descomposición
+2020-02-26,TC-03-026-JR,3,378686,3208153,Pedro Cabrera,NA,71,26,20,M,adulto,NA,solido,0,1,0,0,0,0,3.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-27,TC-02-103-AM,2,374804,3204550,Pedro Cabrera,NA,68,26,19,M,adulto,NA,atigrado,1,1,0,0,0,0,2,2,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-27,TC-04-123-JR,4,374092,3211131,Francisco Alejo Duarte,NA,68,24,26,H,adulto,NA,solido,1,0,0,0,0,0,2.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Embarazada
+2020-02-27,TC-04-109-K9,4,377590,3212639,Eva Garcia,NA,74.5,30,27.5,M,juvenil,NA,atigrado,1,1,0,0,0,1,2.6,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,marmoleado
+2020-02-28,TC-01-120-SF,1,377906,3198370,Alejandro Romero,NA,70,30,28,H,adulto,NA,atigrado,1,1,0,0,0,0,3.1,4,NA,erradicacion,sano,preñada,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-28,TC-04-026-NN,4,372757,3212010,Jose Luis Bolivar,NA,62,25,24,M,adulto,NA,atigrado,1,1,0,0,0,0,1.6,3,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-28,TC-04-020-JC,4,372498,3211214,Jose Luis Bolivar,NA,66,26,24,H,adulto,NA,atigrado,1,1,0,0,0,0,1.8,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-28,TC-03-072-CF,3,377937,3210598,Francisco Alejo Duarte,NA,70,27,26,M,adulto,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-28,TC-03-084-K9,3,376371,3211589,Eva Garcia,NA,72.7,29.3,26.5,H,juvenil,NA,atigrado,1,1,0,0,0,0,2.6,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-28,TC-04-119-MV,4,378210,3211610,Eva Garcia,NA,NA,NA,NA,NA,NA,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-28,TC-04-118-MV,4,377962,3211707,Eva Garcia,NA,67,27.5,24.7,M,juvenil,NA,atigrado,0,0,0,0,1,1,1.8,3,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-29,TC-04-047-JC,4,375435,3213012,Jose Cortez,NA,62,23,24,M,juvenil,NA,solido,0,1,0,0,0,0,1.2,3,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-02-29,TC-04-064-LE,4,374274,3212563,Eva Garcia,NA,75,30,30,M,adulto,NA,solido,0,1,0,0,0,0,3.7,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-03,TC-06-052-CR,6,370961,3220140,David Najera,NA,65,25,19,M,juvenil,NA,atigrado,1,1,0,0,0,0,2.2,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-03,TC-06-054-CR,6,370787,3220120,David Najera,NA,57,21,18,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.4,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Peludo
+2020-03-03,TC-06-055-CR,6,370659,3220161,David Najera,NA,56,28,17,H,juvenil,NA,solido,0,1,0,0,0,0,1.1,2,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-03,TC-06-058-CR,6,370105,3220494,David Najera,NA,55,21,16,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.1,2,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-03,TC-06-059-CR,6,369934,3220486,David Najera,NA,NA,NA,NA,M,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,atigrado/marmoleado
+2020-03-03,TC-06-010-JC,6,371363,3218013,Pedro Cabrera,NA,80,31,25,M,adulto,NA,atigrado,1,1,0,0,0,0,3.5,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-03,TC-06-075-JC,6,371426,3217895,Pedro Cabrera,NA,64,24,19,M,adulto,NA,solido,0,1,0,0,0,0,2,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-03,TC-06-007-CR,6,372321,3217976,Pedro Cabrera,NA,73,26,19,M,adulto,NA,solido,0,1,0,0,0,0,3.2,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-03,TC-06-008-CR,6,372455,3218150,Pedro Cabrera,NA,76,27,22,M,adulto,NA,atigrado,1,1,0,0,0,0,NA,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-03,TC-06-050-MA,6,371523,3220476,Alejandro Romero,NA,60,25,23,M,juvenil,NA,atigrado,1,1,0,0,0,0,2.1,2,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-03,TC-06-048-MA,6,371711,3220296,Alejandro Romero,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,En descomposicion 
+2020-03-03,TC-06-020-JC,6,372709,3218931,Alejandro Romero,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,En descomposicion 
+2020-03-03,TC-07-048-KR,7,369774,3222045,Eva Garcia,NA,77.7,35.5,27.8,M,adulto,NA,atigrado,1,1,0,0,0,0,3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-03,TC-07-043-KR,7,370328,3223398,Eva Garcia,NA,69.5,30,26,H,adulto,NA,atigrado,1,1,0,0,0,1,2.3,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-03,TC-07-040-MA,7,370262,3222856,Jose Cortez,NA,68,26,28,M,adulto,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,marmoleado
+2020-03-03,TC-06-064-CR,6,369437,3220325,Jose Luis Bolivar,NA,64,27,23,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.6,2,NA,erradicacion,debil,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-03,TC-06-066-CR,6,369291,3220049,Jose Luis Bolivar,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-03,TC-06-067-CR,6,369117,3219987,Jose Luis Bolivar,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-04,TC-06-104-EG,6,370004,3219344,Eva Garcia,NA,60,25.5,23,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.4,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-04,TC-06-107-ER,6,369309,3219043,Eva Garcia,NA,51,21,21,M,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-04,TC-06-034-JC,6,371451,3218950,Pedro Cabrera,NA,68,26,18,M,adulto,NA,atigrado,1,1,0,0,0,0,2.2,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-04,TC-06-077-JV,6,370505,3218441,Pedro Cabrera,NA,71,26,20,M,adulto,NA,solido,0,1,0,0,0,0,3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-04,TC-06-089-CR,6,368506,3219086,Alejandro Romero,NA,73,30,27,H,adulto,NA,atigrado,1,1,0,0,0,0,3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-04,TC-06-090-CR,6,368413,3218983,Alejandro Romero,NA,67,27,23,M,juvenil,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Marmoleado. Con el homóplato roto
+2020-03-04,TC-06-092-CR,6,368208,3218507,Alejandro Romero,NA,64,25,21,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.6,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Atrapado pata izquierda trasera
+2020-03-04,TC-06-093-CR,6,368144,3218243,Alejandro Romero,NA,60,23,22,H,juvenil,NA,atigrado,1,1,0,0,0,0,2.2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Atrapado pata izquierda trasera
+2020-03-04,TC-06-114-CR,6,367993,3217972,Alejandro Romero,NA,66,27,23,H,juvenil,NA,atigrado,1,1,0,0,0,0,2.3,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,marmoleado
+2020-03-05,TC-03-082-K9,6,377418,3209218,Jose Luis Bolivar,NA,61,22,21,H,juvenil,NA,solido,0,1,0,0,0,0,1.7,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-06,TC-06-113-JC,6,371836,3221143,Alejandro Romero,NA,72,31,28,M,adulto,NA,atigrado,1,1,0,0,0,0,NA,2,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,En descomposicion 
+2020-03-06,TC-07-014-AC,7,371483,3223293,Eva Garcia,NA,75.5,31,28.5,M,adulto,NA,atigrado,1,1,0,0,0,0,3.6,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-06,TC-07-013-AC,7,371298,3222889,Eva Garcia,NA,67.5,28.5,26,M,adulto,NA,solido,0,1,0,0,0,0,2.2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-06,TC-07-012-AC,7,371305,3222285,Eva Garcia,NA,NA,NA,NA,H,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-06,TC-07-019-LE,7,370773,3222356,Eva Garcia,NA,NA,NA,NA,H,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-07,TC-06-081-KR,6,370997,3219555,Eva Garcia,NA,55,22.5,22,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.5,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-07,TC-05-234-KR,5,372658,3217529,Alejandro Romero,NA,51,20,19,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.2,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-07,TC-05-225-FA,5,372094,3217201,Alejandro Romero,NA,67,25,24,M,adulto,NA,atigrado,1,1,0,0,0,0,2.6,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-07,TC-05-228-FA,5,371498,3217086,Alejandro Romero,NA,68,26,23,H,adulto,NA,atigrado,1,1,0,0,0,0,2.1,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-07,TL-05-048-PC,5,374917,3217353,David Najera,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-01-02,TC-06-014-CR,6,372020,3218491,Francisco Duarte,NA,70,28,28,M,juvenil,NA,atigrado,1,1,0,0,0,0,3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-01-02,TC-06-100-MV,6,370118,3220384,Camerino Reyes,Carlos Cortez,74,28,27,H,adulto,NA,atigrado,1,1,0,0,0,0,3,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-01-02,TL-07-085-DG,7,371919,3221743,Alejandro Romero,NA,77,25,32,M,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-01-03,TC-06-081-KR,6,370997,3219555,Carlos Cortez,NA,56,25,25,H,adulto,NA,solido,0,1,0,0,0,0,1.7,2,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-01-03,TC-07-041-MA,7,370299,3223072,Yureli Garibay,NA,73,29,25,H,adulto,NA,atigrado,1,1,0,0,0,0,2.6,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-01-04,TC-07-032-PC,7,371712,3221980,Shamed Galicia,NA,64,24,22,H,adulto,NA,atigrado,1,1,0,0,0,0,1.5,2,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Ejemplar encontrado muerto de aparencia reciente.
+2020-01-04,TC-06-111-JC,6,371966,3220915,Shamed Galicia,NA,65,26,22,H,adulto,NA,atigrado,1,1,0,0,0,1,2.3,2,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Ejemplar encontrado muerto de aparencia reciente.
+2020-04-02,TC-02-123-MO,2,380474,3203370,Yureli Garibay,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Descomposicion avanzada
+2020-04-01,TC-01-376-NN,1,374398,3200752,Eva Garcia,NA,NA,NA,NA,NA,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Descomposicion avanzada
+2020-04-02,TC-02-035-NN,2,379257,3202067,Eva Garcia,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Descomposicion avanzada
+2020-04-01,TC-02-020-HH,2,380257,3201577,Emmanuel Mendoza,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Descomposicion avanzada. Solo se encontraron las patas.
+2020-04-02,TC-02-097-AM,2,375651,3204054,Emmanuel Mendoza,NA,83,29,28,M,adulto,NA,atigrado,1,1,0,0,0,0,3,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-02,TC-02-101-AM,2,375143,3204820,Emmanuel Mendoza,NA,80,30,27,M,adulto,NA,atigrado,1,1,0,0,0,0,2.8,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-02,TC-02-103-AM,2,374804,3204550,Emmanuel Mendoza,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Descomposicion avanzada
+2020-04-03,TC-03-008-K9,3,375654,3205442,Emmanuel Mendoza,NA,77,30,27,M,adulto,NA,solido,0,1,0,0,0,0,2.9,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-31,TC-05-065-AM,5,376685,3215065,Jessica Vazquez,NA,66,27,25,M,adulto,NA,atigrado,1,1,0,0,0,0,2.1,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-31,TC-05-004-JR,5,372763,3213707,Shamed Galicia,NA,69,27,26,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,Avanzado estado de descomposicion
+2020-03-31,TC-03-117-UT,3,378950,3205699,Jose Cortez,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Avanzado estado de descomposicion
+2020-04-01,TC-01-084-TR,1,374909,3199083,Luis Martinez,NA,72,30.5,29.5,M,adulto,NA,solido,1,0,0,0,0,1,0.1,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Se le quito la piel para entrenar a los perros.
+2020-04-02,TC-01-382-K9,1,376607,3199585,Luis Martinez,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-02,TC-01-154-KR,1,376540,3199417,Luis Martinez,NA,NA,NA,NA,NA,NA,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-26,NA,1,NA,NA,Ariana ,NA,79,29.5,29.5,M,juvenil,NA,atigrado,1,1,0,0,0,0,2.43,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Ariana tomo el dato en una trampa de las palmas 
+2020-04-03,TC-01-048-AG,1,375623,3196368,Jessica Vazquez,NA,NA,NA,NA,NA,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Avanzado estado de descomposicion
+2020-04-03,TC-01-047-AG,1,375737,3196346,Jessica Vazquez,NA,NA,NA,NA,NA,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Avanzado estado de descomposicion
+2020-04-03,TC-01-320-CR,1,380050,3200414,Luis Martinez,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Se encontraro al gato en puros huesos
+2020-03-12,TC-03-014-LE,3,377430,3211095,Pedro Cabrera,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-13,TC-03-094-K9,3,379134,3206319,Pedro Cabrera,NA,70,29,19,H,adulto,NA,atigrado,1,1,0,0,0,0,2,1,NA,erradicacion,debil,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-13,TC-03-054-JR,3,378218,3205832,Alejandro Romero,NA,68,28,24,H,adulto,NA,atigrado,1,1,0,0,0,0,3,3,NA,erradicacion,sano,preñada,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-12,TC-03-023-JC,3,378435,3206831,Eva Garcia,NA,73,30,27,H,adulto,NA,atigrado,1,1,0,0,0,0,3,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,Lactante
+2020-03-12,TC-04-053-LE,3,374536,3212752,Jose Luis Bolivar,NA,61,22,21,H,juvenil,NA,solido,0,1,0,0,0,0,1.7,3,NA,erradicacion,debil,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-06-040-CR,6,371544,3219703,Eva Garcia,NA,NA,NA,NA,M,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-21,TC-06-101-EG,6,370581,3219861,Eva Garcia,NA,NA,NA,NA,M,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-21,TC-06-105-EG,6,369801,3219244,Eva Garcia,NA,69,28,26,H,adulto,NA,atigrado,1,1,0,0,0,0,2.6,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-06-032-PC,6,371712,3221980,Jose Cortez,NA,73,34,28,H,juvenil,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TC-05-236-PC,5,372208,3216940,Jose Cortez,NA,72,28,24,M,adulto,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TC-05-240-PC,5,373153,3216843,Jose Cortez,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TC-05-242-PC,5,373721,3216670,Jose Cortez,NA,68,27,26,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.8,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TC-05-104-AL,5,374030,3216654,Jose Cortez,NA,NA,NA,NA,M,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-06-082-KR,6,370842,3219441,Luis Alberto,NA,48,28,NA,H,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TC-05-120-AL,5,375949,3216837,Luis Alberto,NA,70,32,29,H,adulto,NA,atigrado,1,1,0,0,0,0,3.3,NA,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TC-05-249-EG,5,376835,3216874,Luis Alberto,NA,75,29.7,NA,H,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TC-05-251-EG,5,377209,3216945,Luis Alberto,NA,75,33.5,NA,M,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TC-05-252-EG,5,377375,3216866,Luis Alberto,NA,69,30,NA,H,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-07-034-MA,7,370276,3221829,Shamed Galicia,NA,65,26,22,H,juvenil,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-07-036-MA,7,369816,3222215,Shamed Galicia,NA,61,27,25,H,juvenil,NA,solido,0,1,0,0,0,0,1.9,3,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-21,TC-06-030-CR,6,371337,3218811,Shamed Galicia,NA,59,23,21,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-21,TC-06-078-JV,6,370254,3218379,Shamed Galicia,NA,67,25,23,H,adulto,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TC-05-077-AR,5,375559,3215818,Shamed Galicia,NA,63,25,21,H,juvenil,NA,solido,0,1,0,0,0,0,1.5,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TC-05-078-AR,5,375829,3215966,Shamed Galicia,NA,78,31,27,M,adulto,NA,atigrado,1,1,0,0,0,0,3.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TC-05-081-AR,5,376738,3215796,Shamed Galicia,NA,63,23,20,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-21,TC-06-094-CR,6,368479,3219307,Francisco Duarte,NA,72,29,24,H,juvenil,NA,atigrado,1,1,0,0,0,1,2,2,NA,erradicacion,debil,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-21,TC-06-089-CR,6,368506,3219086,Francisco Duarte,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,1,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TC-05-023-LE,5,372739,3215920,Francisco Duarte,NA,68,28,28,H,adulto,NA,atigrado,1,1,0,0,0,1,2,3,NA,erradicacion,debil,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-06-020-JC,6,372710,3218931,Jessica Vazquez,NA,58,27,26,H,adulto,NA,solido,0,1,0,0,0,0,2.7,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-06-024-JC,6,372409,3219111,Jessica Vazquez,NA,NA,NA,NA,NA,cria,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-06-026-MA,6,372368,3219333,Jessica Vazquez,NA,72,31,30,M,adulto,NA,solido,0,1,0,0,0,0,3.6,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-06-037-MA,6,372329,3219596,Jessica Vazquez,NA,69,31,30,M,adulto,NA,solido,0,1,0,0,0,0,2.6,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-06-038-MA,6,372217,3219823,Jessica Vazquez,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-06-050-MA,6,371522,3220476,Jessica Vazquez,NA,66,27,25,M,adulto,NA,atigrado,1,1,0,0,0,0,2.1,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-06-015-CR,6,372001,3218583,Emmanuel Mendoza,NA,65,23,23,H,juvenil,NA,atigrado,1,1,0,0,0,0,2.1,4,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-06-007-CR,6,372321,3217976,Emmanuel Mendoza,NA,56,21,22,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.4,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-21,TL-06-169-AR,6,373183,3230856,Emmanuel Mendoza,NA,NA,NA,NA,NA,NA,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-21,TL-06-170-AR,6,373273,3220698,Emmanuel Mendoza,NA,67,24,23,NA,adulto,NA,atigrado,1,0,0,0,0,1,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TL-05-032-AR,5,373401,3217446,Emmanuel Mendoza,NA,75,30,26,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-21,TC-06-099-MV,6,369947,3220289,Yureli Garibay,NA,38,27,NA,M,juvenil,NA,atigrado,1,1,0,0,0,0,1,2,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Sin altura porque estaba doblado
+2020-03-21,TC-06-098-MV,6,369800,3220124,Yureli Garibay,NA,53,25,23,H,juvenil,NA,atigrado,1,1,0,0,0,0,1,2,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-22,TC-05-102-UT,5,373010,3216380,Yureli Garibay,NA,63,29,23,H,adulto,NA,atigrado,1,1,0,0,0,0,1.6,2,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-20,TC-07-045-KR,7,369997,3222850,Yureli Garibay,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,0.5,NA,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,Estado avanzado de descomposicion.
+2020-03-16,NA,NA,NA,NA,Eva Garcia,NA,51,21,20.5,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.3,2,NA,erradicacion,debil,no reproductivo,NA,NA,NA,NA,NA,NA,NA,CONANP lo encontro sobre el camino
+2020-03-15,TC-02-007-DN,2,375376,3202040,Ariana Duarte,NA,74,29,26,H,juvenil,NA,solido,0,1,0,0,0,0,2.15,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-23,TC-06-055-CR,6,370658,3220161,Eva Garcia,NA,61,26,24,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.7,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-24,TC-04-066-LE,4,373644,3212509,Eva Garcia,NA,69,29.5,27,H,adulto,NA,atigrado,1,1,0,0,0,0,2.2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-25,TC-06-066-CR,6,369291,3220049,Eva Garcia,NA,69,28,27.5,H,adulto,NA,solido,0,1,0,0,0,0,2.7,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-23,TC-07-032-PC,7,371712,3221980,Shamed Galicia,NA,68,23,26,H,adulto,NA,solido,0,1,0,0,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-23,TC-06-111-JC,6,371966,3220915,Shamed Galicia,NA,68,27,23,H,adulto,NA,atigrado,1,1,0,0,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-23,TC-06-073-MA,6,371457,3221153,Shamed Galicia,NA,67,26,21,H,adulto,NA,solido,1,0,0,0,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-23,TC-07-042-KR,7,370479,3223635,Jose Cortez ,NA,69,27,25,H,adulto,NA,atigrado,1,1,0,0,0,0,2.1,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-23,TC-06-075-JC,6,371426,3217895,Francisco Alejo ,NA,68,25,25,M,adulto,NA,atigrado,0,0,0,0,1,1,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-24,TC-05-037-AM,5,375280,3215112,Francisco Alejo ,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Estado de descomposicion 
+2020-03-24,TC-05-063-AM,5,376264,3215082,Francisco Alejo ,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Estado de descomposicion 
+2020-03-24,TC-05-065-AM,5,376685,3215065,Francisco Alejo ,NA,68,27,23,M,adulto,NA,atigrado,1,1,0,0,0,0,1.5,2,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-24,TC-06-067-AM,6,377228,3215128,Francisco Alejo ,NA,NA,NA,NA,H,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-25,TL-06-165-FD,6,372438,3220955,Shamed Galicia,NA,73,28,23.5,H,adulto,NA,atigrado,1,1,0,0,0,0,3.5,4,NA,erradicacion,sano,preñada,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-23,TC-06-050-MA,6,371523,3220476,Yureli Garibay,NA,51,19,17,H,juvenil,NA,atigrado,1,1,0,0,0,0,0.4,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-25,TC-06-029-CR,6,371591,3218910,Luis Alberto Martínez Hernández,NA,56,23,22.7,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.6,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-25,TC-06-033-CR,6,370725,3218418,Luis Alberto Martínez Hernández,NA,60.6,27,27.9,H,juvenil,NA,atigrado,1,1,0,0,0,0,2.3,4,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-27,TC-05-030-JR,5,374866,3216047,Yureli Garibay,NA,52.5,21,16,M,juvenil,NA,atigrado,1,1,0,0,0,0,1,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-27,TC-05-043-NN,5,375379,3216189,Yureli Garibay,NA,69,29,20,H,adulto,NA,solido,0,1,0,0,0,0,2,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-27,TC-05-235-KR,5,372903,3217471,Eva Garcia,NA,60,23.5,22.5,H,juvenil,NA,atigrado,1,1,0,1,0,0,1.6,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-27,TC-05-226-FA,5,371897,3217190,Eva Garcia,NA,58,24,23.5,M,juvenil,NA,solido,0,1,0,0,0,0,1.7,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-27,TC-05-242-PC,5,373721,3216670,Jessica Vazquez,NA,76,31,28,H,adulto,NA,solido,0,1,0,0,0,0,2.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-27,TC-05-241-PC,5,373439,3216777,Jessica Vazquez,NA,52,20,18,H,cria,NA,solido,0,1,0,0,0,0,1,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-27,TC-05-239-PC,5,372869,3216837,Jessica Vazquez,NA,57,23,21,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.6,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-27,TC-05-073-AL,5,374039,3216387,Jose Cortez ,NA,72,32,27,H,adulto,NA,atigrado,1,1,0,0,0,0,2.2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-06-075-JC,6,371426,3217895,Jose Cortez ,NA,60,22,20,H,adulto,NA,solido,0,1,0,0,0,0,2,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-06-072-JC,6,371171,3217947,Jose Cortez ,NA,NA,NA,NA,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.5,NA,NA,erradicacion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-06-018-JC,6,372249,3218836,Jessica Vazquez,NA,48,18,17,H,cria,NA,atigrado,1,1,0,0,0,0,0.6,3,NA,erradicacion,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-06-051-CR,6,371037,3220397,Jessica Vazquez,NA,56,22,21,M,juvenil,NA,atigrado,1,1,0,0,0,0,1.5,4,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-06-020-JC,6,372709,3218931,Eva Garcia,NA,52.5,20,21,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.5,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-06-041-MA,6,372153,3220068,Eva Garcia,NA,73,31,27.5,M,adulto,NA,atigrado,1,1,0,0,0,0,2.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-06-050-MA,6,371523,3220476,Eva Garcia,NA,59,26,24,H,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-23,TL-06-157-PC,6,372388,3221486,Emmanuel Mendoza,NA,80,30,28,M,adulto,NA,solido,0,1,0,0,0,0,3.7,3,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-24,TC-05-131-EC,5,373579,3214551,Emmanuel Mendoza,NA,NA,NA,NA,NA,juvenil,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-27,TC-05-056-JC,5,373700,3216084,Emmanuel Mendoza,NA,61,21,20,H,juvenil,NA,atigrado,1,1,0,0,0,0,1.5,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-06-073-MA,6,371457,3221153,Emmanuel Mendoza,NA,57,21,20,M,juvenil,NA,solido,0,1,0,0,0,0,1.2,2,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-07-032-PC,7,371712,3221980,Emmanuel Mendoza,NA,68,25,23,H,juvenil,NA,solido,0,1,0,0,0,0,2,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-07-011-AC,7,370897,3222124,Yureli Garibay,NA,46,15,17,M,juvenil,NA,atigrado,1,1,0,0,0,0,0.5,3,NA,erradicacion,muerto,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-07-019-LE,7,370772,3222356,Yureli Garibay,NA,64.5,26,22,M,adulto,NA,solido,0,1,0,0,0,0,1.5,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-07-014-AC,7,371483,3223293,Yureli Garibay,NA,53,20,16,M,juvenil,NA,atigrado,1,1,0,0,0,0,0.5,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-06-058-CR,6,370105,3220494,Shamed Galicia,NA,56,20,19,H,juvenil,NA,solido,1,0,0,0,0,0,1.4,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-06-057-CR,6,370308,3220444,Shamed Galicia,NA,56,20,20,H,juvenil,NA,solido,1,0,0,0,0,0,11,2,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-27,TC-05-079-AR,5,376140,3215987,Luis Alberto Martínez Hernández,NA,63,30,28,M,adulto,NA,solido,0,1,0,0,0,0,2.7,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-03-28,TC-07-047-KR,7,369682,3222358,Luis Alberto Martínez Hernández,NA,78.5,32,29.5,M,adulto,NA,atigrado,1,1,0,0,0,0,3.1,4,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-10,TC-03-140-EG,3,376266,3210353,Emmanuel Mendoza,NA,NA,NA,NA,NA,NA,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En estado de descomposicion
+2020-04-14,TC-03-017-LE,3,377783,3210754,Emmanuel Mendoza,NA,76,28,27,M,adulto,NA,atigrado,1,1,0,0,0,0,2.6,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-14,TC-03-072-CF,3,377937,3210598,Emmanuel Mendoza,NA,NA,NA,NA,NA,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-14,TC-03-073-CF,3,378119,3210454,Emmanuel Mendoza,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-14,TC-03-075-CF,3,378476,3210225,Emmanuel Mendoza,NA,NA,NA,NA,NA,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-15,TC-04-118-MV,4,377962,3211707,Emmanuel Mendoza,NA,74,25,25,M,juvenil,NA,solido,0,1,0,0,0,0,2.6,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-18,TC-02-065-GV,2,377471,3202817,Francisco Alejo Duarte Gamez,NA,75,31,27,M,adulto,NA,solido,0,1,0,0,0,0,2.5,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-14,TC-04-123-JR,4,374092,3211131,Yureli Garibay Melendrez,NA,68,16.5,21,H,adulto,NA,atigrado,1,1,0,0,0,0,2.7,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-17,TC-03-120-NS,3,379699,3205616,Yureli Garibay Melendrez,NA,NA,NA,NA,NA,NA,NA,atigrado,0,0,0,0,1,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Descomposición avanzada
+2020-04-18,TC-02-123-MO,2,380474,3203370,Yureli Garibay Melendrez,NA,62,28,20,H,adulto,NA,atigrado,1,1,0,0,0,0,1.5,2,NA,erradicacion,muerto,lactando,NA,NA,NA,NA,NA,NA,NA,Tenia los pezones hinchados.
+2020-04-17,TC-01-090-TR,1,375383,3198930,Eva Garcia,NA,75,29,28,H,adulto,NA,atigrado,1,1,0,0,0,0,4.6,4,NA,erradicacion,sano,preñada,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-29,TC-03-085-K9,3,376728,3211841,Francisco Duarte,NA,NA,NA,NA,NA,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En estado de descomposicion
+2020-04-29,TC-04-132-MV,4,379736,3212660,Francisco Duarte,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,1,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En estado de descomposicion
+2020-05-01,TC-05-099-UT,5,373771,3216284,Francisco Duarte,NA,NA,NA,NA,NA,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En estado de descomposicion
+2020-05-01,TC-05-102-UT,5,373010,3216380,Francisco Duarte,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,1,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En estado de descomposicion
+2020-05-01,TC-05-113-UT,5,371740,3216409,Francisco Duarte,NA,NA,NA,NA,NA,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En estado de descomposicion
+2020-04-28,TL-04-024-NN,4,372731,3211702,Emmanuel Mendoza,NA,NA,NA,NA,NA,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En estado de descomposicion
+2020-04-29,TC-04-099-MV,4,379991,3211529,Emmanuel Mendoza,NA,NA,NA,NA,NA,juvenil,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En estado de descomposicion
+2020-04-29,TC-04-100-MV,4,380286,3211530,Emmanuel Mendoza,NA,80,30,28,M,adulto,NA,atigrado,1,1,0,0,0,1,3,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-29,TC-03-073-CF,3,378119,3210454,Emmanuel Mendoza,NA,70,26,26,H,juvenil,NA,atigrado,1,1,0,0,0,1,2,3,NA,erradicacion,sano,no reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-30,TC-04-069-CR,4,377311,3212665,Emmanuel Mendoza,NA,NA,NA,NA,NA,NA,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En estado de descomposicion
+2020-04-29,TC-04-118-MV,4,377962,3211707,Yureli Garibay Melendrez,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,En estado de descomposicion
+2020-04-30,TC-04-071-CR,4,377704,3212948,Yureli Garibay Melendrez,NA,NA,NA,NA,NA,adulto,NA,atigrado,1,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,En estado de descomposicion
+2020-04-28,TC-01-091-TR,1,375460,3198798,Luis Martínez,NA,61,26,NA,H,juvenil,NA,atigrado,1,0,0,0,0,1,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,El gato estaba muerto en la trampa se pudo medir pero debido al mal olor y estado en descomposicion no fue posible pesarlo. 
+2020-04-29,TC-02-134-JR,2,378865,3204201,Shamed Galicia,NA,51,22,NA,NA,NA,NA,atigrado,1,0,0,0,0,1,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,Estado muy avanzado de descomposicion.  Solo habia pelo y hueso por lo que solo se pudo sacar una medida aproximada de longitud total y longitud de la cola.
+2020-05-01,TC-01-047-AG,1,375737,3196346,Jessica Vazquez,NA,71,30,29,M,adulto,NA,atigrado,1,0,0,0,0,1,2.8,3,NA,erradicacion,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
+2020-04-30,TC-04-089-JR,4,376923,3213688,Francisco Duarte,NA,NA,NA,NA,NA,adulto,NA,solido,0,1,0,0,0,0,NA,NA,NA,erradicacion,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En estado de descomposicion
