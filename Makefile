@@ -2,7 +2,7 @@ all: tests
 
 
 define checkDirectories
-if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
+mkdir --parents $(@D)
 endef
 
 # Reporte de densidades de cangrejos y lagartijas en Banco Chinchorro
@@ -54,13 +54,13 @@ $(csvMorfometriaGatosISO8601): $(csvMorfometriaGatos)
 	cambia_formato_fecha $< > $@
 
 $(csvCleanedMorphometryCats): $(csvMorfometriaGatosISO8601) src/clean_morphometry.R
-	if [ ! -d $(@D) ]; then mkdir --parents $(@D); fi
+	$(checkDirectories)
 	src/clean_morphometry.R \
 		--data=$< \
 		--out=$@
 
 $(csvCleanedPositionTraps): $(csvPosicionTrampas) src/get_captures.R
-	mkdir --parents $(@D)
+	$(checkDirectories)
 	src/get_captures.R \
 		--data=$< \
 		--out=$@
@@ -72,11 +72,11 @@ $(csvMissingPosition): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 		--output_path=$@
 
 $(csv_PosicionTrampasGatosDatapackage): $(csvIgPosicionTrampas10May2020) src/change_header
-	mkdir --parents $(@D)
+	$(checkDirectories)
 	src/change_header $< > $@
 
 $(csvRepeatedDataTest): $(csvIgPosicionTrampas10May2020) src/distinct_position_traps
-	mkdir --parents $(@D)
+	$(checkDirectories)
 	src/distinct_position_traps $< > $@
 
 $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
