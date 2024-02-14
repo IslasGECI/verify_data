@@ -53,11 +53,11 @@ $(csvMorfometriaGatosISO8601): $(csvMorfometriaGatos)
 	$(checkDirectories)
 	cambia_formato_fecha $< > $@
 
-$(csvCleanedMorphometryCats): $(csvMorfometriaGatosISO8601) src/clean_morphometry.R
+$(csvCleanedMorphometryCats): data/raw/morfometria_gatos_erradicacion_isla_guadalupe_ISO8601.csv
 	$(checkDirectories)
-	src/clean_morphometry.R \
-		--data=$< \
-		--out=$@
+	Rscript -e "diferenciasMorfometriaPosicionTrampas::write_cleaned_morphometry(geci.optparse::get_options())" \
+		--data_path=data/raw/morfometria_gatos_erradicacion_isla_guadalupe_ISO8601.csv \
+		--output_path=$@
 
 $(csvCleanedPositionTraps): $(csvPosicionTrampas) src/get_captures.R
 	$(checkDirectories)

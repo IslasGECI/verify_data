@@ -77,9 +77,9 @@ errors_directory=${files_path}/errores
 
 # Tiene que ser la salida de la funcion cambia formato_fecha (ISO8601)
 	echo "SELECCIONA CAPTURAS DEL ARCHIVO MORFOMETRÍA GATOS"
-	src/clean_morphometry.R \
-    	--data=${cat_morphometry_data_file}_ISO8601.csv \
-    	--out=${files_path}/cleaned_morphometry_cats.csv
+	Rscript -e "diferenciasMorfometriaPosicionTrampas::write_cleaned_morphometry(geci.optparse::get_options())" \
+	--data_path=${cat_morphometry_data_file}_ISO8601.csv \
+	--output_path=${files_path}/cleaned_morphometry_cats.csv
 
 # 6.2 Posición trampa
 	echo "SELECCIONA CAPTURAS DEL ARCHIVO POSICIÓN TRAMPAS"
