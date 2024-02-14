@@ -66,7 +66,7 @@ $(csvCleanedPositionTraps): $(csvPosicionTrampas) src/get_captures.R
 		--out=$@
 
 $(csvMissingPosition): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
-	R -e "diferenciasMorfometriaPosicionTrampas::write_diff_in_captures_between(geci.optparse::get_options())" \
+	Rscript -e "diferenciasMorfometriaPosicionTrampas::write_diff_in_captures_between(geci.optparse::get_options())" \
 		--left_data=reports/tables/cleaned_morphometry_cats.csv \
 		--right_data=reports/tables/cleaned_position_traps.csv \
 		--output_path=$@
@@ -80,7 +80,7 @@ $(csvRepeatedDataTest): $(csvIgPosicionTrampas10May2020) src/distinct_position_t
 	src/distinct_position_traps $< > $@
 
 $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
-	R -e "diferenciasMorfometriaPosicionTrampas::write_diff_in_captures_between(geci.optparse::get_options())" \
+	Rscript -e "diferenciasMorfometriaPosicionTrampas::write_diff_in_captures_between(geci.optparse::get_options())" \
 		--left_data=reports/tables/cleaned_position_traps.csv \
 		--right_data=reports/tables/cleaned_morphometry_cats.csv \
 		--output_path=$@
@@ -164,7 +164,9 @@ format:
 	  -e "style_dir('src')" \
 	  -e "style_dir('tests')"
 
-init: install tests
+init: init_github install tests
+
+init_github:
 	git config --global --add safe.directory /workdir
 	git config --global user.name "Ciencia de Datos • GECI"
 	git config --global user.email "ciencia.datos@islas.org.mx"
