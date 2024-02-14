@@ -1,3 +1,4 @@
+#' @export
 write_cleaned_morphometry <- function(options) {
   input_file <- options$data_path
   output_file <- options$output_path
