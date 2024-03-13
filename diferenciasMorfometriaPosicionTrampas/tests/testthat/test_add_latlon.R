@@ -2,7 +2,8 @@ utm_coordinates <- readr::read_csv("/workdir/diferenciasMorfometriaPosicionTramp
 describe("Cli for transform UTM to latlon", {
   it("convert_to_latlon()", {
     output_path <- "/workdir/diferenciasMorfometriaPosicionTrampas/tests/ids_in_latlon.csv"
-    convert_to_latlon(utm_coordinates, output_path)
+    options <- list("data_path" = utm_coordinates, "output_path" = output_path)
+    convert_to_latlon(options)
   })
 })
 describe("Add latitude and longitude column", {
