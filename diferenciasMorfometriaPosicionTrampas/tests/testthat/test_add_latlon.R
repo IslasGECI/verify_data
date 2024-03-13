@@ -1,11 +1,16 @@
-utm_coordinates <- readr::read_csv("/workdir/diferenciasMorfometriaPosicionTrampas/tests/data_tests/morfometria_capitalized.csv", show_col_types = FALSE)
+utm_coordinates_path <- "/workdir/diferenciasMorfometriaPosicionTrampas/tests/data_tests/morfometria_capitalized.csv"
+utm_coordinates <- readr::read_csv(utm_coordinates_path, show_col_types = FALSE)
 describe("Cli for transform UTM to latlon", {
   it("convert_to_latlon()", {
     output_path <- "/workdir/diferenciasMorfometriaPosicionTrampas/tests/ids_in_latlon.csv"
-    options <- list("data_path" = utm_coordinates, "output_path" = output_path)
+    options <- list("data_path" = utm_coordinates_path, "output_path" = output_path)
     testtools::delete_output_file(output_path)
     convert_to_latlon(options)
     expect_true(testtools::exist_output_file(output_path))
+
+    obtained_data <- readr::read_csv(output_path, show_col_types = FALSE)
+    added_columns <- c("Coordenada_Este", "Coordenada_Norte")
+    expect_true(all(!added_columns %in% colnames(obtained_data)))
   })
 })
 describe("Add latitude and longitude column", {
