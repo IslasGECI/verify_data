@@ -3,7 +3,9 @@ describe("Cli for transform UTM to latlon", {
   it("convert_to_latlon()", {
     output_path <- "/workdir/diferenciasMorfometriaPosicionTrampas/tests/ids_in_latlon.csv"
     options <- list("data_path" = utm_coordinates, "output_path" = output_path)
+    testtools::delete_output_file(output_path)
     convert_to_latlon(options)
+    expect_true(testtools::exist_output_file(output_path))
   })
 })
 describe("Add latitude and longitude column", {
