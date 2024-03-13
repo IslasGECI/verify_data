@@ -8,5 +8,6 @@ describe("CLI for clean_morphometry ", {
     obtained <- readr::read_csv(output_path, show_col_types = FALSE)
     expected_rows <- 938 - 194
     expect_equal(nrow(obtained), expected_rows)
+    testtools::delete_output_file(output_path)
   })
 })
