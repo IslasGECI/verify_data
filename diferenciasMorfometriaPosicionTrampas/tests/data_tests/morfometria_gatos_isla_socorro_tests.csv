@@ -1,0 +1,6 @@
+Fecha,ID_de_trampa,Zona,Coordenada_Este,Coordenada_Norte,Edad,Patron,Estado_reproductivo,Estado_de_salud
+2023-04-07,TC-20-2487-IL,20,496748,2078180,Edad_str,Patron_str,Estado_reproductivo_str,Estado_de_salud_str
+2023-04-10,TC-10-2861-AM,10,497859,2078199,Edad_str,Patron_str,Estado_reproductivo_str,Estado_de_salud_str
+2023-04-14,TC-10-2891-AL,10,497720,2078353,Edad_str,Patron_str,Estado_reproductivo_str,Estado_de_salud_str
+2023-05-26,TC-70-2482-NA,70,500369,2073944,Edad_str,Patron_str,Estado_reproductivo_str,Estado_de_salud_str
+2023-05-24,TC-70-2507-NA,70,499979,2074419,Edad_str,Patron_str,Estado_reproductivo_str,Estado_de_salud_str
