@@ -7,6 +7,7 @@ write_cleaned_morphometry <- function(options) {
     readr::write_csv(output_file)
 }
 
+#' @export
 write_cleaned_socorro_morphometry <- function(options) {
   output_file <- options$output_path
   morphometry <- .read_morphometry_file(options)
