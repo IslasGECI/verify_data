@@ -24,4 +24,11 @@ describe("Add latitude and longitude column", {
     expect_equal(obtained$latitude[[7]], expected_latitude, tolerance = 1e-6)
     expect_equal(obtained$longitude[[7]], expected_longitude, tolerance = 1e-6)
   })
+  it("Latitude and longitude for Socorro Island", {
+    max_lat <- 18.8599
+    min_lat <- 18.7218
+    max_lon <- -110.9173
+    min_lon <- -111.0536
+    obtained <- add_latlon(utm_coordinates, zone = 12)
+  })
 })
