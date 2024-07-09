@@ -11,7 +11,7 @@ write_cleaned_socorro_morphometry <- function(options) {
   output_file <- options$output_path
   morphometry <- .read_morphometry_file(options)
   morphometry |>
-    .clean_morphometry() |>
+    .clean_morphometry(zone = 12) |>
     readr::write_csv(output_file)
 }
 
@@ -20,9 +20,9 @@ write_cleaned_socorro_morphometry <- function(options) {
   morphometry <- readr::read_csv(input_file, show_col_types = FALSE)
 }
 
-.clean_morphometry <- function(morphometry_data) {
+.clean_morphometry <- function(morphometry_data, zone = 11) {
   morphometry_data |>
     dplyr::filter(Fecha > as.Date("2018-04-23")) |>
     lower_columns_age_patron_and_status() |>
-    add_latlon()
+    add_latlon(zone)
 }
