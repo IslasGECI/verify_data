@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2024-07-09
+
+### Added
+
+- Add function `write_cleaned_socorro_morphometry()`. This function clean the morphometry file for Socorro
+
 ## [0.2.0] - 2023-11-13
 
 ### Added
