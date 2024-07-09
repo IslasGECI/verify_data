@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 cat_morphometry_file_name_xlsx=${1}
 cat_morphometry_data_path=$(dirname ${cat_morphometry_file_name_xlsx})
 cat_morphometry_file_name=$(basename ${cat_morphometry_file_name_xlsx} .xlsx)
