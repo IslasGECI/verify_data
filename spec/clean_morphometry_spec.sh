@@ -13,4 +13,11 @@ Describe 'clean raw files'
     When run clean_morphometry ${target}
     The result of function checksum should eq ${expected_md5}
   End
+  It 'clean position'
+    output="/workdir/tests/data/datos_formato_excel/IG_POSICION_TRAMPAS_12JUN2022.csv"
+    target="/workdir/tests/data/datos_formato_excel/IG_POSICION_TRAMPAS_12JUN2022.xlsx"
+    expected_md5="4fd30809660722b7bef86b3216b00d30"
+    When run clean_position ${target}
+    The result of function checksum should eq ${expected_md5}
+  End
 End
