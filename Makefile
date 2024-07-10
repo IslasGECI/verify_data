@@ -95,17 +95,24 @@ $(csvMissingMorfometry): $(csvCleanedMorphometryCats) $(csvCleanedPositionTraps)
 		clean \
 		coverage \
 		format \
+		green \
+		green_spec \
 		init \
 		install \
 		install_python \
 		install_r \
 		linter \
 		mutants \
+		red \
+		red_spec \
+		refactor \
+		refactor_spec \
+		setup \
 		tests \
 		tests_bash \
 		tests_data \
 		tests_python \
-		tests_r 
+		tests_r
 
 define lint
 	pylint \
@@ -164,7 +171,10 @@ format:
 	  -e "style_dir('src')" \
 	  -e "style_dir('tests')"
 
-init: init_github install tests
+init: setup tests
+
+setup: init_github install
+	shellspec --init
 
 init_github:
 	git config --global --add safe.directory /workdir
@@ -208,7 +218,25 @@ refactor: format
 	|| git restore diferenciasMorfometriaPosicionTrampas/*.R
 	chmod g+w -R .
 
-tests: tests_data $(csvRepeatedDataTest) tests_bash tests_python tests_r
+red_spec: format
+	shellspec \
+	&& git restore spec/*spec.sh \
+	|| (spec/*spec.sh && git commit -m "🛑🧪 Fail tests")
+	chmod g+w -R .
+
+green_spec: format
+	shellspec \
+	&& (git add src/*.sh && git commit -m "✅ Pass tests") \
+	|| git restore src/*.sh
+	chmod g+w -R .
+
+refactor_spec: format
+	shellspec \
+	&& (git add src/*.sh spec/*spec.sh && git commit -m "♻️  Refactor") \
+	|| git restore src/*.sh spec/*spec.sh
+	chmod g+w -R .
+
+tests: tests_data $(csvRepeatedDataTest) tests_bash tests_python tests_r tests_spec
 
 tests_bash:
 	pytest --verbose tests/bashtest/
@@ -221,3 +249,6 @@ tests_r:
 
 tests_data: $(csvIgPosicionTrampas10May2020)
 	./src/distinct_position_traps $<
+
+tests_spec:
+	shellspec
