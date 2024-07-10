@@ -8,7 +8,7 @@ cat_morphometry_data_file=${cat_morphometry_data_path}/${cat_morphometry_file_na
 # Convierte archivo de morfometría_gatos de xslx a csv
 	echo "CONVIERTE ARCHIVO DE MORFOMETRIA DE XLSX A CSV"
 	source ./src/clean_position_morphometry.sh 
-    clean_morphometry ${cat_morphometry_file_name_xlsx} 
+    cut_socorro_morphometry ${cat_morphometry_file_name_xlsx} 
 	row_number=$(wc -l < ${cat_morphometry_data_file}.csv)
 	if [ $row_number -gt 1 ];
 	then
