@@ -8,8 +8,8 @@ Describe 'clean raw files'
   BeforeEach 'clean_output'
   AfterEach 'clean_output'
   It 'cut socorro morphometry'
-    output="/workdir/tests/data/datos_formato_excel/IG_MORFOMETRIA_GATOS_12JUN2022.csv"
-    target="/workdir/tests/data/datos_formato_excel/IG_MORFOMETRIA_GATOS_12JUN2022.xlsx"
+    output="/workdir/tests/data/datos_formato_excel/IS_MORFOMETRIA_GATOS_JUN2024.csv"
+    target="/workdir/tests/data/datos_formato_excel/IS_MORFOMETRIA_GATOS_JUN2024.xlsx"
     When call cut_socorro_morphometry ${target}
     The result of function count_columns should eq 32
   End
