@@ -25,7 +25,7 @@ clean_position() {
 clean_morphometry() {
     data_file=${1}
     number_columns=31
-    xlsx_2_csv ${data_file} ${number_columns}
+    cut_file ${data_file} ${number_columns}
 }
 
 cut_file() {
