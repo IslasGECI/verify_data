@@ -2,7 +2,7 @@
 #
 #Convierte archivo xlsx a csv
 
-set -euo pipefail
+#set -euo pipefail
 
 
 
@@ -25,6 +25,12 @@ clean_position() {
 clean_morphometry() {
     data_file=${1}
     number_columns=31
+    cut_file ${data_file} ${number_columns}
+}
+
+cut_socorro_morphometry() {
+    data_file=${1}
+    number_columns=32
     cut_file ${data_file} ${number_columns}
 }
 
