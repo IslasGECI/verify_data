@@ -221,7 +221,7 @@ refactor: format
 red_spec: format
 	shellspec \
 	&& git restore spec/*spec.sh \
-	|| (spec/*spec.sh && git commit -m "🛑🧪 Fail tests")
+	|| (git add spec/*spec.sh && git commit -m "🛑🧪 Fail tests")
 	chmod g+w -R .
 
 green_spec: format
