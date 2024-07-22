@@ -5,5 +5,5 @@
 #set -euo pipefail
 
 extract_socorro_position() {
- echo "Extract position socorro"
+    in2csv /workdir/tests/data/datos_formato_excel/IS_POSICION_TRAMPA_JUN2024.xlsx --write-sheets -
 }
