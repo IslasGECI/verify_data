@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
 weekly_position_csv=${1}
+files_path=$(dirname ${weekly_position_csv})
 # Revisión estructural de la tabla posición trampa
 # 1. Convertir archivos XLSX a CSV
-    cutted_position_csv="cutted_position.csv"
+    cutted_position_csv=${files_path}/cutted_position.csv
 	source ./src/clean_position_morphometry.sh 
     cut_csv_file 11 ${weekly_position_csv} ${cutted_position_csv}
 
@@ -37,10 +38,10 @@ weekly_position_csv=${1}
 # Revisa y compara las capturas de los archivos posición trampas y morfometría gatos
 # 5. Hacerlos tidy (feature/agrega_script_con_cli)
 	echo "CONVIERTE TABLA A FORMATO TIDY Y CAMBIA FORMATO DE FECHA"
-    tidy_position_csv=tidy_${cutted_position_csv}
+    tidy_position_csv=${files_path}/tidy_position.csv
 	src/make_table_tidy.R \
 		--data ${cutted_position_csv} \
 		--salida ${tidy_position_csv} \
 	&& cambia_formato_fecha ${tidy_position_csv} \
-		> ISO_${tidy_position_csv}
+		> ${files_path}/ISO_tidy_positions.csv
 
