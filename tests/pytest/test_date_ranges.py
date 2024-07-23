@@ -10,6 +10,11 @@ def test_date_from_filename():
     obtained_date = date_interval_tools.date_from_filename(name_file)
     np.testing.assert_array_equal(expected_date, obtained_date)
 
+    name_file_socorro = "IS_POSICION_TRAMPA_09JUN2024.xlsx"
+    expected_date = "09/JUN/2024"
+    obtained_date = date_interval_tools.date_from_filename(name_file_socorro)
+    np.testing.assert_array_equal(expected_date, obtained_date)
+
 
 MONTHS_SENTENCE_EN = [
     "Jan",
