@@ -14,14 +14,14 @@ weekly_position_csv=${1}
     errors_directory=${files_path}/errores
     mkdir --parents ${errors_directory}
     src_path="src"
-	${src_path}/distinct_position_traps ${cutted_position_csv} > ${errors_directory}/duplicados_${weekly_position_csv}
+	weekly_position_basename=$(basename ${weekly_position_csv} .csv)
+	${src_path}/distinct_position_traps ${cutted_position_csv} > ${errors_directory}/duplicados_${weekly_position_basename}
 
 # 3. Revisar nombres de las columnas
 	echo "REVISANDO EL ENCABEZADO"
 	${src_path}/make_check_header.R --data ${cutted_position_csv}
 
 # 3.1 Revisar intervalo de fechas
-    weekly_position_basename=$(basename ${weekly_position_csv} .csv)
 	python -m src.check_date_interval --input "${files_path}" --input "${weekly_position_basename}"
 
 # 4. Validacion con datapackage
@@ -32,7 +32,7 @@ weekly_position_csv=${1}
 		> ${dtp_src}/${datapackage_validation_file}
 	# Corre goodtables en la carpeta 'validacion_datapackage'
 	echo "VERIFICACIÓN ESTRUCTURAL"
-	goodtables ${dtp_src}/datapackage.json > ${errors_directory}/errores_estructurales_${weekly_position_csv}.txt
+	goodtables ${dtp_src}/datapackage.json > ${errors_directory}/errores_estructurales_${weekly_position_basename}.txt
 
 # Revisa y compara las capturas de los archivos posición trampas y morfometría gatos
 # 5. Hacerlos tidy (feature/agrega_script_con_cli)
