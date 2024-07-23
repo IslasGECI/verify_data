@@ -5,5 +5,5 @@
 #set -euo pipefail
 
 extract_socorro_position() {
-    in2csv ${1} --write-sheets -
+    in2csv ${1} --blanks --write-sheets -
 }
