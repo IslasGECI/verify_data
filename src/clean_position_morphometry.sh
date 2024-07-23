@@ -13,7 +13,7 @@ xlsx_2_csv(){
     table_name=$(basename "${data_file}" .xlsx)
     file_name=${src_path}/${table_name}
     in2csv --no-header-row --blanks ${data_file} | tail --lines=+2 > ${file_name}.tmp
-    csvcut --columns 1-${number_columns} --delete-empty-rows ${file_name}.tmp > ${file_name}.csv
+    cut_csv_file ${number_columns} ${file_name}
 }
 
 clean_position() {
@@ -38,4 +38,10 @@ cut_file() {
     data_file=${1}
     number_columns=${2}
     xlsx_2_csv ${data_file} ${number_columns}
+}
+
+cut_csv_file() {
+    number_columns=${1}
+    file_name=${2}
+    csvcut --columns 1-${number_columns} --delete-empty-rows ${file_name}.tmp > ${file_name}.csv
 }
