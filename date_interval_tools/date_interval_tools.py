@@ -7,7 +7,7 @@ import re
 
 def date_from_filename(filename):
     string_date = re.search("[0-9]{2}[A-Z]{3}[0-9]{4}", filename).group()
-    return string_date[0:2] + "/" + string_date[2:5] + "/" + string_date[5:9]
+    return string_date[0:2] + "/" + string_date[2:5] + "/" + string_date[5:]
 
 
 def change_date_format(date, format="GECI"):
