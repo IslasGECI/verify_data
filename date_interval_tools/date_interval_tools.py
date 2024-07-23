@@ -2,10 +2,12 @@
 
 import numpy as np
 import pandas as pd
+import re
 
 
 def date_from_filename(filename):
-    return filename[20:22] + "/" + filename[22:25] + "/" + filename[25:29]
+    string_date = re.search("[0-9]{2}[A-Z]{3}[0-9]{4}", filename).group()
+    return string_date[0:2] + "/" + string_date[2:5] + "/" + string_date[5:9]
 
 
 def change_date_format(date, format="GECI"):
