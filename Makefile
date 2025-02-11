@@ -214,7 +214,7 @@ green: format
 
 refactor: format
 	Rscript -e "devtools::test('diferenciasMorfometriaPosicionTrampas', stop_on_failure = TRUE)" \
-	&& (git add diferenciasMorfometriaPosicionTrampas/R/*.R diferenciasMorfometriaPosicionTrampas/tests/testthat/*.R && git commit -m "♻️  Refactor") \
+	&& (git add diferenciasMorfometriaPosicionTrampas/R/*.R diferenciasMorfometriaPosicionTrampas/tests/testthat/*.R && git commit -m "♻️  Refactor $(message)") \
 	|| git restore diferenciasMorfometriaPosicionTrampas/*.R
 	chmod g+w -R .
 
