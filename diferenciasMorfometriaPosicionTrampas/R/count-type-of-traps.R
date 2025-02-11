@@ -10,6 +10,7 @@ add_type_column <- function(data) {
 
 count_by_type <- function(data) {
   data |>
+    dplyr::filter(Estado_trampa == "A") |>
     dplyr::group_by(type) |>
     dplyr::summarise(count = n())
 }
