@@ -30,13 +30,13 @@ describe("Count type of traps on certain period", {
     obtained_number_of_TP <- obtained |>
       dplyr::filter(type == "TP") |>
       pull(count)
-    expect_equal(obtained_number_of_TC, expected_number_of_TC)
+    expect_equal(obtained_number_of_TP, expected_number_of_TP)
 
     expected_number_of_TP <- 1
     obtained_number_of_TP <- obtained_2 |>
       dplyr::filter(type == "TP") |>
       pull(count)
-    expect_equal(obtained_number_of_TC, expected_number_of_TC)
+    expect_equal(obtained_number_of_TP, expected_number_of_TP)
   })
 })
 
