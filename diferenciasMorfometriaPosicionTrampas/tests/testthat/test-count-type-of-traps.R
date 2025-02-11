@@ -4,8 +4,8 @@ describe("Count type of traps on certain period", {
     "Estado_trampa" = "A",
     "Fecha" = c("31/Ene/2025", "31/Ene/2025", "31/Ene/2025"),
   )
+  obtained <- count_active_traps(data)
   it("count_active_traps(): type TC", {
-    obtained <- count_active_traps(data)
     expected_number_of_TC <- 2
     obtained_number_of_TC <- obtained |>
       dplyr::filter(type == "TC") |>
@@ -13,7 +13,6 @@ describe("Count type of traps on certain period", {
     expect_equal(obtained_number_of_TC, expected_number_of_TC)
   })
   it("count_active_traps(): type TP", {
-    obtained <- count_active_traps(data)
     expected_number_of_TC <- 1
     obtained_number_of_TC <- obtained |>
       dplyr::filter(type == "TP") |>
