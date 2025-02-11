@@ -39,7 +39,13 @@ describe("Count type of traps on certain period", {
     expect_equal(obtained_number_of_TP, expected_number_of_TP)
   })
 })
-
+assert_type_count <- function(data, type, expected_number) {
+  expected_number <- 2
+  obtained_number <- data |>
+    dplyr::filter(type == "TC") |>
+    pull(count)
+  expect_equal(obtained_number, expected_number)
+}
 describe("add_type_column()", {
   it("data 1", {
     data <- tibble::tibble(
