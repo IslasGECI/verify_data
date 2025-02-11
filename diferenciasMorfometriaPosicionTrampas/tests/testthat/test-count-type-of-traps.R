@@ -20,16 +20,10 @@ describe("Count type of traps on certain period", {
   obtained_2 <- count_active_traps(data_2)
   it("count_active_traps(): type TC", {
     expected_number_of_TC <- 2
-    obtained_number_of_TC <- obtained |>
-      dplyr::filter(type == "TC") |>
-      pull(count)
-    expect_equal(obtained_number_of_TC, expected_number_of_TC)
+    assert_type_count(obtained, "TC", expected_number_of_TC)
 
     expected_number_of_TC <- 1
-    obtained_number_of_TC <- obtained_2 |>
-      dplyr::filter(type == "TC") |>
-      pull(count)
-    expect_equal(obtained_number_of_TC, expected_number_of_TC)
+    assert_type_count(obtained_2, "TC", expected_number_of_TC)
   })
   it("count_active_traps(): type TP", {
     expected_number_of_TP <- 1
