@@ -1,5 +1,8 @@
 count_active_traps <- function(data) {
-  tibble::tibble("count" = c(2, 1), "type" = c("TC", "TP"))
+  data |>
+    add_type_column() |>
+    dplyr::group_by(type) |>
+    dplyr::summarise(count = n())
 }
 
 add_type_column <- function(data) {

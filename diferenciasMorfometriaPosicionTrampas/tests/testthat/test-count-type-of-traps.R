@@ -43,6 +43,7 @@ describe("add_type_column()", {
       "Fecha" = c("31/Ene/2025", "31/Ene/2025", "31/Ene/2025"),
     )
     obtained <- add_type_column(data)
+    print(obtained)
     expected <- tibble::tibble(
       "ID_de_trampa" = c("TC-01-001-NA", "TP-01-001-NA", "TC-02-002-NA"),
       "Estado_trampa" = "A",
