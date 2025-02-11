@@ -33,12 +33,8 @@ describe("Count type of traps on certain period", {
   })
   it("count_active_traps(): type TP", {
     expected_number_of_TP <- 1
-    obtained_number_of_TP <- obtained |>
-      dplyr::filter(type == "TP") |>
-      pull(count)
-    expect_equal(obtained_number_of_TP, expected_number_of_TP)
+    assert_type_count(obtained, "TP", expected_number_of_TP)
 
-    expected_number_of_TP <- 1
     assert_type_count(obtained_2, "TP", expected_number_of_TP)
   })
 })
