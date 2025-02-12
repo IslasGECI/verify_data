@@ -6,7 +6,7 @@ RUN pip install \
     black \
     codecov \
     flake8 \
-    mutmut \
+    mutmut==2.* \
     pylint \
     pytest \
     pytest-cov
