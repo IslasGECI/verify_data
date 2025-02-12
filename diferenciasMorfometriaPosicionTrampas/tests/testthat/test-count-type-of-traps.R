@@ -25,9 +25,9 @@ describe("🪙 Count active traps by type on certain period", {
 })
 describe("Count active traps by type", {
   data <- tibble::tibble(
-    "ID_de_trampa" = c("TC-01-001-NA", "TP-01-001-NA", "TC-02-002-NA"),
+    "ID_de_trampa" = c("TC-01-001-NA", "TC-01-001-NA", "TP-01-001-NA", "TC-02-002-NA"),
     "Estado_trampa" = "A",
-    "Fecha" = c("31/Ene/2025", "31/Ene/2025", "31/Ene/2025"),
+    "Fecha" = c("31/Ene/2025", "01/Feb/2025", "31/Ene/2025", "31/Ene/2025"),
   )
   obtained <- count_active_traps(data)
 
