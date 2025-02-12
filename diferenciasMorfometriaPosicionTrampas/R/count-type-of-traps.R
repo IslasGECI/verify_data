@@ -18,6 +18,7 @@ count_active_traps <- function(data) {
 .count_actived_traps_by_type <- function(data) {
   data |>
     dplyr::filter(Estado_trampa == "A") |>
+    dplyr::distinct(ID_de_trampa, .keep_all = TRUE) |>
     dplyr::group_by(type) |>
     dplyr::summarise(count = dplyr::n())
 }
