@@ -12,13 +12,13 @@ describe("🪙 Count active traps by type on certain period", {
   )
   cut_date <- "15/Ene/2025"
   it("count_active_traps_after_date()", {
-    testthat::skip("Not yet")
     obtained <- count_active_traps_after_date(data, cut_date)
     expected_number_of_TC <- 1
     assert_type_count(obtained, "TC", expected_number_of_TC)
   })
   it("filter by date", {
     obtained <- filter_by_date(data, cut_date)
+    print(obtained)
     expected_number_of_rows <- 2
     obtained_number_of_rows <- nrow(obtained)
     expect_equal(obtained_number_of_rows, expected_number_of_rows)
