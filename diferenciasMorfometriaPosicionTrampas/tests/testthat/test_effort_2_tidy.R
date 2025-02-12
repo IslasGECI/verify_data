@@ -1,5 +1,3 @@
-library(tidyverse)
-
 archivo_prueba <- "../data_tests/esfuerzo_data_tests.csv"
 datos_prueba <- readr::read_csv(archivo_prueba, show_col_types = FALSE)
 archivo_prueba <- "../data_tests/esfuerzo_data_tests_2.csv"

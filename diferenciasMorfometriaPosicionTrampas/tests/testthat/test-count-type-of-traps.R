@@ -1,7 +1,7 @@
 assert_type_count <- function(data, trap_type, expected_number) {
   obtained_number <- data |>
     dplyr::filter(type == trap_type) |>
-    pull(count)
+    dplyr::pull(count)
   expect_equal(obtained_number, expected_number)
 }
 describe("Count type of traps on certain period", {
