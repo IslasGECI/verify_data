@@ -18,7 +18,6 @@ describe("🪙 Count active traps by type on certain period", {
   })
   it("filter by date", {
     obtained <- filter_by_date(data, cut_date)
-    print(obtained)
     expected_number_of_rows <- 2
     obtained_number_of_rows <- nrow(obtained)
     expect_equal(obtained_number_of_rows, expected_number_of_rows)
