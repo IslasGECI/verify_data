@@ -1,6 +1,6 @@
 Package: diferenciasMorfometriaPosicionTrampas
 Type: Package
-Title: Diferencias morfometría posición trampas.
+Title: Diferencias morfometría posición trampas
 Version: 0.3.0
 Date: 2024-07-09
 Author: Ciencia de Datos • GECI
@@ -11,8 +11,13 @@ Imports:
 	lubridate,
 	oce,
 	readr,
+	reshape2,
 	stringr,
 	tibble,
+Suggests:
+	testthat,
+	testtools,
+Config/testthat/edition: 3
 RoxygenNote: 7.2.1
 License: GPL-3
 Encoding: UTF-8
