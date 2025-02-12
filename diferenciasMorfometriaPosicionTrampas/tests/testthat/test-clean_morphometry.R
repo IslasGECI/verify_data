@@ -8,7 +8,7 @@ describe("CLI for clean_morphometry ", {
     obtained <- readr::read_csv(output_path, show_col_types = FALSE)
     expected_rows <- 938 - 194
     expect_equal(nrow(obtained), expected_rows)
-    testtools::delete_output_file(output_path)
+    testtools::if_exist_remove(output_path)
   })
   it("Write Socorro cleaned csv", {
     raw_path <- "/workdir/diferenciasMorfometriaPosicionTrampas/tests/data_tests/morfometria_gatos_isla_socorro_tests.csv"
@@ -25,6 +25,6 @@ describe("CLI for clean_morphometry ", {
     expect_true(all(obtained$latitude > min_lat))
     expect_true(all(obtained$longitude < max_lon))
     expect_true(all(obtained$longitude > min_lon))
-    testtools::delete_output_file(output_path)
+    testtools::if_exist_remove(output_path)
   })
 })
