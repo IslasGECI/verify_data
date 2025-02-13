@@ -19,5 +19,6 @@ describe("Cli command for traps last check", {
     testtools::if_exist_remove(output_path)
     write_traps_last_check(options)
     expect_true(testtools::exist_output_file(output_path))
+    testtools::if_exist_remove(output_path)
   })
 })
