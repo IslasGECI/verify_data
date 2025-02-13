@@ -11,7 +11,7 @@ describe("Filter last active traps", {
     obtained_rows <- nrow(obtained)
     expect_equal(obtained_rows, expected_rows)
     obtained_last_date <- obtained |>
-      dplyr::filter(ID_de_trampa = trap_of_interest) |>
+      dplyr::filter(ID_de_trampa == trap_of_interest) |>
       dplyr::pull(Fecha)
     expected_last_date <- "03/Feb/2025"
     expect_equal(obtained_last_date, expected_last_date)
